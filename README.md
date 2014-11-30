@@ -28,4 +28,4 @@ PHP, Laravel Blade, SQL
 1. Better support for AngularJs.
 2. Better support for Sass/Scss.
 3. Better support for Python.
-4. add some previews for the HL. (any PRs are highly appreciated)
+4. add some previews. (any PRs are highly appreciated)

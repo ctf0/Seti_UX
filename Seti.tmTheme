@@ -126,7 +126,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string></string>
                 <key>foreground</key>
                 <string>#858d8a</string>
             </dict>
@@ -141,7 +141,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string></string>
                 <key>foreground</key>
                 <string>#ffffff</string>
             </dict>
@@ -161,8 +161,6 @@
         </dict>
 
         <dict>
-            <key>name</key>
-            <string>Invalid deprecated</string>
             <key>scope</key>
             <string>invalid.deprecated</string>
             <key>settings</key>
@@ -171,18 +169,6 @@
                 <string>#000</string>
                 <key>background</key>
                 <string>#E6002B</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>Punctuation</string>
-            <key>scope</key>
-            <string>punctuation - (punctuation.definition.string | punctuation.definition.comment)</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFEF7</string>
             </dict>
         </dict>
 
@@ -197,9 +183,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#41535b</string>
+                <string>#506670</string>
                 <key>background</key>
-                <string>#41535b30</string>
+                <string>#29394060</string>
             </dict>
         </dict>
 
@@ -213,7 +199,7 @@
                 <key>foreground</key>
                 <string>#FF0040</string>
                 <key>background</key>
-                <string>#FF004010</string>
+                <string></string>
             </dict>
         </dict>
 
@@ -332,7 +318,7 @@
             <key>name</key>
             <string>Operator</string>
             <key>scope</key>
-            <string>keyword.operator -keyword.operator.dereference,keyword.operator.new.js</string>
+            <string>keyword.operator -keyword.operator.dereference, keyword.operator.new.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -453,7 +439,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string></string>
                 <key>foreground</key>
                 <string>#A9FF98</string>
             </dict>
@@ -685,27 +671,13 @@
 
         <dict>
             <key>name</key>
-            <string>@media</string>
-            <key>scope</key>
-            <string>source.css meta.at-rule.media.css support.type.property-name.media.css</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#9FD0D8</string>
-                <key>background</key>
-                <string>#9FD0D820</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
             <string>Support variable</string>
             <key>scope</key>
             <string>support.variable</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string></string>
                 <key>foreground</key>
                 <string>#0A4AFF</string>
             </dict>
@@ -1082,7 +1054,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#ffd20080</string>
+                <string>#ffd20060</string>
             </dict>
         </dict>
         <dict>
@@ -1093,7 +1065,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold italic</string>
+                <string> italic</string>
                 <key>foreground</key>
                 <string>#FFA325</string>
             </dict>
@@ -1106,7 +1078,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold italic</string>
+                <string> italic</string>
                 <key>foreground</key>
                 <string>#BBFD0D</string>
             </dict>
@@ -1346,6 +1318,19 @@
             </dict>
         </dict>
 
+        <!-- namespace -->
+        <dict>
+            <key>scope</key>
+            <string>support.other.namespace.use.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#735154</string>
+                <key>background</key>
+                <string>#0f0c0d</string>
+            </dict>
+        </dict>
+
         <dict>
             <key>name</key>
             <string>var name</string>
@@ -1391,6 +1376,17 @@
                 <key>foreground</key>
                 <string>#1CFF7B</string>
                 <key>background</key>
+                <string></string>
+            </dict>
+        </dict>
+
+        <!-- use -->
+        <dict>
+            <key>scope</key>
+            <string>keyword.other.use.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
                 <string></string>
             </dict>
         </dict>
@@ -1505,6 +1501,7 @@
         ====================================== -->
 
         <!-- query -->
+        <!-- , keyword.operator.star.sql -->
         <dict>
             <key>scope</key>
             <string>source.sql.embedded.php</string>
@@ -1590,7 +1587,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string></string>
                 <key>foreground</key>
                 <string>#ffff55</string>
             </dict>
@@ -1812,6 +1809,30 @@
 
         <dict>
             <key>name</key>
+            <string>@media</string>
+            <key>scope</key>
+            <string>source.css meta.at-rule.media.css support.type.property-name.media.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9FD0D8</string>
+                <key>background</key>
+                <string>#9FD0D820</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>scope</key>
+            <string>variable.parameter.misc.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
             <string>CSS: additional-constants</string>
             <key>scope</key>
             <string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
@@ -1819,6 +1840,17 @@
             <dict>
                 <key>foreground</key>
                 <string>#FFF203</string>
+            </dict>
+        </dict>
+
+        <!-- #colorhex -->
+        <dict>
+            <key>scope</key>
+            <string>constant.other.color.rgb-value.css, meta.property-value.css constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, meta.property-value.css constant.other.color.rgb-value.css punctuation.definition.constant.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1CFF7B</string>
             </dict>
         </dict>
         <dict>
@@ -1837,7 +1869,7 @@
             <key>name</key>
             <string>CSS: @at-rule</string>
             <key>scope</key>
-            <string>meta.preprocessor.at-rule keyword.control.at-rule, meta.at-rule.css keyword.control.at-rule.css punctuation.definition.keyword.css, meta.at-rule.import.css keyword.control.at-rule.import.css punctuation.definition.keyword.css, meta.at-rule.font-face.css keyword.control.at-rule.font-face.css punctuation.definition.keyword.css </string>
+            <string>punctuation.definition.keyword.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1987,7 +2019,6 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <!-- <string>#BEBEBE</string> -->
                 <string>#84F6C3</string>
             </dict>
         </dict>
@@ -2218,15 +2249,14 @@
             </dict>
         </dict>
 
+        <!-- vars -->
         <dict>
-            <key>name</key>
-            <string>LESS variables @</string>
             <key>scope</key>
             <string>variable.other.less, variable.declaration.less</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#68685B</string>
+                <string>#31485e</string>
             </dict>
         </dict>
 
@@ -2237,8 +2267,12 @@
             <string>entity.other.less.mixin</string>
             <key>settings</key>
             <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
                 <key>foreground</key>
-                <string>#f0a79e</string>
+                <string>#1CFF7B</string>
+                 <key>background</key>
+                <string>#0b2b19</string>
             </dict>
         </dict>
 
@@ -2306,9 +2340,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF0040</string>
+                <string>#506670</string>
                 <key>background</key>
-                <string>#FF004010</string>
+                <string>#29394060</string>
             </dict>
         </dict>
 
@@ -2335,6 +2369,115 @@
             <dict>
                 <key>foreground</key>
                 <string>#6288a1</string>
+            </dict>
+        </dict>
+
+        <!-- @ -->
+        <dict>
+            <key>scope</key>
+            <string>punctuation.definition.keyword.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F6AA11</string>
+            </dict>
+        </dict>
+
+        <!-- @include -->
+        <dict>
+            <key>scope</key>
+            <string>keyword.control.at-rule.include.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#02AEFF</string>
+            </dict>
+        </dict>
+
+        <!-- @import ""-->
+        <dict>
+            <key>scope</key>
+            <string>meta.at-rule.import.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9FD0D8</string>
+            </dict>
+        </dict>
+
+        <!-- "url" / ((...)) -->
+        <dict>
+            <key>scope</key>
+            <string>variable.parameter.url.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9FD0D8</string>
+                <key>background</key>
+                <string>#94DDFF10</string>
+            </dict>
+        </dict>
+
+        <!-- "..." -->
+        <dict>
+            <key>scope</key>
+            <string>punctuation.definition.string.begin.scss, punctuation.definition.string.end.scss, string.quoted.double.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#9FD0D8</string>
+                <key>background</key>
+                <string>#94DDFF10</string>
+            </dict>
+        </dict>
+
+        <!-- ; -->
+        <dict>
+            <key>scope</key>
+            <string>meta.at-rule.include.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+
+        <!-- @media -->
+        <dict>
+            <key>scope</key>
+            <string>meta.at-rule.media.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#02AEFF</string>
+                <key>background</key>
+                <string>#02AEFF10</string>
+            </dict>
+        </dict>
+
+        <!-- var -->
+        <dict>
+            <key>scope</key>
+            <string>variable.scss variable.scss, variable.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#31485e</string>
+            </dict>
+        </dict>
+
+        <!-- mixin -->
+        <dict>
+            <key>scope</key>
+            <string>meta.at-rule.mixin.scss entity.name.function.scss</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#1CFF7B</string>
+                 <key>background</key>
+                <string>#0b2b19</string>
             </dict>
         </dict>
 
@@ -2375,14 +2518,14 @@
             </dict>
         </dict>
 
-        <!-- & -->
+        <!-- & / #{} -->
         <dict>
             <key>scope</key>
-            <string>entity.name.tag.reference.scss</string>
+            <string>entity.name.tag.reference.scss, variable.interpolation.scss</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string></string>
+                <string>#1CFF7B</string>
             </dict>
         </dict>
 
@@ -2429,7 +2572,7 @@
             <key>name</key>
             <string>!important</string>
             <key>scope</key>
-            <string>keyword.other.important.scss, keyword.other.important.sass</string>
+            <string>keyword.other.important.scss, keyword.other.important.sass, keyword.other.default.scss</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -2446,7 +2589,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold italic</string>
+                <string> italic</string>
                 <key>foreground</key>
                 <string>#FF5699</string>
             </dict>
@@ -2484,11 +2627,12 @@
                 <string>#FCFDFF</string>
             </dict>
         </dict>
+
         <dict>
             <key>name</key>
-            <string>SASS: RGB Color</string>
+            <string>RGB Color</string>
             <key>scope</key>
-            <string>constant.other.color.rgb-value.css, meta.property-value.css constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, meta.property-value.css constant.other.color.rgb-value.css punctuation.definition.constant.css</string>
+            <string>constant.other.color.rgb-value.scss, constant.other.color.rgb-value.sass, punctuation.definition.constant.scss</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -2540,7 +2684,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string></string>
                 <key>foreground</key>
                 <string>#FFA325</string>
             </dict>
@@ -3880,11 +4024,11 @@
             <key>name</key>
             <string>Bold Markup</string>
             <key>scope</key>
-            <string>markup.bold</string>
+            <string>markup.</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string></string>
                 <key>foreground</key>
                 <string>#FF9303</string>
             </dict>
@@ -3910,7 +4054,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>bold</string>
+                <string></string>
                 <key>background</key>
                 <string>#00000030</string>
                 <key>foreground</key>

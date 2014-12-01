@@ -26,6 +26,7 @@ PHP, Laravel Blade, SQL
 ### ToDO
 
 1. Better support for AngularJs.
-2. Better support for Sass/Scss.
+2. Better support for Sass/Scss. (we need a better syntax definition ,more like "Less" )
 3. Better support for Python.
 4. add some previews. (any PRs are highly appreciated)
+5. cleanup the scheme file and make it smaller.

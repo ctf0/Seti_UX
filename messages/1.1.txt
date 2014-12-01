@@ -1,0 +1,5 @@
+v1.1 (1-12-2014)
+-------------------
+
+1. better support for scss ,now its kinda the same as less.
+2. changed a couple of color for less.

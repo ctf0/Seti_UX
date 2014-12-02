@@ -91,6 +91,16 @@
             </dict>
         </dict>
 
+        <dict>
+            <key>scope</key>
+            <string>punctuation</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFEF7</string>
+            </dict>
+        </dict>
+
         <!-- '...' -->
         <dict>
             <key>name</key>

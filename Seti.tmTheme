@@ -25,7 +25,7 @@
                 <string>#D8F6FF</string>
 
                 <key>caret</key>
-                <string>#ffe792</string>
+                <string>#fed02e</string>
                 <key>invisibles</key>
                 <string>#F3FFB51A</string>
                 <key>lineHighlight</key>
@@ -339,7 +339,7 @@
             <key>name</key>
             <string>Comparison operator</string>
             <key>scope</key>
-            <string>keyword.operator.comparison</string>
+            <string>keyword.operator.comparison, keyword.operator.logical</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1153,6 +1153,18 @@
             </dict>
         </dict>
 
+        <dict>
+            <key>scope</key>
+            <string>constant.other.class.php</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#303e4d</string>
+            </dict>
+        </dict>
+
         <!-- Include() - Require() -->
         <dict>
             <key>scope</key>
@@ -1291,6 +1303,17 @@
             </dict>
         </dict>
 
+        <!-- interface class -->
+        <dict>
+            <key>scope</key>
+            <string>entity.name.type.interface.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#02AEFF</string>
+            </dict>
+        </dict>
+
         <!-- class object -->
         <dict>
             <key>scope</key>
@@ -1314,24 +1337,10 @@
             </dict>
         </dict>
 
-        <dict>
-            <key>name</key>
-            <string>constant.other</string>
-            <key>scope</key>
-            <string>constant.other.php</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#735154</string>
-                <key>background</key>
-                <string>#0f0c0d</string>
-            </dict>
-        </dict>
-
         <!-- namespace -->
         <dict>
             <key>scope</key>
-            <string>support.other.namespace.use.php</string>
+            <string>constant.other.php</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1549,7 +1558,7 @@
         Laravel Blade
         ====================================== -->
 
-        <!-- @... -->
+         <!-- @... -->
         <dict>
             <key>scope</key>
             <string>entity.name.tag.laravel-blade</string>

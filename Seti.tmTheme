@@ -5,7 +5,7 @@
     <key>author</key>
     <string>Ctf0</string>
     <key>comment</key>
-    <string>Based on 'Neon' by Matt Morrison @MattDMo mattdmo@pigimal.com
+    <string>Based on 'Neon' by Matt Morrison @MattDMo (mattdmo@pigimal.com)
             https://github.com/MattDMo/Neon-color-scheme
     </string>
     <key>name</key>
@@ -176,9 +176,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#000</string>
+                <string>#ffffff</string>
                 <key>background</key>
-                <string>#E6002B</string>
+                <string>#E6002B90</string>
             </dict>
         </dict>
 
@@ -1862,14 +1862,25 @@
             </dict>
         </dict>
 
-        <!-- #colorhex -->
+        <!-- colorhex -->
         <dict>
             <key>scope</key>
-            <string>constant.other.color.rgb-value.css, meta.property-value.css constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, meta.property-value.css constant.other.color.rgb-value.css punctuation.definition.constant.css</string>
+            <string>constant.other.color.rgb-value.css, meta.property-value.css constant.other.color.rgb-value.css</string>
             <key>settings</key>
             <dict>
-                <key>foreground</key>
-                <string>#1CFF7B</string>
+               <key>foreground</key>
+                <string>#D8F6FF</string>
+            </dict>
+        </dict>
+
+        <!-- #-colorhex -->
+        <dict>
+            <key>scope</key>
+            <string>constant.other.color.rgb-value.css punctuation.definition.constant.css</string>
+            <key>settings</key>
+            <dict>
+                 <key>foreground</key>
+                <string>#fccc2c</string>
             </dict>
         </dict>
         <dict>
@@ -1905,19 +1916,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#673000</string>
-            </dict>
-        </dict>
-
-        <!-- [...] -->
-        <dict>
-            <key>name</key>
-            <string>CSS: attribute-name</string>
-            <key>scope</key>
-            <string>meta.selector.css meta.attribute-selector.css entity.other.attribute-name.attribute.css</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fccc2c</string>
             </dict>
         </dict>
 
@@ -2010,7 +2008,7 @@
             <key>name</key>
             <string>property-name:</string>
             <key>scope</key>
-            <string>meta.property-value.css punctuation.separator.key-value.css</string>
+            <string>meta.property-value.css punctuation.separator.key-value.css, punctuation.separator.key-value.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -2022,7 +2020,17 @@
             <key>name</key>
             <string>CSS: property-value</string>
             <key>scope</key>
-            <string>meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css</string>
+            <string>meta.value.css support.type.property-name.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D8F6FF</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>scope</key>
+            <string>support.constant.property-value.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -2038,7 +2046,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#84F6C3</string>
+                <string>#D8F6FF</string>
             </dict>
         </dict>
 
@@ -2051,16 +2059,16 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#84F6C3</string>
+                <string>#fccc2c</string>
             </dict>
         </dict>
 
-        <!-- [temp solution] -->
+        <!-- [...] -->
         <dict>
             <key>name</key>
-            <string>CSS: selector []</string>
+            <string>CSS: attribute-name</string>
             <key>scope</key>
-            <string>meta.selector.css meta.attribute-selector.css, meta.selector.css meta.attribute-selector.css punctuation.definition.entity.css</string>
+            <string>entity.other.attribute-name.css, entity.other.attribute-name.attribute.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -2084,7 +2092,7 @@
         <!-- = -->
         <dict>
             <key>scope</key>
-            <string>meta.selector.css meta.attribute-selector.css punctuation.separator.operator.css</string>
+            <string>punctuation.separator.operator.css, keyword.operator.attribute.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -2218,6 +2226,21 @@
             <dict>
                 <key>foreground</key>
                 <string>#02AEFF</string>
+                <key>background</key>
+                <string>#02AEFF10</string>
+            </dict>
+        </dict>
+
+        <!-- css3 -->
+        <dict>
+            <key>name</key>
+            <string>inside Quotes</string>
+            <key>scope</key>
+            <string>meta.selector.css string.quoted.double.css, meta.selector.css string.quoted.double.css punctuation.definition.string.begin.css, meta.selector.css string.quoted.double.css punctuation.definition.string.end.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D8F6FF</string>
                 <key>background</key>
                 <string>#02AEFF10</string>
             </dict>
@@ -3930,7 +3953,6 @@
                 <string>#efefef</string>
             </dict>
         </dict>
-
         <dict>
             <key>name</key>
             <string>Markup Link</string>
@@ -4035,7 +4057,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#262626</string>
+                <string>#ffffff10</string>
             </dict>
         </dict>
 

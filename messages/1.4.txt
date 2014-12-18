@@ -1,0 +1,7 @@
+v1.4 (18-12-2014)
+-------------------
+
+1. better coloring for css3.
+2. check https://github.com/ctf0/Seti_UX/issues/2
+3. for everyone using this ,could u plz take a screen-shot of the syntax u use and send it me ??
+   ,to make some previews for the package.

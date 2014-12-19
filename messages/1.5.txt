@@ -1,0 +1,5 @@
+v1.5 (19-12-2014)
+-------------------
+
+1. better coloring for markdown.
+2. readme updated.

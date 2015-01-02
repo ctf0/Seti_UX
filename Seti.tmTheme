@@ -36,8 +36,8 @@
                 <key>inactiveSelection</key>
                 <string>#2F6277</string>
                 <key>gutter</key>
-                <!-- <string>#151718</string> -->
-                <string>#0D1011</string>
+                <string>#151718</string>
+                <!-- <string>#0D1011</string> -->
                 <key>gutterForeground</key>
                 <string>#2B3337</string>
 
@@ -194,7 +194,8 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#506670</string>
+                <string>#7292a1</string>
+                <!-- <string>#506670</string> -->
                 <key>background</key>
                 <string>#29394060</string>
             </dict>
@@ -2194,25 +2195,13 @@
             <key>name</key>
             <string>Quotes</string>
             <key>scope</key>
-            <string>string.quoted.double.css, string.quoted.double.css punctuation.definition.string.begin.css, string.quoted.double.css punctuation.definition.string.end.css, source.css meta.property-list.css meta.property-value.css string.quoted.double.css, source.css meta.property-list.css meta.property-value.css string.quoted.double.css punctuation.definition.string.begin.css, source.css meta.property-list.css meta.property-value.css string.quoted.double.css punctuation.definition.string.end.css</string>
+            <string>string.quoted.double.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, string.quoted.single.css, string.quoted.single.css comment markup.raw, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.begin.css, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.end.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
+                <!-- <string>#02AEFF</string> -->
+                <!-- <string>#D8F6FF</string> -->
                 <string>#9FD0D8</string>
-                <key>background</key>
-                <string>#94DDFF10</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>String Quotes</string>
-            <key>scope</key>
-            <string>meta.property-value.css parameter.less string.quoted.double.css, meta.property-value.css parameter.less string.quoted.double.css punctuation.definition.string.begin.css, meta.property-value.css parameter.less string.quoted.double.css punctuation.definition.string.end.css, source.css meta.property-list.css meta.property-value.css string.quoted.double.css, source.css meta.property-list.css meta.property-value.css string.quoted.double.css punctuation.definition.string.begin.css, source.css meta.property-list.css meta.property-value.css string.quoted.double.css punctuation.definition.string.end.css, source.less meta.property-value.css parameter.less string.quoted.single.css, source.css meta.property-list.css meta.property-value.css string.quoted.single.css</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#02AEFF</string>
                 <key>background</key>
                 <string>#02AEFF10</string>
             </dict>
@@ -2227,21 +2216,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#02AEFF</string>
-                <key>background</key>
-                <string>#02AEFF10</string>
-            </dict>
-        </dict>
-
-        <!-- css3 -->
-        <dict>
-            <key>name</key>
-            <string>inside Quotes</string>
-            <key>scope</key>
-            <string>meta.selector.css string.quoted.double.css, meta.selector.css string.quoted.double.css punctuation.definition.string.begin.css, meta.selector.css string.quoted.double.css punctuation.definition.string.end.css</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D8F6FF</string>
                 <key>background</key>
                 <string>#02AEFF10</string>
             </dict>

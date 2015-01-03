@@ -36,10 +36,10 @@
                 <key>inactiveSelection</key>
                 <string>#2F6277</string>
                 <key>gutter</key>
-                <string>#151718</string>
-                <!-- <string>#0D1011</string> -->
+                <string>#0D1011</string>
                 <key>gutterForeground</key>
-                <string>#2B3337</string>
+                <string>#7292a180</string>
+                <!-- <string>#2B3337</string> -->
 
                 <key>selection</key>
                 <string>#4FA5C7</string>

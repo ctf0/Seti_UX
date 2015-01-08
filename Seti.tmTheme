@@ -33,18 +33,17 @@
 
                 <key>findHighlight</key>
                 <string>#4FA5C7</string>
-                <key>inactiveSelection</key>
-                <string>#2F6277</string>
                 <key>gutter</key>
                 <string>#0D1011</string>
                 <key>gutterForeground</key>
                 <string>#7292a180</string>
-                <!-- <string>#2B3337</string> -->
 
                 <key>selection</key>
-                <string>#4FA5C7</string>
+                <string>#4FA5C750</string>
                 <key>selectionForeground</key>
-                <string>#fefefe</string>
+                <string>#00000050</string>
+                <key>inactiveSelection</key>
+                <string>#2F627750</string>
 
                 <key>bracketContentsOptions</key>
                 <string>underline</string>
@@ -2195,27 +2194,13 @@
             <key>name</key>
             <string>Quotes</string>
             <key>scope</key>
-            <string>string.quoted.double.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, string.quoted.single.css, string.quoted.single.css comment markup.raw, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.begin.css, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.end.css</string>
+            <string>string.quoted.double.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, string.quoted.single.css, string.quoted.single.css comment markup.raw, string.quoted.double.css comment markup.raw, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.begin.css, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.end.css, meta.selector.css meta.attribute-selector.css string.quoted.double.attribute-value.css, meta.attribute-selector.css string.quoted.double.attribute-value.css</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <!-- <string>#02AEFF</string> -->
                 <!-- <string>#D8F6FF</string> -->
                 <string>#9FD0D8</string>
-                <key>background</key>
-                <string>#02AEFF10</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>inside Quotes</string>
-            <key>scope</key>
-            <string>meta.selector.css meta.attribute-selector.css string.quoted.double.attribute-value.css, meta.attribute-selector.css string.quoted.double.attribute-value.css</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#02AEFF</string>
                 <key>background</key>
                 <string>#02AEFF10</string>
             </dict>

@@ -194,7 +194,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#7292a1</string>
-                <!-- <string>#506670</string> -->
                 <key>background</key>
                 <string>#29394060</string>
             </dict>
@@ -282,7 +281,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#FFFFFF</string>
+                <string>#FFF</string>
             </dict>
         </dict>
 
@@ -694,6 +693,19 @@
             </dict>
         </dict>
 
+        <!-- < > -->
+        <dict>
+            <key>name</key>
+            <string>Tag Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.definition.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+
         <!-- ====================================
         HTML
         ====================================== -->
@@ -709,6 +721,19 @@
             </dict>
         </dict>
 
+        <!-- id= -->
+        <dict>
+            <key>scope</key>
+            <string>meta.tag.structure.any.html meta.attribute-with-value.id.html punctuation.separator.key-value.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+
+
+
         <!-- tags -->
         <dict>
             <key>name</key>
@@ -718,7 +743,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#009FFF</string>
+                <string>#A83B40</string>
+                <key>background</key>
+                <string>#A83B4010</string>
             </dict>
         </dict>
 
@@ -730,7 +757,23 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#009FFF</string>
+                <string>#A83B40</string>
+                <key>background</key>
+                <string>#A83B4010</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>main tags (body,header,etc)</string>
+            <key>scope</key>
+            <string>meta.tag.other.html entity.name.tag.other.html, meta.tag.structure.any.html entity.name.tag.structure.any.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A83B40</string>
+                <key>background</key>
+                <string>#A83B4010</string>
             </dict>
         </dict>
 
@@ -743,7 +786,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1CFF7B</string>
+                <string>#48FFC2</string>
             </dict>
         </dict>
 
@@ -755,7 +798,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1CFF7B</string>
+                <string>#48FFC2</string>
             </dict>
         </dict>
 
@@ -767,7 +810,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1CFF7B</string>
+                <string>#48FFC2</string>
             </dict>
         </dict>
 
@@ -783,6 +826,7 @@
                 <string>#ffd200</string>
             </dict>
         </dict>
+
         <dict>
             <key>name</key>
             <string>html class</string>
@@ -791,11 +835,11 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1CFF7B</string>
+                <string>#48FFC2</string>
             </dict>
         </dict>
 
-        <!-- strings -->
+        <!-- Main string -->
         <dict>
             <key>name</key>
             <string>string main</string>
@@ -808,6 +852,7 @@
             </dict>
         </dict>
 
+        <!-- class/attr string & class="" -->
         <dict>
             <key>name</key>
             <string>class="string"</string>
@@ -816,19 +861,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#dff3fd</string>
-            </dict>
-        </dict>
-
-         <dict>
-            <key>name</key>
-            <string>id="string"</string>
-            <key>scope</key>
-            <string>meta.toc-list.id.html</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#c136d9</string>
+                <string>#fff</string>
             </dict>
         </dict>
 
@@ -840,7 +873,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#dff3fd</string>
+                <string>#fff</string>
             </dict>
         </dict>
 
@@ -852,18 +885,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#dff3fd</string>
-            </dict>
-        </dict>
-
-        <!-- style type= / } / strings-->
-        <dict>
-            <key>scope</key>
-            <string>source.css.embedded.html</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#d3f0f5</string>
+                <string>#fff</string>
             </dict>
         </dict>
 
@@ -879,28 +901,41 @@
             </dict>
         </dict>
 
+        <!-- style type= / } / strings-->
+        <dict>
+            <key>scope</key>
+            <string>source.css.embedded.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#d3f0f5</string>
+            </dict>
+        </dict>
+
+        <!-- id string & id="" -->
         <dict>
             <key>name</key>
-            <string>id=""</string>
+            <string>id="string"</string>
             <key>scope</key>
-            <string>meta.tag.other.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.other.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.block.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.block.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.inline.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.inline.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.end.html</string>
+            <string>meta.toc-list.id.html</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#c136d9</string>
+                <key>background</key>
+                <string>#c136d920</string>
             </dict>
         </dict>
 
-        <!-- < > -->
         <dict>
             <key>name</key>
-            <string>html punctuations tags</string>
+            <string>id=""</string>
             <key>scope</key>
-            <string>punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag</string>
+            <string>meta.tag.other.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.other.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.block.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.block.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.inline.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.inline.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.end.html, meta.tag.structure.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.begin.html, meta.tag.structure.any.html meta.attribute-with-value.id.html string.quoted.double.html punctuation.definition.string.end.html</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#266b85</string>
+                <string>#c136d9</string>
             </dict>
         </dict>
 
@@ -930,20 +965,6 @@
             </dict>
         </dict>
 
-        <!-- main tags (body,header,etc) -->
-        <dict>
-            <key>name</key>
-            <string>Tag</string>
-            <key>scope</key>
-            <string>meta.tag.other.html entity.name.tag.other.html, meta.tag.structure.any.html entity.name.tag.structure.any.html</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#009FFF</string>
-                <key>background</key>
-                <string></string>
-            </dict>
-        </dict>
 
         <!-- ====================================
         XML
@@ -1037,18 +1058,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#9FD0D8</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>Tag Punctuation</string>
-            <key>scope</key>
-            <string>punctuation.definition.tag</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#266B85</string>
             </dict>
         </dict>
 
@@ -1626,7 +1635,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#009FFF</string>
+                <string>#48FFC2</string>
             </dict>
         </dict>
 
@@ -1652,7 +1661,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#dff3fd</string>
+                <string>#fff</string>
             </dict>
         </dict>
 
@@ -1713,9 +1722,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#41535b</string>
+                <string>#7292a1</string>
                 <key>background</key>
-                <string>#41535b30</string>
+                <string>#29394060</string>
             </dict>
         </dict>
 
@@ -1728,15 +1737,12 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF0040</string>
-                <key>background</key>
-                <string>#41535b10</string>
+                <string>#ffaaa650</string>
             </dict>
         </dict>
 
+        <!-- id -->
         <dict>
-            <key>name</key>
-            <string>id</string>
             <key>scope</key>
             <string>constant.id.tag</string>
             <key>settings</key>
@@ -1746,15 +1752,14 @@
             </dict>
         </dict>
 
+        <!-- class -->
         <dict>
-            <key>name</key>
-            <string>class</string>
             <key>scope</key>
             <string>complete_tag.jade constant.language.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#CD3F45</string>
+                <string>#48FFC2</string>
             </dict>
         </dict>
 
@@ -1766,9 +1771,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#009FFF</string>
+                <string>#A83B40</string>
                 <key>background</key>
-                <string>#009FFF10</string>
+                <string>#A83B4010</string>
             </dict>
         </dict>
 
@@ -1782,7 +1787,9 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#f0a79e</string>
+                <string>#A83B40</string>
+                <key>background</key>
+                <string>#A83B4010</string>
             </dict>
         </dict>
 
@@ -1794,7 +1801,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1CFF7B</string>
+                <string>#48FFC2</string>
             </dict>
         </dict>
 
@@ -1920,6 +1927,7 @@
             </dict>
         </dict>
 
+        <!-- class -->
         <dict>
             <key>name</key>
             <string>CSS: .class</string>
@@ -1932,6 +1940,7 @@
             </dict>
         </dict>
 
+        <!-- id -->
         <dict>
             <key>name</key>
             <string>CSS: #id</string>
@@ -2086,7 +2095,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#8bd0bd</string>
+                <string>#bdc3c7</string>
             </dict>
         </dict>
 
@@ -2198,8 +2207,6 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <!-- <string>#02AEFF</string> -->
-                <!-- <string>#D8F6FF</string> -->
                 <string>#9FD0D8</string>
                 <key>background</key>
                 <string>#02AEFF10</string>
@@ -2846,7 +2853,9 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#f0a79e</string>
+                <string>#A83B40</string>
+                <key>background</key>
+                <string>#A83B4010</string>
             </dict>
         </dict>
 
@@ -3914,7 +3923,6 @@
                 <string>#66828E</string>
                 <key>background</key>
                 <string>#151718</string>
-                <!-- <string>#00000020</string> -->
             </dict>
         </dict>
 
@@ -3926,8 +3934,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#D8F6FF</string>
-                <!-- <key>background</key>
-                <string>#00000020</string> -->
             </dict>
         </dict>
 

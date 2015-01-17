@@ -1,0 +1,4 @@
+v1.6 (17-1-2015)
+-------------------
+
+1. changed html & jade HL. (i had enough of that dam blue)

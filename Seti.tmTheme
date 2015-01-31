@@ -170,6 +170,17 @@
             </dict>
         </dict>
 
+        <!-- "&&" -->
+        <dict>
+            <key>scope</key>
+            <string>string.quoted.double.html invalid.illegal.bad-ampersand.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffd200</string>
+            </dict>
+        </dict>
+
         <dict>
             <key>scope</key>
             <string>invalid.deprecated</string>
@@ -728,18 +739,16 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#fff</string>
+                <string>#009FFF</string>
             </dict>
         </dict>
-
-
 
         <!-- tags -->
         <dict>
             <key>name</key>
             <string>Tag</string>
             <key>scope</key>
-            <string>meta.tag.any.html entity.name.tag.html, meta.tag.block.any.html entity.name.tag.block.any.html</string>
+            <string>meta.tag.any.html entity.name.tag.html, meta.tag.block.any.html entity.name.tag.block.any.html, entity.name.tag.style.html</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -2765,7 +2774,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#55b5db</string>
+                <string>#CD3F45</string>
             </dict>
         </dict>
 
@@ -2866,7 +2875,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1CFF7B</string>
+                <string>#48FFC2</string>
             </dict>
         </dict>
 
@@ -2881,13 +2890,14 @@
             </dict>
         </dict>
 
+        <!-- src= -->
         <dict>
             <key>scope</key>
             <string>text.html.basic source.js.embedded.html, meta.tag.script.html</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#d3f0f5</string>
+                <string>#009FFF</string>
             </dict>
         </dict>
 

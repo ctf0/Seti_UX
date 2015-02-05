@@ -13,7 +13,7 @@ diff
 plist
 Python
 JSON, XML
-JS, Coffee
+JS (JavaScriptNext), Coffee
 Html, Jade
 Css, Less, Sass/Scss
 PHP, Laravel Blade, SQL

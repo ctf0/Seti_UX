@@ -1,0 +1,8 @@
+v1.8 (5-2-2015)
+-------------------
+
+1. add support for JavaScriptNext. (its recommended to install this as it covers much more scopes than the default js)
+
+** note that this is still WIP ,so any recommendations are highly appreciated.
+
+2. removed gutter color.

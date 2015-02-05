@@ -34,7 +34,8 @@
                 <key>findHighlight</key>
                 <string>#4FA5C7</string>
                 <key>gutter</key>
-                <string>#0D1011</string>
+                <string>#151718</string>
+                <!-- <string>#0D1011</string> -->
                 <key>gutterForeground</key>
                 <string>#7292a180</string>
 
@@ -74,7 +75,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#d4d7d6</string>
+                <string>#fff</string>
             </dict>
         </dict>
 
@@ -354,7 +355,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#48FFC2</string>
+                <string>#1cff7b</string>
             </dict>
         </dict>
         <dict>
@@ -638,7 +639,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#FF087B</string>
+                <string>#f26e7c</string>
             </dict>
         </dict>
         <dict>
@@ -1384,7 +1385,7 @@
         <!-- $ -->
         <dict>
             <key>scope</key>
-            <string>punctuation.definition.variable.php </string>
+            <string>punctuation.definition.variable.php</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -2673,8 +2674,6 @@
         JavaScript
         ====================================== -->
         <dict>
-            <key>name</key>
-            <string>Property - JavaScriptNext</string>
             <key>scope</key>
             <string>variable.other.property</string>
             <key>settings</key>
@@ -2684,8 +2683,6 @@
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>Object - JavaScriptNext</string>
             <key>scope</key>
             <string>variable.other.object</string>
             <key>settings</key>
@@ -2695,8 +2692,6 @@
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>Constant - JavaScriptNext</string>
             <key>scope</key>
             <string>variable.other.constant</string>
             <key>settings</key>
@@ -2708,8 +2703,6 @@
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>Node keyword - JavaScriptNext</string>
             <key>scope</key>
             <string>support.keyword.node</string>
             <key>settings</key>
@@ -2731,8 +2724,6 @@
         </dict>
 
         <dict>
-            <key>name</key>
-            <string>keyword.operator.js</string>
             <key>scope</key>
             <string>keyword.operator.js</string>
             <key>settings</key>
@@ -2811,7 +2802,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#858d8a</string>
+                <string>#42535a</string>
             </dict>
         </dict>
 
@@ -2943,6 +2934,221 @@
             <dict>
                 <key>foreground</key>
                 <string>#02AEFF</string>
+            </dict>
+        </dict>
+
+        <!-- ====================================
+        JavaScriptNext
+        ====================================== -->
+        <dict>
+            <key>scope</key>
+            <string>variable.other.readwrite.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.group.braces.round meta.group.braces.square meta.function.js variable.parameter.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+                <key>background</key>
+                <string>#02AEFF30</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>variable.other.dollar.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+                <key>background</key>
+                <string>#02AEFF30</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.group.braces.curly meta.group.braces.round meta.function.js variable.parameter.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+                <key>background</key>
+                <string>#151718</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>variable.parameter.function.js, variable.other.object.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+                <key>background</key>
+                <string>#151718</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.js meta.function-call.method.with-arguments.js entity.name.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A83B40</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.function-call.without-arguments.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#735154</string>
+                <key>background</key>
+                <string>#0f0c0d</string>
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.group.braces.curly meta.function-call.method.with-arguments.js entity.name.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.function-call.with-arguments.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6288a1</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.function-call.method.without-arguments.js entity.name.function.js, meta.function-call.method.without-arguments.js meta.group.braces.round.function.arguments.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.property.object.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#aa00aa</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.group.braces.round variable.language.this.js</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#fe5a7d90</string>
+                <key>background</key>
+                <string>#2f041e50</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.group.braces.curly variable.language.this.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+                <key>background</key>
+                <string>#151718</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>support.type.object.dom.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#acdcf2</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.function-call.static.without-arguments.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.operator.assignment.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1cff7b</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.control.conditional.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1cff7b</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>support.class.builtin.js, support.function.mutator.js</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#fda100</string>
+                <key>background</key>
+                <string>#CD3F4530</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>string.unquoted.label.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>string.unquoted.label.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>keyword.control.flow.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1CFF7B</string>
             </dict>
         </dict>
 

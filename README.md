@@ -8,7 +8,7 @@ Seti Improved Scheme/Syntax-HL for ST.
 ```
 SublimeLinter
 GitGutter
-Markup
+MarkDown
 diff
 plist
 Python
@@ -33,6 +33,56 @@ PHP, Laravel Blade, SQL
 
 3. Better support for Python.
 
-4. Add some previews. (any Help is highly appreciated).
+4. Cleanup the scheme file and make it smaller.
 
-5. Cleanup the scheme file and make it smaller.
+**HTML**
+
+![Seti Screenshot](./ss/html.png)
+
+**CSS**
+
+![Seti Screenshot](./ss/css.png)
+
+**JS** (work in progress)
+
+![Seti Screenshot](./ss/js.png)
+
+**LESS** (Sass/Scss are similar)
+
+![Seti Screenshot](./ss/less.png)
+
+**BLADE**
+
+![Seti Screenshot](./ss/blade.png)
+
+**PHP**
+
+![Seti Screenshot](./ss/php.png)
+
+**DIFF**
+
+![Seti Screenshot](./ss/diff.png)
+
+**JADE**
+
+![Seti Screenshot](./ss/jade.png)
+
+**PYTHON**
+
+![Seti Screenshot](./ss/python.png)
+
+**MARKDOWN**
+
+![Seti Screenshot](./ss/md.png)
+
+**JSON** (up-to 16 level)
+
+![Seti Screenshot](./ss/json.png)
+
+**XML**
+
+![Seti Screenshot](./ss/xml.png)
+
+**PLIST**
+
+![Seti Screenshot](./ss/plist.png)

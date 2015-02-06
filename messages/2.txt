@@ -1,0 +1,6 @@
+v2 (6-2-2015)
+-------------------
+
+1. fixed markdown bold.
+2. add screenshots.
+3. more edits to js.

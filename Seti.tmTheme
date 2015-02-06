@@ -630,8 +630,15 @@
             </dict>
         </dict>
         <dict>
-            <key>name</key>
-            <string>String constant</string>
+            <key>scope</key>
+            <string>string.regexp</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#ffff1e</string>
+            </dict>
+        </dict>
+        <dict>
             <key>scope</key>
             <string>string constant</string>
             <key>settings</key>
@@ -639,7 +646,7 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#f26e7c</string>
+                <string>#ffff1e</string>
             </dict>
         </dict>
         <dict>
@@ -651,17 +658,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#EBFF59</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>String.regexp</string>
-            <key>scope</key>
-            <string>string.regexp</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFE4A6</string>
             </dict>
         </dict>
         <dict>
@@ -1309,6 +1305,19 @@
             <dict>
                 <key>foreground</key>
                 <string>#1CFF7B</string>
+            </dict>
+        </dict>
+
+        <!-- :: -->
+        <dict>
+            <key>name</key>
+            <string>Operator</string>
+            <key>scope</key>
+            <string>keyword.operator.class.php</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#10ff00</string>
             </dict>
         </dict>
 
@@ -2898,7 +2907,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D8F6FF70</string>
+                <string>#D8F6FF80</string>
             </dict>
         </dict>
 
@@ -2934,6 +2943,37 @@
             <dict>
                 <key>foreground</key>
                 <string>#02AEFF</string>
+            </dict>
+        </dict>
+
+        <!-- JSN (...) -->
+        <dict>
+            <key>scope</key>
+            <string>meta.tag.script.html source.js.embedded.html meta.brace.round.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>scope</key>
+            <string>meta.tag.script.html meta.function-call.with-arguments.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>scope</key>
+            <string>variable.language.arguments.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
             </dict>
         </dict>
 
@@ -3021,7 +3061,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#fff</string>
+                <string>#48FFC2</string>
             </dict>
         </dict>
         <dict>
@@ -3053,7 +3093,18 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>meta.group.braces.round variable.language.this.js</string>
+            <string>meta.group.braces.curly variable.language.this.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+                <key>background</key>
+                <string>#151718</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.group.braces.curly meta.group.braces.round variable.language.this.js</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -3066,22 +3117,22 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>meta.group.braces.curly variable.language.this.js</string>
+            <string>support.type.object.dom.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#fff</string>
                 <key>background</key>
-                <string>#151718</string>
+                <string>#ff136b50</string>
             </dict>
         </dict>
         <dict>
             <key>scope</key>
-            <string>support.type.object.dom.js</string>
+            <string>support.type.object.node.js, support.type.object.firebug.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#acdcf2</string>
+                <string>#fff</string>
             </dict>
         </dict>
         <dict>
@@ -4287,11 +4338,24 @@
             <key>name</key>
             <string>Bold Markup</string>
             <key>scope</key>
-            <string>markup.</string>
+            <string>markup.bold</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
                 <string>bold</string>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bold Markup</string>
+            <key>scope</key>
+            <string>punctuation.definition.bold.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#466274</string>
             </dict>
         </dict>
         <dict>

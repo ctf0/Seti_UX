@@ -267,7 +267,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF07A0</string>
+                <string>#ffff1e</string>
             </dict>
         </dict>
         <dict>
@@ -429,7 +429,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D285CC</string>
+                <string>#f0516f</string>
             </dict>
         </dict>
 
@@ -463,7 +463,7 @@
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#A9FF98</string>
+                <string>#fdf5e3</string>
             </dict>
         </dict>
 
@@ -635,7 +635,9 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ffff1e</string>
+                <string>#95a5a6</string>
+                <key>background</key>
+                <string>#ecf0f150</string>
             </dict>
         </dict>
         <dict>
@@ -647,6 +649,8 @@
                 <string>italic</string>
                 <key>foreground</key>
                 <string>#ffff1e</string>
+                <key>background</key>
+                <string>#9774C450</string>
             </dict>
         </dict>
         <dict>
@@ -2886,7 +2890,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#d3f0f5</string>
+                <string>#fff</string>
             </dict>
         </dict>
 
@@ -2991,6 +2995,17 @@
         </dict>
         <dict>
             <key>scope</key>
+            <string>variable.other.constant.js</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic bold</string>
+                <key>foreground</key>
+                <string>#6b8675</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>meta.group.braces.round meta.group.braces.square meta.function.js variable.parameter.function.js</string>
             <key>settings</key>
             <dict>
@@ -3075,6 +3090,15 @@
         </dict>
         <dict>
             <key>scope</key>
+            <string>meta.function-call.static.with-arguments.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a074c4</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
             <string>meta.function-call.method.without-arguments.js entity.name.function.js, meta.function-call.method.without-arguments.js meta.group.braces.round.function.arguments.js</string>
             <key>settings</key>
             <dict>
@@ -3150,7 +3174,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#1cff7b</string>
+                <string>#1CFF7B</string>
             </dict>
         </dict>
         <dict>
@@ -3164,7 +3188,7 @@
         </dict>
         <dict>
             <key>scope</key>
-            <string>support.class.builtin.js, support.function.mutator.js</string>
+            <string>support.class.builtin.js</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>

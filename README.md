@@ -2,8 +2,6 @@
 
 Seti Improved Scheme/Syntax-HL for ST.
 
-===
-
 ### Supported Syntax
 ```
 SublimeLinter
@@ -13,7 +11,7 @@ diff
 plist
 Python
 JSON, XML
-JS (JavaScriptNext), Coffee
+JS (& JavaScriptNext), Coffee
 Html, Jade
 Css, Less, Sass/Scss
 PHP, Laravel Blade, SQL
@@ -25,15 +23,7 @@ PHP, Laravel Blade, SQL
 
 - plz check [#2](https://github.com/ctf0/Seti_UX/issues/2).
 
-### ToDO
-
-1. Better support for AngularJs.
-
-2. Better support for Sass/Scss. (we need a better syntax definition ,more like "Less" ).
-
-3. Better support for Python.
-
-4. Cleanup the scheme file and make it smaller.
+## Previews
 
 **HTML**
 
@@ -86,3 +76,14 @@ PHP, Laravel Blade, SQL
 **PLIST**
 
 ![Seti Screenshot](./ss/plist.png)
+
+
+## ToDO
+
+1. Better support for AngularJs.
+
+2. Better support for Sass/Scss. (we need a better syntax definition ,more like "Less" ).
+
+3. Better support for Python.
+
+4. Cleanup the scheme file and make it smaller.

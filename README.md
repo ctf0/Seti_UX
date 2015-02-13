@@ -65,7 +65,7 @@ PHP, Laravel Blade, SQL
 
 ![Seti Screenshot](./ss/md.png)
 
-**JSON** (up-to 16 level)
+**JSON** (up-to 13 level)
 
 ![Seti Screenshot](./ss/json.png)
 

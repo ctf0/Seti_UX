@@ -1,4 +1,4 @@
-v2.1 (22-2-2015)
+v2.2 (22-2-2015)
 -------------------
 
 1. fixed html style tag attrs colors.

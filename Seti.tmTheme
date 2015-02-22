@@ -812,6 +812,7 @@
             </dict>
         </dict>
 
+        <!-- <style> -->
         <dict>
             <key>name</key>
             <string>style attr</string>
@@ -821,6 +822,30 @@
             <dict>
                 <key>foreground</key>
                 <string>#48FFC2</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>style attr="..."</string>
+            <key>scope</key>
+            <string>meta.tag.style.html string.quoted.double.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#009FFF</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>style attr=</string>
+            <key>scope</key>
+            <string>meta.tag.style.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
             </dict>
         </dict>
 
@@ -972,6 +997,179 @@
                 <string>italic</string>
                 <key>foreground</key>
                 <string>#466380</string>
+            </dict>
+        </dict>
+
+        <!-- <script> -->
+        <dict>
+            <key>scope</key>
+            <string>source.js.embedded.html entity.name.tag.script.html, meta.tag.script.html entity.name.tag.script.html</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#A83B40</string>
+                <key>background</key>
+                <string>#A83B4010</string>
+            </dict>
+        </dict>
+
+        <!-- script src -->
+        <dict>
+            <key>scope</key>
+            <string>source.js.embedded.html entity.other.attribute-name.html, meta.tag.script.html entity.other.attribute-name.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#48FFC2</string>
+            </dict>
+        </dict>
+
+        <!-- script src= -->
+        <dict>
+            <key>scope</key>
+            <string>text.html.basic source.js.embedded.html, meta.tag.script.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#009FFF</string>
+            </dict>
+        </dict>
+
+        <!-- script src="string"-->
+        <dict>
+            <key>scope</key>
+            <string>meta.tag.script.html string.quoted.double.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#009FFF</string>
+            </dict>
+        </dict>
+
+        <!-- src="string"-->
+        <dict>
+            <key>scope</key>
+            <string>source.js.embedded.html string.quoted.double.html</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+
+        <!-- src=""-->
+        <dict>
+            <key>scope</key>
+            <string>source.js.embedded.html string.quoted.double.html punctuation.definition.string.begin.html, source.js.embedded.html string.quoted.double.html punctuation.definition.string.end.html </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#009FFF</string>
+            </dict>
+        </dict>
+
+        <!-- ====================================
+        Js In Html Embed
+        ====================================== -->
+
+        <!-- "..." / '...' -->
+        <dict>
+            <key>scope</key>
+            <string>source.js.embedded.html string.quoted.single.js, source.js.embedded.html string.quoted.single.js punctuation.definition.string.begin.js, source.js.embedded.html string.quoted.single.js punctuation.definition.string.end.js, source.js.embedded.html string.quoted.double.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#02AEFF</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>scope</key>
+            <string>source.js.embedded.html keyword.operator.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1CFF7B</string>
+            </dict>
+        </dict>
+
+        <!-- (this) -->
+        <dict>
+            <key>scope</key>
+            <string>source.js.embedded.html variable.language.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#1CFF7B</string>
+                <key>background</key>
+                <string>#02AEFF30</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>scope</key>
+            <string>source.js.embedded.html meta.group.braces.round meta.group.braces.curly meta.group.braces.round meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D8F6FF80</string>
+            </dict>
+        </dict>
+
+         <!-- {...} -->
+        <dict>
+            <key>name</key>
+            <string>brace.curly embedded</string>
+            <key>scope</key>
+            <string>source.js.embedded.html meta.brace.curly.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#efefef</string>
+            </dict>
+        </dict>
+
+        <!-- (...) -->
+        <dict>
+            <key>scope</key>
+            <string>source.js.embedded.html meta.brace.round.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#02AEFF</string>
+            </dict>
+        </dict>
+
+        <!-- JSN (...) -->
+        <dict>
+            <key>scope</key>
+            <string>meta.tag.script.html source.js.embedded.html meta.brace.round.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>scope</key>
+            <string>meta.tag.script.html meta.function-call.with-arguments.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>scope</key>
+            <string>variable.language.arguments.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
             </dict>
         </dict>
 
@@ -2814,168 +3012,6 @@
             <dict>
                 <key>foreground</key>
                 <string>#42535a</string>
-            </dict>
-        </dict>
-
-        <!-- ====================================
-        Js In Html Embed
-        ====================================== -->
-
-        <!-- "..." / '...' -->
-        <dict>
-            <key>scope</key>
-            <string>source.js.embedded.html string.quoted.single.js, source.js.embedded.html string.quoted.single.js punctuation.definition.string.begin.js, source.js.embedded.html string.quoted.single.js punctuation.definition.string.end.js, source.js.embedded.html string.quoted.double.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#02AEFF</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>scope</key>
-            <string>source.js.embedded.html keyword.operator.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#1CFF7B</string>
-            </dict>
-        </dict>
-
-        <!-- (this) -->
-        <dict>
-            <key>scope</key>
-            <string>source.js.embedded.html variable.language.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#1CFF7B</string>
-                <key>background</key>
-                <string>#02AEFF30</string>
-            </dict>
-        </dict>
-
-        <!-- <script> -->
-        <dict>
-            <key>scope</key>
-            <string>source.js.embedded.html entity.name.tag.script.html, meta.tag.script.html entity.name.tag.script.html</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string>italic</string>
-                <key>foreground</key>
-                <string>#A83B40</string>
-                <key>background</key>
-                <string>#A83B4010</string>
-            </dict>
-        </dict>
-
-        <!-- src -->
-        <dict>
-            <key>scope</key>
-            <string>source.js.embedded.html entity.other.attribute-name.html, meta.tag.script.html entity.other.attribute-name.html</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#48FFC2</string>
-            </dict>
-        </dict>
-
-        <!-- src="string"-->
-        <dict>
-            <key>scope</key>
-            <string>source.js.embedded.html string.quoted.double.html, meta.tag.script.html string.quoted.double.html</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fff</string>
-            </dict>
-        </dict>
-
-        <!-- src= -->
-        <dict>
-            <key>scope</key>
-            <string>text.html.basic source.js.embedded.html, meta.tag.script.html</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#009FFF</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>scope</key>
-            <string>source.js.embedded.html meta.group.braces.round meta.group.braces.curly meta.group.braces.round meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D8F6FF80</string>
-            </dict>
-        </dict>
-
-        <!-- src=""-->
-        <dict>
-            <key>scope</key>
-            <string>source.js.embedded.html string.quoted.double.html punctuation.definition.string.begin.html, source.js.embedded.html string.quoted.double.html punctuation.definition.string.end.html </string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#009FFF</string>
-            </dict>
-        </dict>
-
-         <!-- {...} -->
-        <dict>
-            <key>name</key>
-            <string>brace.curly embedded</string>
-            <key>scope</key>
-            <string>source.js.embedded.html meta.brace.curly.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#efefef</string>
-            </dict>
-        </dict>
-
-        <!-- (...) -->
-        <dict>
-            <key>scope</key>
-            <string>source.js.embedded.html meta.brace.round.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#02AEFF</string>
-            </dict>
-        </dict>
-
-        <!-- JSN (...) -->
-        <dict>
-            <key>scope</key>
-            <string>meta.tag.script.html source.js.embedded.html meta.brace.round.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fff</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>scope</key>
-            <string>meta.tag.script.html meta.function-call.with-arguments.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fff</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>scope</key>
-            <string>variable.language.arguments.js</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#fff</string>
             </dict>
         </dict>
 

@@ -1804,14 +1804,14 @@
             </dict>
         </dict>
 
-        <!-- @ -->
+        <!-- {{...}} -->
         <dict>
             <key>scope</key>
-            <string>support.constant.laravel-blade</string>
+            <string>source.php.embedded.line.html support.constant.laravel-blade</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string>italic</string>
+                <string></string>
                 <key>foreground</key>
                 <string>#ffff55</string>
             </dict>
@@ -1825,19 +1825,6 @@
             <dict>
                 <key>fontStyle</key>
                 <string>italic</string>
-                <key>foreground</key>
-                <string>#ffff55</string>
-            </dict>
-        </dict>
-
-        <!-- {{ }} -->
-        <dict>
-            <key>scope</key>
-            <string>meta.brace.curly.laravel-blade</string>
-            <key>settings</key>
-            <dict>
-                <key>fontStyle</key>
-                <string></string>
                 <key>foreground</key>
                 <string>#ffff55</string>
             </dict>

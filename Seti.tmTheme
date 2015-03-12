@@ -630,6 +630,17 @@
             </dict>
         </dict>
         <dict>
+            <key>name</key>
+            <string>Inner String</string>
+            <key>scope</key>
+            <string>string.quoted.double, string.quoted.single</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#02AEFF</string>
+            </dict>
+        </dict>
+        <dict>
             <key>scope</key>
             <string>string.regexp</string>
             <key>settings</key>
@@ -4728,6 +4739,23 @@
                 <string>#EDBA00</string>
             </dict>
         </dict>
+
+        <!-- ====================================
+        C/C++
+        ====================================== -->
+        <!-- SublimeText C++-syntax are a bit inconsistent, correct that -->
+        <dict>
+            <key>name</key>
+            <string>C++ open bracket fix</string>
+            <key>scope</key>
+            <string>punctuation.definition.parameters.c,meta.function-call.c</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D8F6FF</string>
+            </dict>
+        </dict>
+
     </array>
 </dict>
 </plist>

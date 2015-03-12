@@ -630,6 +630,17 @@
             </dict>
         </dict>
         <dict>
+            <key>name</key>
+            <string>Inner String</string>
+            <key>scope</key>
+            <string>string.quoted.double, string.quoted.single</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#02AEFF</string>
+            </dict>
+        </dict>
+        <dict>
             <key>scope</key>
             <string>string.regexp</string>
             <key>settings</key>

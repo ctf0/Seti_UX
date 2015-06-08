@@ -206,6 +206,7 @@
             <dict>
                 <key>foreground</key>
                 <string>#7292a1</string>
+                <!-- <string>#506670</string> -->
                 <key>background</key>
                 <string>#29394060</string>
             </dict>
@@ -715,6 +716,7 @@
             <dict>
                 <key>foreground</key>
                 <string>#fff</string>
+                <!-- <string>#266B85</string> -->
             </dict>
         </dict>
 
@@ -1870,6 +1872,7 @@
             <dict>
                 <key>foreground</key>
                 <string>#fff</string>
+                <!-- <string>#dff3fd</string> -->
             </dict>
         </dict>
 
@@ -2415,6 +2418,8 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
+                <!-- <string>#02AEFF</string> -->
+                <!-- <string>#D8F6FF</string> -->
                 <string>#9FD0D8</string>
                 <key>background</key>
                 <string>#02AEFF10</string>
@@ -3031,6 +3036,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
+                <!-- <string>#02AEFF</string> -->
                 <string>#fff</string>
             </dict>
         </dict>
@@ -3054,6 +3060,7 @@
                 <string>#fff</string>
                 <key>background</key>
                 <string>#02AEFF30</string>
+                <!-- <string>#02AEFF80</string> -->
             </dict>
         </dict>
         <dict>
@@ -3065,6 +3072,7 @@
                 <string>#fff</string>
                 <key>background</key>
                 <string>#02AEFF30</string>
+                <!-- <string>#02AEFF80</string> -->
             </dict>
         </dict>
         <dict>
@@ -3117,6 +3125,8 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
+                <!-- <string>#fff</string> -->
+                <!-- <string>#598391</string> -->
                 <string>#48FFC2</string>
             </dict>
         </dict>
@@ -3145,6 +3155,7 @@
             <dict>
                 <key>foreground</key>
                 <string>#fff</string>
+                <!-- <string>#48FFC2</string> -->
             </dict>
         </dict>
         <dict>
@@ -3165,6 +3176,7 @@
                 <string>#fff</string>
                 <key>background</key>
                 <string>#151718</string>
+                <!-- <string>#E6002B90</string> -->
             </dict>
         </dict>
         <dict>
@@ -4264,6 +4276,7 @@
                 <string>#66828E</string>
                 <key>background</key>
                 <string>#151718</string>
+                <!-- <string>#00000020</string> -->
             </dict>
         </dict>
 
@@ -4275,6 +4288,8 @@
             <dict>
                 <key>foreground</key>
                 <string>#D8F6FF</string>
+                <!-- <key>background</key>
+                <string>#00000020</string> -->
             </dict>
         </dict>
 
@@ -4418,7 +4433,7 @@
                 <key>fontStyle</key>
                 <string>bold</string>
                 <key>foreground</key>
-                <string>#fff</string>
+                <string>#ffcc01</string>
             </dict>
         </dict>
         <dict>
@@ -4441,6 +4456,30 @@
             <dict>
                 <key>fontStyle</key>
                 <string>italic</string>
+                <key>foreground</key>
+                <string>#ffcc01</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Italic Markup</string>
+            <key>scope</key>
+            <string>punctuation.definition.italic.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#466274</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>raw block</string>
+            <key>scope</key>
+            <string>text.html.markdown meta.block-level.markdown markup.raw.block.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#00a8c6</string>
             </dict>
         </dict>
         <dict>
@@ -4453,7 +4492,18 @@
                <key>foreground</key>
                 <string>#fda100</string>
                 <key>background</key>
-                <string>#CD3F4530</string>
+                <string>#F23A3A30</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Heading definition</string>
+            <key>scope</key>
+            <string>punctuation.definition.heading.markdown</string>
+            <key>settings</key>
+            <dict>
+               <key>foreground</key>
+                <string>#fff</string>
             </dict>
         </dict>
 

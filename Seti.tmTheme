@@ -34,8 +34,8 @@
                 <key>findHighlight</key>
                 <string>#4FA5C7</string>
                 <key>gutter</key>
-                <string>#151718</string>
-                <!-- <string>#0D1011</string> -->
+                <!-- <string>#151718</string> -->
+                <string>#0D1011</string>
                 <key>gutterForeground</key>
                 <string>#7292a180</string>
 
@@ -4306,7 +4306,16 @@
 
         <dict>
             <key>scope</key>
-            <string>markup.list meta.paragraph.list.markdown, meta.paragraph.markdown</string>
+            <string>markup.list meta.paragraph.list.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#fff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>meta.paragraph.markdown</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -4433,18 +4442,18 @@
                 <key>fontStyle</key>
                 <string>bold</string>
                 <key>foreground</key>
-                <string>#ffcc01</string>
+                <string>#13FFA3</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>Bold Markup</string>
+            <string>Bold definition</string>
             <key>scope</key>
             <string>punctuation.definition.bold.markdown</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#466274</string>
+                <string>#F8BB39</string>
             </dict>
         </dict>
         <dict>
@@ -4457,18 +4466,18 @@
                 <key>fontStyle</key>
                 <string>italic</string>
                 <key>foreground</key>
-                <string>#ffcc01</string>
+                <string>#13FFA390</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>Italic Markup</string>
+            <string>Italic definition</string>
             <key>scope</key>
             <string>punctuation.definition.italic.markdown</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#466274</string>
+                <string>#66828E</string>
             </dict>
         </dict>
         <dict>
@@ -4499,11 +4508,13 @@
             <key>name</key>
             <string>Heading definition</string>
             <key>scope</key>
-            <string>punctuation.definition.heading.markdown</string>
+            <string>markup.heading.1.markdown punctuation.definition.heading.markdown, markup.heading.2.markdown punctuation.definition.heading.markdown</string>
             <key>settings</key>
             <dict>
                <key>foreground</key>
-                <string>#fff</string>
+                <string>#F23A3A</string>
+                <key>background</key>
+                <string>#151718</string>
             </dict>
         </dict>
 

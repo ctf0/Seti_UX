@@ -1,0 +1,17 @@
+v3 (23-12-2015)
+-------------------
+(install the HTML5 package i made for the new adds to show up)
+
+1. partial support for different elements inside double/single quotes. (any help with RegEx is much appreciated)
+2. Angular ss added.
+3. Blade ss updated.
+4. Php ss updated.
+5. Js ss updated.
+6. Python ss updated.
+7. fixed style HL (tag & attr).
+8. fixed JS events attr HL in BLADE.
+9. some fixes for JS HL.
+10. better support for JSON HL up to 19 LVL (ss updated).
+11. Scheme file is more cleaned up now.
+12. GenericConfig is now supported.
+13. Readme updated.

@@ -6,14 +6,14 @@ Seti Improved Scheme/Syntax-HL for ST.
 ```
 SublimeLinter
 GitGutter
-MarkDown
+MarkDown (& MarkDown Extended)
 diff
 plist
 Python
 JSON, XML
-JS (& JavaScriptNext), Coffee
-Html, Jade
-Css, Less, Sass/Scss
+JS (& JavaScriptNext), Coffee, AngularJs (partial support)
+Html (& Html5), Jade
+Css (& Css3), Less, Sass/Scss
 PHP, Laravel Blade, SQL
 ```
 
@@ -29,13 +29,17 @@ PHP, Laravel Blade, SQL
 
 ![Seti Screenshot](./ss/html.png)
 
-**CSS**
+**CSS3**
 
 ![Seti Screenshot](./ss/css.png)
 
 **JS** (work in progress)
 
 ![Seti Screenshot](./ss/js.png)
+
+**Angular** (work in progress)
+
+![Seti Screenshot](./ss/angular.png)
 
 **LESS** (Sass/Scss are similar)
 
@@ -65,7 +69,7 @@ PHP, Laravel Blade, SQL
 
 ![Seti Screenshot](./ss/md.png)
 
-**JSON** (up-to 13 level)
+**JSON** (up-to 19 level)
 
 ![Seti Screenshot](./ss/json.png)
 
@@ -80,10 +84,8 @@ PHP, Laravel Blade, SQL
 
 ## ToDO
 
-1. Better support for AngularJs.
+1. Better support for AngularJs (need some help with regex for scopes).
 
 2. Better support for Sass/Scss. (we need a better syntax definition ,more like "Less" ).
 
 3. Better support for Python.
-
-4. Cleanup the scheme file and make it smaller.

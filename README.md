@@ -19,9 +19,7 @@ PHP, Laravel Blade, SQL
 
 ### Notes
 
-- i only use like half of the above so if you have an ideas for Improvements please issue a ticket (preferably with a Screen-Shot).
-
-- plz check [#2](https://github.com/ctf0/Seti_UX/issues/2).
+- check [#2](https://github.com/ctf0/Seti_UX/issues/2).
 
 ## Previews
 

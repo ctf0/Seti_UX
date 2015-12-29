@@ -1128,7 +1128,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#FFA325</string>
 			</dict>
@@ -1141,7 +1141,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#BBFD0D</string>
 			</dict>
@@ -4116,6 +4116,125 @@
 			</dict>
 		</dict>
 
+		<!-- ====================================
+		Ruby
+		====================================== -->
+		<dict>
+			<key>name</key>
+			<string>Ruby Strings Double-Quoted</string>
+			<key>scope</key>
+			<string>string.quoted.double.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c2bc0a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby: Strings Single-Quoted</string>
+			<key>scope</key>
+			<string>string.quoted.single.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#aaa40e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby symbol</string>
+			<key>scope</key>
+			<string>constant.other.symbol, constant.other.symbol punctuation.definition.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#FF9705</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Environment variable</string>
+			<key>scope</key>
+			<string>meta.environment-variable string</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFEE0C</string>
+				<key>foreground</key>
+				<string>#0613FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Global variable</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.global, variable.other.readwrite.global punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFACAA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Instance variable</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.instance, variable.other.readwrite.instance punctuation.definition.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#130f38</string>
+				<key>foreground</key>
+				<string>#9AA5FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby special method</string>
+			<key>scope</key>
+			<string>keyword.other.special-method.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DB1E44</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Punctuation.separator.other</string>
+			<key>scope</key>
+			<string>punctuation.separator.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#276AFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex character class</string>
+			<key>scope</key>
+			<string>string.regexp.character-class, punctuation.definition.character-class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#22FFC9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Block variable</string>
+			<key>scope</key>
+			<string>variable.other.block, punctuation.separator.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#14FF01</string>
+			</dict>
+		</dict>
 
 		<!-- ====================================
 		plist

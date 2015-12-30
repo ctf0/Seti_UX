@@ -64,6 +64,10 @@ PHP, Laravel Blade, SQL
 
 ![Seti Screenshot](./ss/python.png)
 
+**RUBY**
+
+![Seti Screenshot](./ss/ruby.png)
+
 **MARKDOWN**
 
 ![Seti Screenshot](./ss/md.png)

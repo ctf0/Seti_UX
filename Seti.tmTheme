@@ -4163,6 +4163,7 @@
 		<!-- ====================================
 		Ruby
 		====================================== -->
+		<!-- ""-->
 		<dict>
 			<key>name</key>
 			<string>Ruby Strings Double-Quoted</string>
@@ -4174,6 +4175,7 @@
 				<string>#c2bc0a</string>
 			</dict>
 		</dict>
+		<!-- '' -->
 		<dict>
 			<key>name</key>
 			<string>Ruby: Strings Single-Quoted</string>
@@ -5156,18 +5158,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ffd200</string>
-			</dict>
-		</dict>
-		<!-- '' / ""-->
-		<dict>
-			<key>name</key>
-			<string>Class</string>
-			<key>scope</key>
-			<string>string.quoted.single.ruby, string.quoted.double.ruby</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<!-- (...) -->

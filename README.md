@@ -12,7 +12,6 @@ plist
 MakeFile
 Ruby
 Python
-Ruby
 JSON, XML
 JS (& JavaScriptNext), Coffee, AngularJs (partial support)
 Html (& Html5), Jade

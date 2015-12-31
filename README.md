@@ -9,6 +9,8 @@ GitGutter
 MarkDown (& MarkDown Extended)
 diff
 plist
+MakeFile
+Ruby
 Python
 Ruby
 JSON, XML

@@ -86,7 +86,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F5E40</string>
+				<string>#fff</string>
+				<!-- <string>#7F5E40</string> -->
 			</dict>
 		</dict>
 		<dict>
@@ -373,7 +374,8 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f0516f</string>
+				<string>#603F80</string>
+				<!-- <string>#f0516f</string> -->
 			</dict>
 		</dict>
 
@@ -388,7 +390,7 @@
 				<key>foreground</key>
 				<string>#1CFF7B</string>
 				<key>background</key>
-				<string>#02AEFF30</string>
+				<string>#009FFF30</string>
 			</dict>
 		</dict>
 		<dict>
@@ -467,7 +469,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -506,7 +508,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -535,7 +537,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EBFF59</string>
+				<string>#ffff1e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -834,7 +836,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -932,7 +934,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -954,7 +956,7 @@
 				<key>foreground</key>
 				<string>#1CFF7B</string>
 				<key>background</key>
-				<string>#02AEFF30</string>
+				<string>#009FFF30</string>
 			</dict>
 		</dict>
 		<dict>
@@ -987,7 +989,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 
@@ -1418,7 +1420,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 
@@ -1429,7 +1431,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string></string>
+				<string>#aa00aa</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1601,9 +1603,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 				<key>background</key>
-				<string>#02AEFF10</string>
+				<string>#009FFF10</string>
 			</dict>
 		</dict>
 
@@ -2025,7 +2027,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2238,7 +2240,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2323,7 +2325,7 @@
 				<key>foreground</key>
 				<string>#9FD0D8</string>
 				<key>background</key>
-				<string>#02AEFF10</string>
+				<string>#009FFF10</string>
 			</dict>
 		</dict>
 
@@ -2507,7 +2509,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 
@@ -2566,9 +2568,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 				<key>background</key>
-				<string>#02AEFF10</string>
+				<string>#009FFF10</string>
 			</dict>
 		</dict>
 
@@ -2839,7 +2841,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2850,7 +2852,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2884,7 +2886,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 
@@ -2954,7 +2956,7 @@
 				<key>foreground</key>
 				<string>#fff</string>
 				<key>background</key>
-				<string>#02AEFF30</string>
+				<string>#009FFF30</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2965,7 +2967,7 @@
 				<key>foreground</key>
 				<string>#fff</string>
 				<!-- <key>background</key> -->
-				<!-- <string>#02AEFF30</string> -->
+				<!-- <string>#009FFF30</string> -->
 			</dict>
 		</dict>
 		<!-- $ -->
@@ -4018,7 +4020,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -4053,7 +4055,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -4090,7 +4092,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -4132,7 +4134,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 			</dict>
 		</dict>
 
@@ -4578,9 +4580,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#02AEFF</string>
+				<string>#009FFF</string>
 				<key>background</key>
-				<string>#02AEFF10</string>
+				<string>#009FFF10</string>
 			</dict>
 		</dict>
 		<dict>
@@ -5065,6 +5067,154 @@
 			<dict>
 				<key>foreground</key>
 				<string>#1CFF7B</string>
+			</dict>
+		</dict>
+
+		<!-- ====================================
+		Ruby
+		====================================== -->
+		<!-- $(var) -->
+		<dict>
+			<key>scope</key>
+			<string>variable.source.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fff</string>
+			</dict>
+		</dict>
+		<!-- : / . / :: -->
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.constant.ruby, punctuation.separator.method.ruby, punctuation.separator.inheritance.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f68600</string>
+			</dict>
+		</dict>
+		<!-- ? : / ::-->
+		<dict>
+			<key>scope</key>
+			<string>punctuation.separator.other.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1CFF7B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>constant.other.symbol.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7aced3</string>
+			</dict>
+		</dict>
+		<!-- echo -->
+		<dict>
+			<key>scope</key>
+			<string>support.function.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fe5a7d80</string>
+				<key>background</key>
+				<string>#2f041e50</string>
+			</dict>
+		</dict>
+		<!-- function -->
+		<dict>
+			<key>scope</key>
+			<string>entity.name.function.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009FFF</string>
+			</dict>
+		</dict>
+		<!-- class -->
+		<dict>
+			<key>name</key>
+			<string>Class</string>
+			<key>scope</key>
+			<string>support.class.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CD3F45</string>
+			</dict>
+		</dict>
+		<!-- class / def / end-->
+		<dict>
+			<key>name</key>
+			<string>Class</string>
+			<key>scope</key>
+			<string>keyword.control.class.ruby, keyword.control.def.ruby, keyword.control.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffd200</string>
+			</dict>
+		</dict>
+		<!-- '' / ""-->
+		<dict>
+			<key>name</key>
+			<string>Class</string>
+			<key>scope</key>
+			<string>string.quoted.single.ruby, string.quoted.double.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#009FFF</string>
+			</dict>
+		</dict>
+		<!-- (...) -->
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.parameters.ruby, punctuation.section.embedded.ruby, punctuation.section.function.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>string.quoted.other.literal.lower.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CD3F45</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.other.inherited-class.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#466380</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.other.special-method.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3d556d</string>
+			</dict>
+		</dict>
+		<!-- do -->
+		<dict>
+			<key>scope</key>
+			<string>keyword.control.start-block.ruby</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CD3F45</string>
 			</dict>
 		</dict>
 

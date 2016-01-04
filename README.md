@@ -1,9 +1,17 @@
 # Seti_UX
 
+[![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UX.svg?style=flat-square)](https://packagecontrol.io/packages/Seti_UX/)
+[![GitHub release](https://img.shields.io/github/release/ctf0/Seti_UX.svg?style=flat-square&label=latest%20release)](https://github.com/ctf0/Seti_UX/releases/latest/)
+[![GitHub issues](https://img.shields.io/github/issues/ctf0/Seti_UX.svg?style=flat-square)](https://github.com/ctf0/Seti_UX/issues?utf8=✓&q=is%3Aissue+is%3Aopen)
+[![GitHub watchers](https://img.shields.io/github/watchers/ctf0/Seti_UX.svg?style=flat-square)](https://github.com/ctf0/Seti_UX/watchers/)
+[![GitHub stars](https://img.shields.io/github/stars/ctf0/Seti_UX.svg?style=flat-square)](https://github.com/ctf0/Seti_UX/stargazers/)
+[![GitHub forks](https://img.shields.io/github/forks/ctf0/Seti_UX.svg?style=flat-square)](https://github.com/ctf0/Seti_UX/network/)
+
 Seti Improved Scheme/Syntax-HL for ST.
 
-### Supported Syntax
-```
+## Supported Syntax
+
+```text
 SublimeLinter
 GitGutter
 MarkDown (& MarkDown Extended)
@@ -19,9 +27,9 @@ Css (& Css3), Less, Sass/Scss
 PHP, Laravel Blade, SQL
 ```
 
-### Notes
+## Known issues
 
-- check [#2](https://github.com/ctf0/Seti_UX/issues/2).
+Compare [issue #2](https://github.com/ctf0/Seti_UX/issues/2).
 
 ## Previews
 
@@ -84,8 +92,6 @@ PHP, Laravel Blade, SQL
 
 ## ToDO
 
-1. Better support for AngularJs (need some help with regex for scopes).
-
-2. Better support for Sass/Scss. (we need a better syntax definition ,more like "Less" ).
-
-3. Better support for Python.
+* [ ] Better support for AngularJs (need some help with regex for scopes).
+* [ ] Better support for Sass/Scss. (we need a better syntax definition ,more like "Less" ).
+* [ ] Better support for Python.

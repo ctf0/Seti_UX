@@ -16,9 +16,9 @@ MakeFile
 Ruby
 Python
 JSON, XML
-JS (& JavaScriptNext), Coffee, AngularJs (partial support)
+JS , Coffee, AngularJs (partial support)
 Html (& Html5), Jade
-Css (& Css3), Less, Sass/Scss
+Css, Less, Sass/Scss
 PHP, Laravel Blade, SQL
 ```
 
@@ -32,7 +32,7 @@ Check [ctf0/Seti_UX#2](https://github.com/ctf0/Seti_UX/issues/2).
 
 ![Seti Screenshot](./ss/html.png)
 
-**CSS3**
+**CSS**
 
 ![Seti Screenshot](./ss/css.png)
 

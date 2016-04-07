@@ -11,13 +11,12 @@ SublimeLinter
 GitGutter
 MarkDown (& MarkDown Extended)
 diff
-plist
 MakeFile
 Ruby
 Python
 JSON, XML
-JS , Coffee, AngularJs (partial support)
-Html (& Html5), Jade
+JS, Coffee
+Html, Jade
 Css, Less, Sass/Scss
 PHP, Laravel Blade, SQL
 ```
@@ -31,22 +30,6 @@ Check [ctf0/Seti_UX#2](https://github.com/ctf0/Seti_UX/issues/2).
 **HTML**
 
 ![Seti Screenshot](./ss/html.png)
-
-**CSS**
-
-![Seti Screenshot](./ss/css.png)
-
-**JS** (work in progress)
-
-![Seti Screenshot](./ss/js.png)
-
-**Angular** (work in progress)
-
-![Seti Screenshot](./ss/angular.png)
-
-**LESS** (Sass/Scss are similar)
-
-![Seti Screenshot](./ss/less.png)
 
 **BLADE**
 
@@ -79,10 +62,6 @@ Check [ctf0/Seti_UX#2](https://github.com/ctf0/Seti_UX/issues/2).
 **XML**
 
 ![Seti Screenshot](./ss/xml.png)
-
-**PLIST**
-
-![Seti Screenshot](./ss/plist.png)
 
 
 ## ToDO

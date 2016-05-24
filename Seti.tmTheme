@@ -33,15 +33,10 @@
 					<string>#0D1011</string>
 					<key>gutterForeground</key>
 					<string>#7292a180</string>
-
-					<!-- the same color for loading progressbar -->
 					<key>selection</key>
 					<string>#4FA5C750</string>
-
 					<key>selectionForeground</key>
 					<string>#ffffff90</string>
-					<!-- <key>selectionBorder</key> -->
-					<!-- <string>#00000040</string> -->
 					<key>inactiveSelection</key>
 					<string>#2F627750</string>
 					<key>bracketContentsOptions</key>
@@ -86,7 +81,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#fff</string>
-					<!-- <string>#7F5E40</string> -->
 				</dict>
 			</dict>
 			<dict>
@@ -306,7 +300,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#1CFF7B</string>
-					<!-- <string>#a074c4</string> -->
 				</dict>
 			</dict>
 			<dict>
@@ -354,7 +347,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#603F80</string>
-					<!-- <string>#f0516f</string> -->
 				</dict>
 			</dict>
 
@@ -575,7 +567,6 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<!-- <string>#FFDC00</string> -->
 					<string>#48FFC2</string>
 				</dict>
 			</dict>
@@ -1056,13 +1047,34 @@
 			<!-- echo / array & related -->
 			<dict>
 				<key>scope</key>
-				<string>support.function.construct.php, support.function.array.php, meta.function-call.php</string>
+				<string>support.function.construct.php, support.function.array.php, meta.function-call.php variable.function.php</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
 					<string>#603F80</string>
 				</dict>
 			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>meta.function-call.method.php variable.function.php</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#9FD0D8</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>meta.function-call.static.php variable.function.php</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#bce6fe</string>
+				</dict>
+			</dict>
+
 			<dict>
 				<key>name</key>
 				<string>function name 2</string>
@@ -1074,6 +1086,7 @@
 					<string>#CD3F45</string>
 				</dict>
 			</dict>
+
 			<dict>
 				<key>name</key>
 				<string>all functions</string>
@@ -1186,7 +1199,7 @@
 			<!-- class -->
 			<dict>
 				<key>scope</key>
-				<string>support.class.php</string>
+				<string>support.class.php, entity.name.class.php</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -1230,7 +1243,7 @@
 			<!-- use path -->
 			<dict>
 				<key>scope</key>
-				<string>support.other.namespace.use.php</string>
+				<string>support.other.namespace.php</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -1250,15 +1263,31 @@
 					<string>#fff</string>
 				</dict>
 			</dict>
+
 			<dict>
 				<key>name</key>
 				<string>var name</string>
 				<key>scope</key>
-				<string>variable.other.php</string>
+				<string>variable.other.php, variable.parameter.php</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#d3f0f5</string>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<!-- $this -->
+			<dict>
+				<key>scope</key>
+				<string>variable.language.php</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>normal</string>
+					<key>foreground</key>
+					<string>#fff</string>
+					<key>background</key>
+					<string>#0D1011</string>
 				</dict>
 			</dict>
 
@@ -1420,7 +1449,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#bce6fe</string>
-					<!-- <string>#9cfaff</string> -->
 				</dict>
 			</dict>
 
@@ -1444,6 +1472,17 @@
 					<string>#d3f0f5</string>
 				</dict>
 			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>constant.class.php</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
 
 			<!--  ====================================
 			SQL embedded PHP
@@ -2161,7 +2200,7 @@
 			</dict>
 
 			<!-- ====================================
-			Sass / SCSS
+			SCSS
 			====================================== -->
 
 			<dict>
@@ -2285,7 +2324,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#bce6fe</string>
-					<!-- <string>#41535b</string> -->
 				</dict>
 			</dict>
 
@@ -2347,10 +2385,8 @@
 				<dict>
 					<key>foreground</key>
 					<string>#fff</string>
-					<!-- <string>#735154</string> -->
 					<key>background</key>
 					<string>#7e99a680</string>
-					<!-- <string>#0f0c0d</string> -->
 				</dict>
 			</dict>
 
@@ -2930,9 +2966,9 @@
 			<key>foreground</key>
 			<string>#fff</string>
 			</dict>
-			</dict> -->
+		</dict> -->
 
-			<!-- ...}, -->
+		<!-- ...}, -->
 			<!-- <dict>
 			<key>scope</key>
 			<string>meta.structure.array.json meta.structure.dictionary.json meta.structure.dictionary.value.json</string>
@@ -2941,20 +2977,20 @@
 			<key>foreground</key>
 			<string>#fff</string>
 			</dict>
-			</dict> -->
+		</dict> -->
 
-			<!-- \\ -->
+		<!-- \\ -->
+		<dict>
+			<key>scope</key>
+			<string>constant.character.escape.json</string>
+			<key>settings</key>
 			<dict>
-				<key>scope</key>
-				<string>constant.character.escape.json</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#009FFF80</string>
-					<key>background</key>
-					<string>#009FFF15</string>
-				</dict>
+				<key>foreground</key>
+				<string>#009FFF80</string>
+				<key>background</key>
+				<string>#009FFF15</string>
 			</dict>
+		</dict>
 
 			<!-- ====================================
 			Python
@@ -2967,7 +3003,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#603F80</string>
-					<!-- <string>#603F80</string> -->
 				</dict>
 			</dict>
 			<dict>
@@ -3265,7 +3300,6 @@
 				</dict>
 			</dict>
 
-
 			<!-- ====================================
 			plist
 			====================================== -->
@@ -3443,8 +3477,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#D8F6FF</string>
-					<!-- <key>background</key>
-					<string>#00000020</string> -->
 				</dict>
 			</dict>
 
@@ -3922,7 +3954,7 @@
 			====================================== -->
 			<dict>
 				<key>scope</key>
-				<string>meta.param.genconfig</string>
+				<string>meta.param.genconfig, keyword.operator.genconfig</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -3942,13 +3974,16 @@
 
 			<dict>
 				<key>scope</key>
-				<string>variable.parameter.genconfig</string>
+				<string>variable.parameter.genconfig, support.constant.genconfig</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
 					<string>#3d556d</string>
+					<key>fontStyle</key>
+					<string></string>
 				</dict>
 			</dict>
+
 			<dict>
 				<key>scope</key>
 				<string>source.genconfig</string>

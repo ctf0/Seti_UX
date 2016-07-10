@@ -33,10 +33,15 @@
 					<string>#0D1011</string>
 					<key>gutterForeground</key>
 					<string>#7292a180</string>
+
+					<!-- the same color for loading progressbar -->
 					<key>selection</key>
 					<string>#4FA5C750</string>
+
 					<key>selectionForeground</key>
 					<string>#ffffff90</string>
+					<!-- <key>selectionBorder</key> -->
+					<!-- <string>#00000040</string> -->
 					<key>inactiveSelection</key>
 					<string>#2F627750</string>
 					<key>bracketContentsOptions</key>
@@ -81,6 +86,7 @@
 				<dict>
 					<key>foreground</key>
 					<string>#fff</string>
+					<!-- <string>#7F5E40</string> -->
 				</dict>
 			</dict>
 			<dict>
@@ -225,7 +231,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#ffff1e</string>
+					<string>#FFDC00</string>
 				</dict>
 			</dict>
 			<dict>
@@ -521,7 +527,7 @@
 					<key>fontStyle</key>
 					<string>italic</string>
 					<key>foreground</key>
-					<string>#ffff1e</string>
+					<string>#FFDC00</string>
 				</dict>
 			</dict>
 			<dict>
@@ -530,7 +536,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#ffff1e</string>
+					<string>#FFDC00</string>
 				</dict>
 			</dict>
 			<dict>
@@ -1066,17 +1072,7 @@
 
 			<dict>
 				<key>scope</key>
-				<string>meta.function-call.method.php variable.function.php</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#9FD0D8</string>
-				</dict>
-			</dict>
-
-			<dict>
-				<key>scope</key>
-				<string>meta.function-call.static.php variable.function.php</string>
+				<string>meta.function-call.method.php variable.function.php, meta.function-call.static.php variable.function.php</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -1291,6 +1287,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
+					<!-- <string>#d3f0f5</string> -->
 					<string>#fff</string>
 				</dict>
 			</dict>
@@ -1468,6 +1465,7 @@
 				<dict>
 					<key>foreground</key>
 					<string>#bce6fe</string>
+					<!-- <string>#9cfaff</string> -->
 				</dict>
 			</dict>
 
@@ -1548,11 +1546,23 @@
 			<!-- @ -->
 			<dict>
 				<key>scope</key>
-				<string>meta.embedded.line.blade.php entity.name.tag.block.any.html</string>
+				<string>meta.embedded.line.blade.php entity.name.tag.block.any.html, entity.name.tag.blade punctuation.section.embedded</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
 					<string></string>
+					<key>foreground</key>
+					<string>#FFDC00</string>
+					<key>background</key>
+					<string>#0D1011</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>source.php.blade</string>
+				<key>settings</key>
+				<dict>
 					<key>foreground</key>
 					<string>#FFDC00</string>
 					<key>background</key>
@@ -2305,6 +2315,7 @@
 				<dict>
 					<key>foreground</key>
 					<string>#bce6fe</string>
+					<!-- <string>#41535b</string> -->
 				</dict>
 			</dict>
 
@@ -2366,8 +2377,10 @@
 				<dict>
 					<key>foreground</key>
 					<string>#fff</string>
+					<!-- <string>#735154</string> -->
 					<key>background</key>
 					<string>#7e99a680</string>
+					<!-- <string>#0f0c0d</string> -->
 				</dict>
 			</dict>
 
@@ -2962,6 +2975,7 @@
 				<dict>
 					<key>foreground</key>
 					<string>#603F80</string>
+					<!-- <string>#603F80</string> -->
 				</dict>
 			</dict>
 			<dict>

@@ -1226,7 +1226,7 @@
 			<!-- class object -->
 			<dict>
 				<key>scope</key>
-				<string>variable.other.property.php</string>
+				<string>variable.other.property.php, variable.other.member.php</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>

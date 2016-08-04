@@ -1385,6 +1385,37 @@
 				</dict>
 			</dict>
 
+			<!-- heredocs -->
+			<dict>
+				<key>scope</key>
+				<string>string.unquoted.heredoc.php</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>string.unquoted.heredoc.php punctuation.definition.string.php</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD3F45</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>keyword.operator.heredoc.php</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f68600</string>
+				</dict>
+			</dict>
+
 			<!-- superglobal[] / array[] -->
 			<dict>
 				<key>scope</key>

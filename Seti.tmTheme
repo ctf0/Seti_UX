@@ -688,42 +688,6 @@
 			</dict>
 
 			<!-- ====================================
-			VUE
-			====================================== -->
-			<!-- Main string -->
-			<dict>
-				<key>scope</key>
-				<string>text.html.vue</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#7e99a6</string>
-				</dict>
-			</dict>
-
-			<!-- = -->
-			<dict>
-				<key>scope</key>
-				<string>text.html.vue meta.tag.block.any.html, text.html.vue meta.tag.inline.any.html, text.html.vue source.css.embedded.html, text.html.vue source.js.embedded.html</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#009FFF</string>
-				</dict>
-			</dict>
-
-			<!-- {{ / !-->
-			<dict>
-				<key>scope</key>
-				<string>text.html.vue expression punctuation.definition.tag, text.html.vue keyword.operator.logical.js</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#FFDC00</string>
-				</dict>
-			</dict>
-
-			<!-- ====================================
 			Js In Html Embed
 			====================================== -->
 
@@ -765,10 +729,31 @@
 				</dict>
 			</dict>
 
+			<!-- class -->
+			<dict>
+				<key>scope</key>
+				<string>support.class.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1CFF7B</string>
+				</dict>
+			</dict>
+
 			<!-- function name() -->
 			<dict>
 				<key>scope</key>
 				<string>entity.name.function.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD3F45</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>meta.function-call.js variable.function.js</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -842,6 +827,18 @@
 				</dict>
 			</dict>
 
+			<dict>
+				<key>scope</key>
+				<string>support.module.node.js, variable.other.readwrite.js, variable.other.object.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+					<key>background</key>
+					<string>#41535b30</string>
+				</dict>
+			</dict>
+
 			<!-- object -->
 			<dict>
 				<key>scope</key>
@@ -856,7 +853,7 @@
 			<!-- var -->
 			<dict>
 				<key>scope</key>
-				<string>source.js variable.other</string>
+				<string>source.js variable.other, variable.other.object.js, variable.other.dollar.js</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -872,6 +869,42 @@
 				<dict>
 					<key>foreground</key>
 					<string>#aa00aa</string>
+				</dict>
+			</dict>
+
+			<!-- ====================================
+			Vue
+			====================================== -->
+			<!-- Main string -->
+			<dict>
+				<key>scope</key>
+				<string>text.html.vue</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#7e99a6</string>
+				</dict>
+			</dict>
+
+			<!-- = -->
+			<dict>
+				<key>scope</key>
+				<string>text.html.vue meta.tag.block.any.html, text.html.vue meta.tag.inline.any.html, text.html.vue source.css.embedded.html, text.html.vue source.js.embedded.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+
+			<!-- {{ / !-->
+			<dict>
+				<key>scope</key>
+				<string>text.html.vue expression punctuation.definition.tag, text.html.vue keyword.operator.logical.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFDC00</string>
 				</dict>
 			</dict>
 

@@ -62,10 +62,3 @@ Check [ctf0/Seti_UX#2](https://github.com/ctf0/Seti_UX/issues/2).
 **XML**
 
 ![Seti Screenshot](./ss/xml.png)
-
-
-## ToDO
-
-* [ ] Better support for AngularJs (need some help with regex for scopes).
-* [ ] Better support for Sass/Scss. (we need a better syntax definition ,more like "Less" ).
-* [ ] Better support for Python.

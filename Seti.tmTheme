@@ -4,13 +4,10 @@
 	<dict>
 		<key>author</key>
 		<string>Ctf0</string>
-		<key>comment</key>
-		<string>Based on 'Neon' by Matt Morrison</string>
 		<key>name</key>
 		<string>Seti_UX</string>
 		<key>settings</key>
 		<array>
-
 			<!-- ====================================
 			General
 			====================================== -->
@@ -26,15 +23,15 @@
 					<key>invisibles</key>
 					<string>#F3FFB51A</string>
 					<key>lineHighlight</key>
-					<string>#7292a110</string>
+					<string>#7292a1</string>
 					<key>findHighlight</key>
 					<string>#4FA5C7</string>
+					<key>findHighlightForeground</key>
+					<string>#000</string>
 					<key>gutter</key>
 					<string>#0D1011</string>
 					<key>gutterForeground</key>
 					<string>#7292a180</string>
-
-					<!-- the same color for loading progressbar -->
 					<key>selection</key>
 					<string>#4FA5C750</string>
 					<key>selectionForeground</key>
@@ -53,6 +50,13 @@
 					<string>#71787c66</string>
 					<key>activeGuide</key>
 					<string>#ffd20080</string>
+					<key>shadow</key>
+					<string>#00000010</string>
+
+					<key>phantomCss</key>
+					<string><![CDATA[ html { position: relative; } ]]></string>
+					<key>popupCss</key>
+					<string><![CDATA[ html { color: #7292a1; background-color: #29394060; padding: 5px; } a { color: #A83B40; line-height: 1.5; text-decoration: none; background-color: #A83B4010; margin-botttom: 5px; } .error, .deleted { color: #CD3F45; } .success, .inserted { color: #48FFC2; } .warning, .modified { color: #ffd200; } ]]></string>
 				</dict>
 			</dict>
 
@@ -83,7 +87,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#fff</string>
-					<!-- <string>#7F5E40</string> -->
 				</dict>
 			</dict>
 			<dict>
@@ -357,7 +360,7 @@
 				</dict>
 			</dict>
 
-			<!-- (this) -->
+			<!-- this -->
 			<dict>
 				<key>scope</key>
 				<string>variable.language, variable.parameter.function.language</string>
@@ -366,9 +369,9 @@
 					<key>fontStyle</key>
 					<string>italic</string>
 					<key>foreground</key>
-					<string>#A83B40</string>
+					<string>#1CFF7B</string>
 					<key>background</key>
-					<string>#A83B4010</string>
+					<string>#009FFF30</string>
 				</dict>
 			</dict>
 			<dict>
@@ -688,10 +691,6 @@
 			</dict>
 
 			<!-- ====================================
-			Js In Html Embed
-			====================================== -->
-
-			<!-- ====================================
 			JavaScript
 			====================================== -->
 
@@ -721,11 +720,23 @@
 			<dict>
 				<key>scope</key>
 				<string>keyword.operator.ternary.js</string>
-				<!-- <string>keyword.operator.ternary.js, keyword.operator.comparison.js, keyword.operator.logical.js</string> -->
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
 					<string>#ffd200</string>
+				</dict>
+			</dict>
+
+			<!-- $(this) -->
+			<dict>
+				<key>scope</key>
+				<string>meta.function-call.method.js variable.language.this.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#A83B40</string>
+					<key>background</key>
+					<string>#A83B4010</string>
 				</dict>
 			</dict>
 
@@ -812,7 +823,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#fff</string>
-					<!-- <string>#603F80</string> -->
 				</dict>
 			</dict>
 
@@ -1390,7 +1400,7 @@
 				</dict>
 			</dict>
 
-			<!-- $this -->
+			<!-- $var -->
 			<dict>
 				<key>scope</key>
 				<string>variable.language.php</string>
@@ -1594,7 +1604,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#bce6fe</string>
-					<!-- <string>#9cfaff</string> -->
 				</dict>
 			</dict>
 
@@ -2909,7 +2918,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#603F80</string>
-					<!-- <string>#603F80</string> -->
 				</dict>
 			</dict>
 			<dict>

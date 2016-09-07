@@ -23,7 +23,7 @@
 					<key>invisibles</key>
 					<string>#F3FFB51A</string>
 					<key>lineHighlight</key>
-					<string>#7292a1</string>
+					<string>#7292a110</string>
 					<key>findHighlight</key>
 					<string>#4FA5C7</string>
 					<key>findHighlightForeground</key>
@@ -145,7 +145,7 @@
 					<key>fontStyle</key>
 					<string></string>
 					<key>foreground</key>
-					<string>#ffffff</string>
+					<string>#fff</string>
 				</dict>
 			</dict>
 			<dict>
@@ -165,7 +165,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#ffffff</string>
+					<string>#fff</string>
 					<key>background</key>
 					<string>#E6002B90</string>
 				</dict>
@@ -1684,7 +1684,7 @@
 			<!-- @ -->
 			<dict>
 				<key>scope</key>
-				<string>meta.embedded.line.blade.php entity.name.tag.block.any.html, entity.name.tag.blade punctuation.section.embedded</string>
+				<string>meta.embedded.line.blade.php entity.name.tag.block.any.html, entity.name.tag.blade punctuation.section.embedded, punctuation.section.embedded.ignore.begin.blade,  punctuation.section.embedded.ignore.end.blade</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
@@ -2387,7 +2387,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFFFFF</string>
+					<string>#fff</string>
 				</dict>
 			</dict>
 			<dict>
@@ -3761,7 +3761,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFFFFF</string>
+					<string>#fff</string>
 				</dict>
 			</dict>
 			<dict>
@@ -3772,7 +3772,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFFFFF</string>
+					<string>#fff</string>
 				</dict>
 			</dict>
 			<dict>
@@ -3792,7 +3792,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFFFFF</string>
+					<string>#fff</string>
 				</dict>
 			</dict>
 			<dict>
@@ -3812,7 +3812,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFFFFF</string>
+					<string>#fff</string>
 				</dict>
 			</dict>
 			<dict>
@@ -3823,7 +3823,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFFFFF</string>
+					<string>#fff</string>
 				</dict>
 			</dict>
 			<dict>

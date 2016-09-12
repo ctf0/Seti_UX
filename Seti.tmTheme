@@ -23,7 +23,7 @@
 					<key>invisibles</key>
 					<string>#F3FFB51A</string>
 					<key>lineHighlight</key>
-					<string>#7292a110</string>
+					<string>#7292a130</string>
 					<key>findHighlight</key>
 					<string>#4FA5C7</string>
 					<key>findHighlightForeground</key>
@@ -56,7 +56,7 @@
 					<key>phantomCss</key>
 					<string><![CDATA[ html { position: relative; } ]]></string>
 					<key>popupCss</key>
-					<string><![CDATA[ html { color: #7292a1; background-color: #29394060; padding: 5px; } a { color: #A83B40; line-height: 1.5; text-decoration: none; background-color: #A83B4010; margin-botttom: 5px; } .error, .deleted { color: #CD3F45; } .success, .inserted { color: #48FFC2; } .warning, .modified { color: #ffd200; } ]]></string>
+					<string><![CDATA[ html { color: #7292a1; background-color: #29394060; padding: 15px; } a { color: #A83B40; line-height: 1.5; text-decoration: none; background-color: #A83B4010; margin-botttom: 5px; } .error, .deleted { color: #CD3F45; padding: 15px; } .success, .inserted { color: #48FFC2; padding: 15px;} .warning, .modified { color: #ffd200; padding: 15px; } ]]></string>
 				</dict>
 			</dict>
 
@@ -1718,6 +1718,27 @@
 					<string>#FFDC00</string>
 					<key>background</key>
 					<string>#0D1011</string>
+				</dict>
+			</dict>
+
+			<!-- vue attrs -->
+			<dict>
+				<key>scope</key>
+				<string>constant.other.inline-data.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#48FFC2</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>constant.other.inline-data.html constant</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
 				</dict>
 			</dict>
 
@@ -3582,274 +3603,6 @@
 			</dict>
 
 			<!-- ====================================
-			GitGutter
-			====================================== -->
-
-			<dict>
-				<key>name</key>
-				<string>GitGutter deleted</string>
-				<key>scope</key>
-				<string>markup.deleted.git_gutter</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#F90504</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>GitGutter inserted</string>
-				<key>scope</key>
-				<string>markup.inserted.git_gutter</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#21E209</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>GitGutter changed</string>
-				<key>scope</key>
-				<string>markup.changed.git_gutter</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#FBF704</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>GitGutter ignored</string>
-				<key>scope</key>
-				<string>markup.ignored.git_gutter</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#7F29C4</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>GitGutter untracked</string>
-				<key>scope</key>
-				<string>markup.untracked.git_gutter</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#565656</string>
-				</dict>
-			</dict>
-
-			<!-- ====================================
-			Find In Files
-			====================================== -->
-
-			<dict>
-				<key>name</key>
-				<string>Find In Files: Text</string>
-				<key>scope</key>
-				<string>text.find-in-files</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#66828E</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Total Count</string>
-				<key>scope</key>
-				<string>header.find-in-files variable.total_files_count.find-in-files</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#ffcc01</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Query Name</string>
-				<key>scope</key>
-				<string>header.find-in-files string.query.find-in-files</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#009FFF</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Find In Files: Text - Match</string>
-				<key>scope</key>
-				<string>match.find-in-files</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#efefef</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Find In Files: filename</string>
-				<key>scope</key>
-				<string>entity.name.filename.find-in-files</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#1CFF7B</string>
-					<key>background</key>
-					<string>#1CFF7B10</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Find In Files: Line Number - Match</string>
-				<key>scope</key>
-				<string>constant.numeric.line-number.match.find-in-files</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#FF0040</string>
-					<key>background</key>
-					<string>#FF004010</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Find In Files: Line Number</string>
-				<key>scope</key>
-				<string>constant.numeric.line-number.find-in-files</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#603F80</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>footer matched_count</string>
-				<key>scope</key>
-				<string>footer.find-in-files variable.matched_count.find-in-files</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#009FFF</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Footer matched_files_count</string>
-				<key>scope</key>
-				<string>footer.find-in-files variable.matched_files_count.find-in-files</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#1CFF7B</string>
-				</dict>
-			</dict>
-
-			<!-- ====================================
-			SublimeLinter
-			====================================== -->
-
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Annotations</string>
-				<key>scope</key>
-				<string>sublimelinter.annotations</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#fff</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Error Outline</string>
-				<key>scope</key>
-				<string>sublimelinter.outline.illegal</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#fff</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Error Underline</string>
-				<key>scope</key>
-				<string>sublimelinter.underline.illegal</string>
-				<key>settings</key>
-				<dict>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Warning Outline</string>
-				<key>scope</key>
-				<string>sublimelinter.outline.warning</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#fff</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Warning Underline</string>
-				<key>scope</key>
-				<string>sublimelinter.underline.warning</string>
-				<key>settings</key>
-				<dict>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Violation Outline</string>
-				<key>scope</key>
-				<string>sublimelinter.outline.violation</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#fff</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter3 Gutter Mark</string>
-				<key>scope</key>
-				<string>sublimelinter.gutter-mark</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#fff</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter3 Error</string>
-				<key>scope</key>
-				<string>sublimelinter.mark.error</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#DA2000</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter3 Warning</string>
-				<key>scope</key>
-				<string>sublimelinter.mark.warning</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#EDBA00</string>
-				</dict>
-			</dict>
-
-			<!-- ====================================
 			C/C++
 			====================================== -->
 			<!-- SublimeText C++-syntax are a bit inconsistent, correct that -->
@@ -4139,6 +3892,316 @@
 				<dict>
 					<key>foreground</key>
 					<string>#CD3F45</string>
+				</dict>
+			</dict>
+
+			<!-- ====================================
+			Find In Files
+			====================================== -->
+			<dict>
+				<key>name</key>
+				<string>Find In Files: Text</string>
+				<key>scope</key>
+				<string>text.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#66828E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Total Count</string>
+				<key>scope</key>
+				<string>header.find-in-files variable.total_files_count.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ffcc01</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Query Name</string>
+				<key>scope</key>
+				<string>header.find-in-files string.query.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Find In Files: Text - Match</string>
+				<key>scope</key>
+				<string>match.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#efefef</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Find In Files: filename</string>
+				<key>scope</key>
+				<string>entity.name.filename.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1CFF7B</string>
+					<key>background</key>
+					<string>#1CFF7B10</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Find In Files: Line Number - Match</string>
+				<key>scope</key>
+				<string>constant.numeric.line-number.match.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF0040</string>
+					<key>background</key>
+					<string>#FF004010</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Find In Files: Line Number</string>
+				<key>scope</key>
+				<string>constant.numeric.line-number.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#603F80</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>footer matched_count</string>
+				<key>scope</key>
+				<string>footer.find-in-files variable.matched_count.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Footer matched_files_count</string>
+				<key>scope</key>
+				<string>footer.find-in-files variable.matched_files_count.find-in-files</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1CFF7B</string>
+				</dict>
+			</dict>
+
+			<!-- ====================================
+			GitGutter
+			====================================== -->
+
+			<dict>
+				<key>name</key>
+				<string>GitGutter deleted</string>
+				<key>scope</key>
+				<string>markup.deleted.git_gutter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD3F45</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>GitGutter inserted</string>
+				<key>scope</key>
+				<string>markup.inserted.git_gutter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#48FFC2</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>GitGutter changed</string>
+				<key>scope</key>
+				<string>markup.changed.git_gutter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ffd200</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>GitGutter ignored</string>
+				<key>scope</key>
+				<string>markup.ignored.git_gutter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#7F29C4</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>GitGutter untracked</string>
+				<key>scope</key>
+				<string>markup.untracked.git_gutter</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#7292a1</string>
+				</dict>
+			</dict>
+
+			<!-- ====================================
+			SublimeLinter
+			====================================== -->
+			<dict>
+				<key>name</key>
+				<string>SublimeLinter Annotations</string>
+				<key>scope</key>
+				<string>sublimelinter.annotations</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>sublimelinter.gutter-mark</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#603F80</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>sublimelinter.outline.illegal, sublimelinter.underline.illegal, sublimelinter.outline.violation</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD3F45</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>sublimelinter.outline.warning, sublimelinter.underline.warning</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#EDBA00</string>
+				</dict>
+			</dict>
+
+			<dict>
+	            <key>name</key>
+	            <string>SublimeLinter Warning</string>
+	            <key>scope</key>
+	            <string>sublimelinter.mark.warning</string>
+	            <key>settings</key>
+	            <dict>
+	                <key>foreground</key>
+	                <string>#EDBA00</string>
+	            </dict>
+	        </dict>
+
+	        <dict>
+	            <key>name</key>
+	            <string>SublimeLinter Error</string>
+	            <key>scope</key>
+	            <string>sublimelinter.mark.error</string>
+	            <key>settings</key>
+	            <dict>
+	                <key>foreground</key>
+	                <string>#CD3F45</string>
+	            </dict>
+	        </dict>
+
+			<!-- ====================================
+			Bracket HL
+			====================================== -->
+			<dict>
+				<key>name</key>
+				<string>BH - Default</string>
+				<key>scope</key>
+				<string>brackethighlighter.default</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#D8F6FF</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>Bracket Tag</string>
+				<key>scope</key>
+				<string>brackethighlighter.tag</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#7e99a6</string>
+				</dict>
+			</dict>
+
+			<!-- {|(|[|> -->
+			<dict>
+				<key>scope</key>
+				<string>brackethighlighter.curly, brackethighlighter.round, brackethighlighter.square, brackethighlighter.angle</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fed02e</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>Bracket Quote</string>
+				<key>scope</key>
+				<string>brackethighlighter.quote</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>Bracket Unmatched</string>
+				<key>scope</key>
+				<string>brackethighlighter.unmatched</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD3F45</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>Bracket c_define</string>
+				<key>scope</key>
+				<string>brackethighlighter.c_define</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#603F80</string>
 				</dict>
 			</dict>
 		</array>

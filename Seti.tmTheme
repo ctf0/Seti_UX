@@ -33,7 +33,7 @@
 					<key>gutterForeground</key>
 					<string>#7292a180</string>
 					<key>selection</key>
-					<string>#7292a130</string>
+					<string>#4FA5C750</string>
 					<key>selectionForeground</key>
 					<string>#ffffff90</string>
 					<key>inactiveSelection</key>
@@ -54,9 +54,9 @@
 					<string>#00000010</string>
 
 					<key>phantomCss</key>
-					<string><![CDATA[ html {position: relative; padding: 10px;} ]]></string>
+					<string><![CDATA[ html { position: relative; } ]]></string>
 					<key>popupCss</key>
-					<string><![CDATA[ html {color: #D8F6FF;background-color: #29394060;padding: 10px;} a {color: #009FFF;line-height: 1.5;text-decoration: none;margin-botttom: 5px;} .error, .deleted {color: #CD3F45;padding: 15px;} .success, .inserted {color: #48FFC2;padding: 15px;} .warning, .modified {color: #ffd200;padding: 15px;} ]]></string>
+					<string><![CDATA[ html { color: #7292a1; background-color: #29394060; padding: 15px; } a { color: #A83B40; line-height: 1.5; text-decoration: none; background-color: #A83B4010; margin-botttom: 5px; } .error, .deleted { color: #CD3F45; padding: 15px; } .success, .inserted { color: #48FFC2; padding: 15px;} .warning, .modified { color: #ffd200; padding: 15px; } ]]></string>
 				</dict>
 			</dict>
 
@@ -1313,7 +1313,7 @@
 			<!-- class -->
 			<dict>
 				<key>scope</key>
-				<string>support.class.php, entity.name.class.php, entity.name.trait.php</string>
+				<string>support.class.php, entity.name.class.php</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -1684,7 +1684,7 @@
 			<!-- @ -->
 			<dict>
 				<key>scope</key>
-				<string>meta.embedded.line.blade.php entity.name.tag.block.any.html, entity.name.tag.blade punctuation.section.embedded, custom punctuation constant.other.inline-data.html, punctuation.section.embedded.ignore.begin.blade,  punctuation.section.embedded.ignore.end.blade</string>
+				<string>meta.embedded.line.blade.php entity.name.tag.block.any.html, entity.name.tag.blade punctuation.section.embedded, punctuation.section.embedded.ignore.begin.blade,  punctuation.section.embedded.ignore.end.blade</string>
 				<key>settings</key>
 				<dict>
 					<key>fontStyle</key>
@@ -3633,7 +3633,7 @@
 
 			<dict>
 				<key>scope</key>
-				<string>constant.language.genconfig, string.quoted.double.genconfig</string>
+				<string>constant.language.genconfig</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -3892,63 +3892,6 @@
 				<dict>
 					<key>foreground</key>
 					<string>#CD3F45</string>
-				</dict>
-			</dict>
-
-			<!-- ====================================
-			YAML
-			====================================== -->
-			<dict>
-				<key>scope</key>
-				<string>comment.line.number-sign.yaml</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#7292a1</string>
-					<key>background</key>
-					<string>#0D1011</string>
-				</dict>
-			</dict>
-
-			<dict>
-				<key>scope</key>
-				<string>entity.name.tag.yaml</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#3d556d</string>
-					<key>background</key>
-					<string>#0D1011</string>
-				</dict>
-			</dict>
-
-			<dict>
-				<key>scope</key>
-				<string>punctuation.separator.mapping.key-value.yaml</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#f68600</string>
-				</dict>
-			</dict>
-
-			<dict>
-				<key>scope</key>
-				<string>string.quoted.double.yaml</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#009FFF</string>
-				</dict>
-			</dict>
-
-			<dict>
-				<key>scope</key>
-				<string>string.unquoted.plain.out.yaml</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#fff</string>
 				</dict>
 			</dict>
 
@@ -4246,9 +4189,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#fff</string>
-					<key>background</key>
-					<string>#000</string>
+					<string>#CD3F45</string>
 				</dict>
 			</dict>
 

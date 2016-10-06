@@ -1,0 +1,6 @@
+v4.0 (06-10-2016)
+-------------------
+1. fix issues caused by vue scope in blade
+2. better hl for yaml
+3. quoted string in config hl is changed
+4. minor changes for popup

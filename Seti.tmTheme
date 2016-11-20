@@ -1749,7 +1749,7 @@
 			<!-- = -->
 			<dict>
 				<key>scope</key>
-				<string>text.html.nunjucks meta.tag.block.any.html, text.html.nunjucks meta.tag.inline.any.html</string>
+				<string>text.html.nunjucks meta</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -1767,6 +1767,28 @@
 					<string>#A83B40</string>
 					<key>background</key>
 					<string>#A83B4010</string>
+				</dict>
+			</dict>
+
+			<!-- template -->
+			<dict>
+				<key>scope</key>
+				<string>storage storage.type.attr.nunjucks, storage string.unquoted.tag-string.nunjucks</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+
+			<!-- {{var}} -->
+			<dict>
+				<key>scope</key>
+				<string>storage.type.variable.nunjucks string.unquoted.tag-string.nunjucks</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#aa00aa</string>
 				</dict>
 			</dict>
 

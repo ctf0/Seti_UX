@@ -569,7 +569,7 @@
 			<!-- = -->
 			<dict>
 				<key>scope</key>
-				<string>punctuation.separator.key-value.html</string>
+				<string>punctuation.separator.key-value.html, meta.tag.inline.any.html, source.js.embedded.html, meta.tag.block.any.html, meta.tag.any.html</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -590,7 +590,7 @@
 			<!-- attrs -->
 			<dict>
 				<key>scope</key>
-				<string>entity.other.attribute-name.html, meta.tag.any.html, entity.other.attribute-name.style.html, entity.other.attribute-name.class.html, entity.other.attribute-name.event.html</string>
+				<string>entity.other.attribute-name.html, entity.other.attribute-name.style.html, entity.other.attribute-name.class.html, entity.other.attribute-name.event.html</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -882,6 +882,42 @@
 				</dict>
 			</dict>
 
+			<!--================== OOP ================== -->
+			<!-- class -->
+			<dict>
+				<key>scope</key>
+				<string>meta.class.js entity.name.class.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD3F45</string>
+				</dict>
+			</dict>
+
+			<!-- extend -->
+			<dict>
+				<key>scope</key>
+				<string>meta.class.js storage.modifier.extends.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1CFF7B</string>
+				</dict>
+			</dict>
+
+			<!-- extend class -->
+			<dict>
+				<key>scope</key>
+				<string>meta.class.js entity.other.inherited-class.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fda100</string>
+					<key>background</key>
+					<string>#CD3F4530</string>
+				</dict>
+			</dict>
+
 			<!-- ====================================
 			Vue
 			====================================== -->
@@ -899,7 +935,7 @@
 			<!-- = -->
 			<dict>
 				<key>scope</key>
-				<string>text.html.vue meta.tag.block.any.html, text.html.vue meta.tag.inline.any.html, text.html.vue source.css.embedded.html, text.html.vue source.js.embedded.html</string>
+				<string>text.html.vue source.css.embedded.html</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -1746,17 +1782,6 @@
 			Nunjucks
 			====================================== -->
 
-			<!-- = -->
-			<dict>
-				<key>scope</key>
-				<string>text.html.nunjucks meta</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#009FFF</string>
-				</dict>
-			</dict>
-
 			<!-- tags -->
 			<dict>
 				<key>scope</key>
@@ -1789,6 +1814,64 @@
 				<dict>
 					<key>foreground</key>
 					<string>#aa00aa</string>
+				</dict>
+			</dict>
+
+			<!--  ====================================
+			Twig
+			====================================== -->
+
+			<dict>
+				<key>scope</key>
+				<string>punctuation.section.tag.twig</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFDC00</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>keyword.control.twig</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#A83B40</string>
+					<key>background</key>
+					<string>#A83B4010</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>variable.other.twig, string.quoted.single.twig</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>variable.other.property.twig</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#aa00aa</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>meta.tag.template.value.twig variable.other.twig</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+					<key>background</key>
+					<string>#41535b30</string>
 				</dict>
 			</dict>
 

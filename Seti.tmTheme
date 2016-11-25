@@ -708,7 +708,7 @@
 			<!-- '' / "" -->
 			<dict>
 				<key>scope</key>
-				<string>string.quoted.single.js, string.quoted.double.js</string>
+				<string>string.quoted.single.js, string.quoted.double.js, string.template.js</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>

@@ -2113,7 +2113,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFF203</string>
+					<string>#FFDC00</string>
 				</dict>
 			</dict>
 
@@ -2493,6 +2493,68 @@
 				<dict>
 					<key>foreground</key>
 					<string>#FF0040</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>string.quoted.double.scss, variable.parameter.url.scss</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>punctuation.definition.constant.scss</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>meta variable.parameter.url.css</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#9FD0D8</string>
+					<key>background</key>
+					<string>#009FFF10</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>punctuation.definition.keyword.scss</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F6AA11</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>keyword.control.at-rule.import.scss</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>meta.property-value.scss</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD3F45</string>
 				</dict>
 			</dict>
 

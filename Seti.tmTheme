@@ -2091,9 +2091,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#9FD0D8</string>
-					<key>background</key>
-					<string>#9FD0D820</string>
+					<string>#D8F6FF</string>
 				</dict>
 			</dict>
 			<dict>
@@ -2429,13 +2427,11 @@
 				<key>name</key>
 				<string>Quotes</string>
 				<key>scope</key>
-				<string>string.quoted.double.css, punctuation.definition.string.begin.css, punctuation.definition.string.end.css, string.quoted.single.css, string.quoted.single.css comment markup.raw, string.quoted.double.css comment markup.raw, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.begin.css, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.end.css, meta.selector.css meta.attribute-selector.css string.quoted.double.attribute-value.css, meta.attribute-selector.css string.quoted.double.attribute-value.css</string>
+				<string>punctuation.definition.string.begin.css, punctuation.definition.string.end.css, string.quoted.single.css, string.quoted.single.css comment markup.raw, string.quoted.double.css comment markup.raw, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.begin.css, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.end.css, meta.selector.css meta.attribute-selector.css string.quoted.double.attribute-value.css, meta.attribute-selector.css string.quoted.double.attribute-value.css</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#9FD0D8</string>
-					<key>background</key>
-					<string>#009FFF10</string>
+					<string>#009FFF</string>
 				</dict>
 			</dict>
 
@@ -2498,7 +2494,7 @@
 
 			<dict>
 				<key>scope</key>
-				<string>string.quoted.double.scss, variable.parameter.url.scss</string>
+				<string>string.quoted.double.scss</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -2518,13 +2514,21 @@
 
 			<dict>
 				<key>scope</key>
+				<string>meta.at-rule.import.scss</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
 				<string>meta variable.parameter.url.css</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#9FD0D8</string>
-					<key>background</key>
-					<string>#009FFF10</string>
+					<string>#D8F6FF</string>
 				</dict>
 			</dict>
 

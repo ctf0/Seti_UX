@@ -430,6 +430,24 @@
 				</dict>
 			</dict>
 			<dict>
+				<key>scope</key>
+				<string>source.python keyword</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1CFF7B</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>keyword.control.import.python</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+			<dict>
 				<key>name</key>
 				<string>Inherited class</string>
 				<key>scope</key>
@@ -437,7 +455,9 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#80FCFF</string>
+					<string>#fda100</string>
+					<key>background</key>
+					<string>#CD3F4530</string>
 				</dict>
 			</dict>
 			<dict>
@@ -3185,6 +3205,42 @@
 			</dict>
 			<dict>
 				<key>scope</key>
+				<string>entity.name.class.python</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ffd200</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>variable.parameter.python</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD3F45</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>variable.function.python</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#009FFF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
+				<string>punctuation.accessor.python</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fda100</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>scope</key>
 				<string>support.variable.magic.python, support.function.magic.python</string>
 				<key>settings</key>
 				<dict>
@@ -3318,16 +3374,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#34495e</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>scope</key>
-				<string>meta.function-call.python meta.function-call.arguments.python</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#bce6fe</string>
+					<string>#009FFF</string>
 				</dict>
 			</dict>
 

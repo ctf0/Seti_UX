@@ -727,6 +727,26 @@
 				</dict>
 			</dict>
 
+			<dict>
+				<key>scope</key>
+				<string>meta.import.js keyword.control.import-export.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD3F45</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>meta.export.js keyword.control.import-export.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ffd200</string>
+				</dict>
+			</dict>
+
 			<!-- $(this) -->
 			<dict>
 				<key>scope</key>
@@ -935,7 +955,7 @@
 			<!-- = -->
 			<dict>
 				<key>scope</key>
-				<string>text.html.vue source.css.embedded.html</string>
+				<string>text.html.vue source.css.embedded.html, meta.tag.other.html</string>
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -1860,6 +1880,29 @@
 				<dict>
 					<key>foreground</key>
 					<string>#aa00aa</string>
+					<!-- <string>#bce6fe</string> -->
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>punctuation.separator.property.twig</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f68600</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>scope</key>
+				<string>meta.function-call.twig</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#bce6fe</string>
+					<!-- <string>#fff</string> -->
+					<!-- <string>#CD3F45</string> -->
 				</dict>
 			</dict>
 
@@ -4423,7 +4466,7 @@
 				<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#fed02e</string>
+					<string>#ffd200</string>
 				</dict>
 			</dict>
 

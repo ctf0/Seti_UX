@@ -1202,11 +1202,23 @@
             <!-- throw -->
             <dict>
                 <key>scope</key>
-                <string>keyword.control.exception.php</string>
+                <string>keyword.control.exception.php, support.class.exception</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#CD3F45</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>support.class.exception</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#CD3F45</string>
+                    <key>background</key>
+                    <string>#303e4d25</string>
                 </dict>
             </dict>
 
@@ -1402,6 +1414,17 @@
             <dict>
                 <key>scope</key>
                 <string>support.class.php, entity.name.class.php, entity.name.trait.php</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#CD3F45</string>
+                </dict>
+            </dict>
+
+            <!-- reference -->
+            <dict>
+                <key>scope</key>
+                <string>storage.modifier.reference.php</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -2721,447 +2744,24 @@
             JSON
             ====================================== -->
 
-            <!-- levels punc -->
             <dict>
-                <key>name</key>
-                <string>LVL 20 ":"</string>
                 <key>scope</key>
-                <string>meta.structure.dictionary.value.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#fff</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "19 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#8ba7a990</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "18 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#F50AFF90</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "17 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#ACFF0490</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "16 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#18FFFA90</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "15 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#FF5A6090</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "14 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#1471FF90</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "13 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#fb2fff90</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "12 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#f0a79e90</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "11 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#5b8667</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "10 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#26468C</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "9 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#f4a60e90</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "8 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#6494C490</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "7 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#e74c3c90</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "6 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#59528890</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "5 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#d3f0f590</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "4 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#009FFF90</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "3 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta meta string punctuation.definition.string.begin.json, meta meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#AD00D9</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - "2 deep"</string>
-                <key>scope</key>
-                <string>meta meta meta string punctuation.definition.string.begin.json, meta meta meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#00FF7990</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>json - 1 Deep + main</string>
-                <key>scope</key>
-                <string>meta string punctuation.definition.string.begin.json, meta string punctuation.definition.string.end.json</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#41535b</string>
-                </dict>
-            </dict>
-
-            <!-- levels string -->
-            <dict>
-                <key>name</key>
-                <string>JSON - 19 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#8ba7a9</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 18 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#F50AFF</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 17 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#ACFF04</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 16 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#18FFFA</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 15 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#FF5A60</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 14 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#1471FF</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 13 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#f26dcf</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 12 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#f0a79e</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 11 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#7db89f</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 10 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#26468C</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 9 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#f4a60e</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 8 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#6494C4</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 7 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#e74c3c</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 6 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#595288</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 5 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#d3f0f5</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 4 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#009FFF</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 3 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#603F80</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 2 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta meta string</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#1CFF7B</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>JSON - 1 deep</string>
-                <key>scope</key>
-                <string>source.json meta meta string</string>
+                <string>source.json meta.structure.dictionary.value</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#66828E</string>
                 </dict>
             </dict>
+
+            <!-- "" -->
             <dict>
-                <key>name</key>
-                <string>json main</string>
                 <key>scope</key>
-                <string>meta.structure.dictionary.json</string>
+                <string>punctuation.definition.string.begin.json, punctuation.definition.string.end.json</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#efefef</string>
+                    <string>#41535b</string>
                 </dict>
             </dict>
 
@@ -3183,7 +2783,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#fff</string>
+                    <string>#ffcc01</string>
                 </dict>
             </dict>
 
@@ -3205,9 +2805,9 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#009FFF80</string>
+                    <string>#009FFF</string>
                     <key>background</key>
-                    <string>#009FFF15</string>
+                    <string>#009FFF20</string>
                 </dict>
             </dict>
 
@@ -3682,236 +3282,6 @@
                     <string>#fda100</string>
                     <key>background</key>
                     <string>#CD3F4530</string>
-                </dict>
-            </dict>
-
-            <!-- ====================================
-            Markup
-            ====================================== -->
-
-            <!-- ```...``` -->
-            <dict>
-                <key>scope</key>
-                <string>markup.raw punctuation</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#66828E</string>
-                </dict>
-            </dict>
-
-            <!-- ```lang -->
-            <dict>
-                <key>scope</key>
-                <string>variable.language.fenced.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>fontStyle</key>
-                    <string>bold italic</string>
-                    <key>foreground</key>
-                    <string>#66828E</string>
-                    <key>background</key>
-                    <string>#0D1011</string>
-                </dict>
-            </dict>
-
-            <!-- ```code``` -->
-            <dict>
-                <key>scope</key>
-                <string>markup.raw.block.fenced.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#D8F6FF</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>scope</key>
-                <string>markup.list meta.paragraph.list.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#fff</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>scope</key>
-                <string>meta.paragraph.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#fff</string>
-                </dict>
-            </dict>
-
-            <!-- (link) -->
-            <dict>
-                <key>name</key>
-                <string>Markup Link</string>
-                <key>scope</key>
-                <string>meta.link.inline markup.underline, meta.image.inline markup.underline</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#13FFA3</string>
-                </dict>
-            </dict>
-
-            <!-- ! -->
-            <dict>
-                <key>scope</key>
-                <string>meta.paragraph.markdown meta.image.inline.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#13FFA3</string>
-                </dict>
-            </dict>
-
-            <!-- [...]() -->
-            <dict>
-                <key>name</key>
-                <string>Markup Link Text</string>
-                <key>scope</key>
-                <string>string.other.link.description.markdown, string.other.link.title.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#CD3F45</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Markup Link Text []/()</string>
-                <key>scope</key>
-                <string>punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#6288a1</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Block Quote</string>
-                <key>scope</key>
-                <string>markup.quote</string>
-                <key>settings</key>
-                <dict>
-                    <key>fontStyle</key>
-                    <string>italic</string>
-                    <key>foreground</key>
-                    <string>#fff</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>List Numbers</string>
-                <key>scope</key>
-                <string>markup.list punctuation.definition.list_item, markup.list.numbered.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#695f54</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>List</string>
-                <key>scope</key>
-                <string>meta.paragraph.list.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#BEBEBE</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Markdown: List</string>
-                <key>scope</key>
-                <string>markup.list</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#99CCCC</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>``inline``</string>
-                <key>scope</key>
-                <string>markup.raw.inline.markdown, markup.raw.inline.markdown punctuation.definition.raw.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#009FFF</string>
-                    <key>background</key>
-                    <string>#009FFF10</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Bold Markup</string>
-                <key>scope</key>
-                <string>markup.bold</string>
-                <key>settings</key>
-                <dict>
-                    <key>fontStyle</key>
-                    <string>bold</string>
-                    <key>foreground</key>
-                    <string>#13FFA3</string>
-                </dict>
-            </dict>
-
-            <!-- **.** / ***.*** -->
-            <dict>
-                <key>scope</key>
-                <string>punctuation.definition.bold.markdown, punctuation.definition.italic.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#F8BB39</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Italic Markup</string>
-                <key>scope</key>
-                <string>markup.italic</string>
-                <key>settings</key>
-                <dict>
-                    <key>fontStyle</key>
-                    <string>italic</string>
-                    <key>foreground</key>
-                    <string>#13FFA390</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>raw block</string>
-                <key>scope</key>
-                <string>text.html.markdown meta.block-level.markdown markup.raw.block.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#060708</string>
-                    <key>background</key>
-                    <string>#41535b</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>Heading Markup</string>
-                <key>scope</key>
-                <string>markup.heading, markup.heading.markdown</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#fda100</string>
-                    <key>background</key>
-                    <string>#F23A3A30</string>
                 </dict>
             </dict>
 
@@ -4574,6 +3944,18 @@
                 <dict>
                     <key>foreground</key>
                     <string>#603F80</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>name</key>
+                <string>WordHighlight</string>
+                <key>scope</key>
+                <string>wordhighlight</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#7292a130</string>
                 </dict>
             </dict>
         </array>

@@ -444,7 +444,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#009FFF</string>
+                    <string>#FF8383</string>
                 </dict>
             </dict>
             <dict>
@@ -2977,7 +2977,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#fff</string>
+                    <string>#FD7302</string>
                 </dict>
             </dict>
             <dict>
@@ -3006,7 +3006,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#009FFF</string>
+                    <string>#FFFFFF</string>
                 </dict>
             </dict>
             <dict>
@@ -3078,7 +3078,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#009FFF</string>
+                    <string>#ffd200</string>
                 </dict>
             </dict>
             <dict>
@@ -3094,7 +3094,16 @@
             </dict>
             <dict>
                 <key>scope</key>
-                <string>meta.class.python storage.type.class.python</string>
+                <string>meta.class.python</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#CD9438</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>scope</key>
+                <string>storage.type.class.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -3103,7 +3112,7 @@
             </dict>
             <dict>
                 <key>scope</key>
-                <string>meta.function-call.python support.function.builtin.python</string>
+                <string>meta.function-call.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -3151,1615 +3160,1010 @@
             ====================================== -->
 
 
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>comment.line.number-sign.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#6AF429</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>comment.regexp
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#178BDA</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>comment.typehint.directive.notation.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#04C63D</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>comment.typehint.ignore.notation.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#093DA7</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>comment.typehint.punctuation.notation.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#4CD4DD</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>comment.typehint.type.notation.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#3BF719</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>comment.typehint.variable.notation.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#3371F4</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.character.escape.python, constant.character.escape.regexp
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#A5298B</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.character.format.placeholder.other.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#5E723E</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.character.set.regexp
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#C1E767</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.character.unicode.regexp
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#96462B</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.language.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#F1D4E7</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.numeric.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#624CE8</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.numeric.float.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#7D1150</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.numeric.dec.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#002EAE</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.numeric.hex.python, constant.numeric.oct.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#4BD542</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.numeric.bin.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#433EE3</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.other.caps.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#3E49DA</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>constant.other.ellipsis.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#4B122E</string>
-                </dict>
-            </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>constant.other.set.regexp
-            </string>
+                <string>comment.line.number-sign.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#04E1A9</string>
+                    <string>#7292a1</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>entity.name.function.decorator.python
-            </string>
+                <string>comment.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#2AC7AE</string>
+                    <string>#A4C244</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>entity.name.function.python
-            </string>
+                <string>comment.typehint.directive.notation.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#B94768</string>
+                    <string>#3DB894</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>entity.name.tag.backreference.regexp, entity.name.tag.named.backreference.regexp
-            </string>
+                <string>comment.typehint.ignore.notation.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#7439F7</string>
+                    <string>#982F60</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>entity.name.tag.named.group.regexp
-            </string>
+                <string>comment.typehint.punctuation.notation.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#B10443</string>
+                    <string>#9F3D89</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>entity.name.type.class.python
-            </string>
+                <string>comment.typehint.type.notation.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#8E1258</string>
+                    <string>#92FD4F</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>entity.other.inherited-class.python
-            </string>
+                <string>comment.typehint.variable.notation.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#BC45E4</string>
+                    <string>#F0FA5D</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>invalid.deprecated.backtick.python, invalid.deprecated.prefix.python, invalid.deprecated.semicolon.python
-            </string>
+                <string>constant.character.escape.python, constant.character.escape.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#748FE5</string>
+                    <string>#83EBAE</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>invalid.illegal.annotation.python, invalid.illegal.brace.python, invalid.illegal.dec.python, invalid.illegal.decorator.python, invalid.illegal.line.continuation.python, invalid.illegal.name.python, invalid.illegal.newline.python, invalid.illegal.operator.python, invalid.illegal.prefix.python, keyword.illegal.name.python
-            </string>
+                <string>constant.character.format.placeholder.other.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#D63F18</string>
+                    <string>#F4DA12</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.codetag.notation.python
-            </string>
+                <string>constant.character.set.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EDC408</string>
+                    <string>#C75F61</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.control.flow.python
-            </string>
+                <string>constant.character.unicode.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#0607E4</string>
+                    <string>#9C60CA</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.control.import.python
-            </string>
+                <string>constant.language.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#992357</string>
+                    <string>#CD3F45</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.arithmetic.python
-            </string>
+                <string>constant.numeric.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EDEDE5</string>
+                    <string>#26A5C1</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.assignment.python
-            </string>
+                <string>constant.numeric.float.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#8AD4B5</string>
+                    <string>#FF8A52</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.bitwise.python
-            </string>
+                <string>constant.numeric.dec.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#78EE90</string>
+                    <string>#CD3F45</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.comparison.python
-            </string>
+                <string>constant.numeric.hex.python, constant.numeric.oct.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#410545</string>
+                    <string>#BBFB4A</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.conditional.negative.regexp
-            </string>
+                <string>constant.numeric.bin.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#096C68</string>
+                    <string>#91DBDC</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.conditional.regexp
-            </string>
+                <string>constant.other.caps.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#77F0A6</string>
+                    <string>#FFFFFF</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.disjunction.regexp
-            </string>
+                <string>constant.other.ellipsis.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F17F08</string>
+                    <string>#65AD9C</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.logical.python
-            </string>
+                <string>constant.other.set.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#49B63D</string>
+                    <string>#0D1FA3</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.lookahead.negative.regexp, keyword.operator.lookahead.regexp, keyword.operator.lookbehind.negative.regexp, keyword.operator.lookbehind.regexp
-            </string>
+                <string>entity.name.function.decorator.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#4DC7F3</string>
+                    <string>#A3FD0A</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.negation.regexp
-            </string>
+                <string>entity.name.function.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#D5B5F3</string>
+                    <string>#AE2D80</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.python
-            </string>
+                <string>entity.name.tag.backreference.regexp, entity.name.tag.named.backreference.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#343C11</string>
+                    <string>#A45348</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.quantifier.regexp
-            </string>
+                <string>entity.name.tag.named.group.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C01D85</string>
+                    <string>#075F92</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.unpacking.arguments.python
-            </string>
+                <string>invalid.deprecated.backtick.python, invalid.deprecated.prefix.python, invalid.deprecated.semicolon.python,invalid.illegal.annotation.python, invalid.illegal.brace.python, invalid.illegal.dec.python, invalid.illegal.decorator.python, invalid.illegal.line.continuation.python, invalid.illegal.name.python, invalid.illegal.newline.python, invalid.illegal.operator.python, invalid.illegal.prefix.python, keyword.illegal.name.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F10FFB</string>
+                    <string>#114D10</string>
+                    <key>background</key>
+                    <string>#C64143</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>keyword.operator.unpacking.parameter.python
-            </string>
+                <string>keyword.codetag.notation.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F26022</string>
+                    <string>#EC9304</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.backreference.named.regexp, meta.backreference.regexp
-            </string>
+                <string>keyword.control.import.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#72FE3F</string>
+                    <string>#3466ED</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.character.set.regexp
-            </string>
+                <string>keyword.operator.arithmetic.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F3DBFE</string>
+                    <string>#55FF00</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.class.inheritance.python
-            </string>
+                <string>keyword.operator.bitwise.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#1E67EE</string>
+                    <string>#F6092D</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.class.python
-            </string>
+                <string>keyword.operator.comparison.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#021B9C</string>
+                    <string>#15DDDD</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.fstring.python
-            </string>
+                <string>keyword.operator.conditional.negative.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#02D47B</string>
+                    <string>#87D376</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.function-call.generic.python
-            </string>
+                <string>keyword.operator.conditional.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#6C7327</string>
+                    <string>#41D746</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.function-call.python
-            </string>
+                <string>keyword.operator.disjunction.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#82E43C</string>
+                    <string>#FD6444</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.function.decorator.python
-            </string>
+                <string>keyword.operator.logical.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F0B366</string>
+                    <string>#E74C06</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.function.parameters.python
-            </string>
+                <string>keyword.operator.lookahead.negative.regexp, keyword.operator.lookahead.regexp, keyword.operator.lookbehind.negative.regexp, keyword.operator.lookbehind.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#471CBB</string>
+                    <string>#B425F5</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.function.python
-            </string>
+                <string>keyword.operator.negation.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#1EC78C</string>
+                    <string>#3FA53E</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.item-access.python
-            </string>
+                <string>keyword.operator.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#167A49</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.lambda-function.python
-            </string>
+                <string>keyword.operator.quantifier.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#06058A</string>
+                    <string>#5C114C</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.named.regexp
-            </string>
+                <string>keyword.operator.unpacking.arguments.python, keyword.operator.unpacking.parameter.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#DA2E99</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>meta.typehint.comment.python
-            </string>
+                <string>meta.backreference.named.regexp, meta.backreference.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FE6A56</string>
+                    <string>#5F30B2</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.character.set.begin.regexp, punctuation.character.set.end.regexp
-            </string>
+                <string>meta.character.set.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#332936</string>
+                    <string>#EFB86B</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.comment.begin.regexp, punctuation.comment.end.regexp
-            </string>
+                <string>meta.class.inheritance.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#1D834B</string>
+                    <string>#FFFFFF</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.definition.arguments.begin.python, punctuation.definition.arguments.end.python
-            </string>
+                <string>meta.fstring.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#9FB533</string>
+                    <string>#CCA50B</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.definition.comment.python
-            </string>
+                <string>meta.function-call.generic.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#6D8227</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.definition.dict.begin.python, punctuation.definition.dict.end.python
-            </string>
+                <string>meta.function.decorator.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#DA2CDA</string>
+                    <string>#1749A0</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.definition.inheritance.begin.python, punctuation.definition.inheritance.end.python
-            </string>
+                <string>meta.function.parameters.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#BF1F4E</string>
+                    <string>#BDAEA8</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.definition.list.begin.python, punctuation.definition.list.end.python
-            </string>
+                <string>meta.function.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#BDD1BC</string>
+                    <string>#21DE7C</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.definition.parameters.begin.python, punctuation.definition.parameters.end.python
-            </string>
+                <string>meta.named.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#D2F65F</string>
+                    <string>#155998</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.definition.string.begin.python, punctuation.definition.string.end.python
-            </string>
+                <string>meta.typehint.comment.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#7FEA86</string>
+                    <string>#C4239C</string>
                 </dict>
             </dict>
 
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>punctuation.parenthesis.backreference.named.begin.regexp, punctuation.parenthesis.backreference.named.end.regexp
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#38E955</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>punctuation.parenthesis.begin.python, punctuation.parenthesis.end.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#ABB33A</string>
-                </dict>
-            </dict>
 
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>punctuation.parenthesis.begin.regexp, punctuation.parenthesis.end.regexp
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#AD8B17</string>
-                </dict>
-            </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.parenthesis.conditional.begin.regexp, punctuation.parenthesis.conditional.end.regexp
-            </string>
+                <string>punctuation.comment.begin.regexp, punctuation.comment.end.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#329B43</string>
+                    <string>#0A62BB</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.parenthesis.lookahead.begin.regexp, punctuation.parenthesis.lookahead.end.regexp, punctuation.parenthesis.lookbehind.begin.regexp, punctuation.parenthesis.lookbehind.end.regexp
-            </string>
+                <string>punctuation.definition.comment.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#6B5B45</string>
+                    <string>#FF0040</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.parenthesis.named.begin.regexp, punctuation.parenthesis.named.end.regexp
-            </string>
+                <string>punctuation.definition.dict.begin.python, punctuation.definition.dict.end.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#71A8D2</string>
+                    <string>#FFAA00</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.parenthesis.non-capturing.begin.regexp, punctuation.parenthesis.non-capturing.end.regexp
-            </string>
+                <string>punctuation.character.set.begin.regexp, punctuation.character.set.end.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FBE8A5</string>
+                    <string>#FF007F</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.section.class.begin.python
-            </string>
+                <string>punctuation.definition.list.begin.python, punctuation.definition.list.end.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#8BC867</string>
+                    <string>#FF007F</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.section.function.begin.python
-            </string>
+                <string>punctuation.parenthesis.backreference.named.begin.regexp, punctuation.parenthesis.backreference.named.end.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#939CCE</string>
+                    <string>#025615</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.section.function.lambda.begin.python
-            </string>
+                <string>punctuation.definition.inheritance.begin.python, punctuation.definition.inheritance.end.python, punctuation.parenthesis.begin.python, punctuation.parenthesis.end.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#80788E</string>
+                    <string>#FFFEF7</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.annotation.python
-            </string>
+                <string>punctuation.parenthesis.begin.regexp, punctuation.parenthesis.end.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#69FDE2</string>
+                    <string>#40826C</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.annotation.result.python
-            </string>
+                <string>punctuation.parenthesis.conditional.begin.regexp, punctuation.parenthesis.conditional.end.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EA56DD</string>
+                    <string>#238A4E</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.arguments.python
-            </string>
+                <string>punctuation.parenthesis.lookahead.begin.regexp, punctuation.parenthesis.lookahead.end.regexp, punctuation.parenthesis.lookbehind.begin.regexp, punctuation.parenthesis.lookbehind.end.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#943FBA</string>
+                    <string>#D93DF5</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.colon.python
-            </string>
+                <string>punctuation.parenthesis.named.begin.regexp, punctuation.parenthesis.named.end.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#8C0260</string>
+                    <string>#C9BE4E</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.continuation.line.python
-            </string>
+                <string>punctuation.parenthesis.non-capturing.begin.regexp, punctuation.parenthesis.non-capturing.end.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#55285F</string>
+                    <string>#FB6FE6</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.dict.python
-            </string>
+                <string>punctuation.separator.dict.python, punctuation.separator.slice.python, punctuation.section.class.begin.python, punctuation.section.function.begin.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C8511B</string>
+                    <string>#FFFF00</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.element.python
-            </string>
+                <string>punctuation.section.function.lambda.begin.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#DE6E19</string>
+                    <string>#54FC09</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.inheritance.python
-            </string>
+                <string>punctuation.separator.annotation.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#36CD88</string>
+                    <string>#E12CF1</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.parameters.python
-            </string>
+                <string>punctuation.separator.annotation.result.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#7555F7</string>
+                    <string>#F8D2EB</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>punctuation.separator.slice.python
-            </string>
+                <string>punctuation.separator.arguments.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#BED872</string>
+                    <string>#FFFEF7</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>storage.modifier.declaration.python
-            </string>
+                <string>punctuation.separator.colon.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EF3D92</string>
+                    <string>#FFFEF7</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>storage.modifier.flag.regexp
-            </string>
+                <string>punctuation.separator.continuation.line.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#E72791</string>
+                    <string>#00FFFF</string>
                 </dict>
             </dict>
 
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>storage.type.class.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#A20871</string>
-                </dict>
-            </dict>
 
-            <dict>
-                <key>name</key>
-                <string></string>
-                <key>scope</key>
-                <string>storage.type.format.python
-            </string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#005ED2</string>
-                </dict>
-            </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>storage.type.function.async.python
-            </string>
+                <string>punctuation.separator.element.pytho, punctuation.separator.inheritance.python,punctuation.separator.parameters.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#6D7791</string>
+                    <string>#FFFEF7</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>storage.type.function.lambda.python
-            </string>
+                <string>storage.modifier.declaration.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#6370C1</string>
+                    <string>#FB1F4A</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>storage.type.function.python
-            </string>
+                <string>storage.modifier.flag.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#76DE1C</string>
+                    <string>#8E5B83</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>storage.type.imaginary.number.python
-            </string>
+                <string>storage.type.format.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#68FE42</string>
+                    <string>#370A1F</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>storage.type.number.python
-            </string>
+                <string>storage.type.function.async.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#DAD9DA</string>
+                    <string>#FEBE3D</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>storage.type.string.python
-            </string>
+                <string>meta.lambda-function.python, storage.type.function.lambda.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#A1FEA5</string>
+                    <string>#ffd200</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>string.interpolated.python
-            </string>
+                <string>storage.type.function.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#3170FE</string>
+                    <string>#3639D9</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>string.quoted.binary.multi.python, string.quoted.binary.single.python
-            </string>
+                <string>storage.type.imaginary.number.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#5A202B</string>
+                    <string>#2A00FF</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>string.quoted.docstring.multi.python, string.quoted.docstring.single.python
-            </string>
+                <string>storage.type.number.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#AFD772</string>
+                    <string>#B142E1</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>string.quoted.docstring.raw.multi.python, string.quoted.docstring.raw.single.python
-            </string>
+                <string>storage.type.string.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#62323E</string>
+                    <string>#FF5DB9</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>string.quoted.multi.python, string.quoted.single.python
-            </string>
+                <string>string.interpolated.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F9BE57</string>
+                    <string>#A00127</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>string.quoted.raw.binary.multi.python. string.quoted.raw.binary.single.python
-            </string>
+                <string>string.quoted.binary.multi.python, string.quoted.binary.single.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#02DB96</string>
+                    <string>#286000</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>string.quoted.raw.multi.python, string.quoted.raw.single.python
-            </string>
+                <string>string.quoted.docstring.multi.python, string.quoted.docstring.single.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#826CB7</string>
+                    <string>#8CE6C0</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>string.regexp.quoted.multi.python, string.regexp.quoted.single.python
-            </string>
+                <string>string.quoted.docstring.raw.multi.python, string.quoted.docstring.raw.single.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#119C3E</string>
+                    <string>#02B1DE</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>support.function.builtin.python
-            </string>
+                <string>string.quoted.multi.python, string.quoted.single.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#D90E7C</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>support.function.magic.python
-            </string>
+                <string>string.quoted.raw.binary.multi.python. string.quoted.raw.binary.single.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FB0C5A</string>
+                    <string>#A854B7</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>support.other.escape.special.regexp
-            </string>
+                <string>string.quoted.raw.multi.python, string.quoted.raw.single.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C97D6A</string>
+                    <string>#1057B6</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>support.other.match.any.regexp
-            </string>
+                <string>string.regexp.quoted.multi.python, string.regexp.quoted.single.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F7A134</string>
+                    <string>#A1F7B1</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>support.other.match.begin.regexp, support.other.match.end.regexp
-            </string>
+                <string>support.function.builtin.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#258B5D</string>
+                    <string>#AE08FF</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>support.other.parenthesis.regexp
-            </string>
+                <string>support.other.escape.special.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#671F10</string>
+                    <string>#3B5F93</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>addadd</string>
                 <key>scope</key>
-                <string> support.type.exception.python
-            </string>
+                <string>support.other.match.any.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#77DCEB</string>
+                    <string>#B9633F</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>support.type.metaclass.python
-            </string>
+                <string>support.other.match.begin.regexp, support.other.match.end.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#2DCDE3</string>
+                    <string>#A4C93B</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>support.type.python
-            </string>
+                <string>support.other.parenthesis.regexp</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F3719A</string>
+                    <string>#DB88A4</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>support.variable.magic.python
-            </string>
+                <string>support.type.exception.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#5E0C75</string>
+                    <string>#FFF</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>variable.language.special.cls.python
-            </string>
+                <string>support.type.metaclass.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#47995E</string>
+                    <string>#E0E79F</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>variable.language.special.self.python
-            </string>
+                <string>variable.language.special.cls.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#348E38</string>
+                    <string>#C349E1</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>variable.legacy.builtin.python
-            </string>
+                <string>variable.legacy.builtin.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#3A9BA7</string>
+                    <string>#596273</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>variable.parameter.class.python
-            </string>
+                <string>variable.parameter.class.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EC7981</string>
+                    <string>#5044FF</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>variable.parameter.function-call.python
-            </string>
+                <string>variable.parameter.function-call.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#C5A383</string>
+                    <string>#CD3F45</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>variable.parameter.function.language.python
-            </string>
+                <string>variable.parameter.function.language.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#242573</string>
+                    <string>#D7E349</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>variable.parameter.function.language.special.cls.python
-            </string>
+                <string>variable.parameter.function.language.special.cls.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EFB2E2</string>
+                    <string>#18B6AE</string>
                 </dict>
             </dict>
 
             <dict>
-                <key>name</key>
-                <string></string>
                 <key>scope</key>
-                <string>variable.parameter.function.language.special.self.python
-            </string>
+                <string>variable.language.special.self.python, variable.parameter.function.language.special.self.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#2D7177</string>
+                    <string>#00D1DC</string>
                 </dict>
             </dict>
 

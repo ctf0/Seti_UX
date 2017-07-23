@@ -23,7 +23,7 @@
                     <key>invisibles</key>
                     <string>#F3FFB51A</string>
                     <key>lineHighlight</key>
-                    <string>#7292a130</string>
+                    <string>#8EB6C830</string>
                     <key>findHighlight</key>
                     <string>#4FA5C7</string>
                     <key>findHighlightForeground</key>
@@ -2866,7 +2866,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#fff</string>
+                    <string>#5BC0EB</string>
                 </dict>
             </dict>
             <dict>
@@ -2889,7 +2889,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ffd200</string>
+                    <string>#AE08FF</string>
                     <key>fontStyle</key>
                     <string></string>
                 </dict>
@@ -3052,7 +3052,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FFDF02</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
             <dict>
@@ -3247,7 +3247,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F4DA12</string>
+                    <string>#C6FF19</string>
                 </dict>
             </dict>
 
@@ -3459,7 +3459,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#15DDDD</string>
+                    <string>#F3A712</string>
                 </dict>
             </dict>
 
@@ -3539,7 +3539,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#5C114C</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
@@ -3619,7 +3619,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#BDAEA8</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
 
@@ -3777,11 +3777,21 @@
 
             <dict>
                 <key>scope</key>
-                <string>punctuation.separator.dict.python, punctuation.separator.slice.python, punctuation.section.class.begin.python, punctuation.section.function.begin.python</string>
+                <string>punctuation.separator.dict.python, punctuation.separator.slice.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FFFF00</string>
+                    <string>#D81159</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>punctuation.section.class.begin.python, punctuation.section.function.begin.python</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FF007F</string>
                 </dict>
             </dict>
 
@@ -3791,7 +3801,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#54FC09</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
@@ -3831,7 +3841,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FFFEF7</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
@@ -3903,7 +3913,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ffd200</string>
+                    <string>#EA2B1F</string>
                 </dict>
             </dict>
 
@@ -3913,7 +3923,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#3639D9</string>
+                    <string>#FFDA2E</string>
                 </dict>
             </dict>
 
@@ -3963,7 +3973,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#286000</string>
+                    <string>#8589A2</string>
                 </dict>
             </dict>
 
@@ -3973,7 +3983,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#8CE6C0</string>
+                    <string>#7292a1</string>
                 </dict>
             </dict>
 
@@ -3983,7 +3993,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#02B1DE</string>
+                    <string>#7292a1</string>
                 </dict>
             </dict>
 
@@ -4033,7 +4043,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#AE08FF</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
@@ -4083,7 +4093,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FFF</string>
+                    <string>#DA627D</string>
                 </dict>
             </dict>
 
@@ -4163,7 +4173,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#00D1DC</string>
+                    <string>#C36F09</string>
                 </dict>
             </dict>
 
@@ -4190,7 +4200,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#D8F6FF</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
             <dict>

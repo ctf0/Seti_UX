@@ -406,7 +406,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#11BD7C</string>
+                    <string>#aa00aa</string>
                 </dict>
             </dict>
             <dict>
@@ -427,24 +427,6 @@
                 <dict>
                     <key>background</key>
                     <string>#0D1011</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>scope</key>
-                <string>source.python keyword</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#1CFF7B</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>scope</key>
-                <string>keyword.control.import.python</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#FF8383</string>
                 </dict>
             </dict>
             <dict>
@@ -638,7 +620,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#7e99a6</string>
+                    <string>#D8F6FF</string>
                 </dict>
             </dict>
 
@@ -2331,7 +2313,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#AD00D9</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
 
@@ -2344,7 +2326,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#AE08FF</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
             <dict>
@@ -2817,6 +2799,33 @@
 
             <dict>
                 <key>scope</key>
+                <string>source.python keyword</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#1CFF7B</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>scope</key>
+                <string>entity.name.function.python meta.generic-name.python</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#ffd200</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>scope</key>
+                <string>keyword.control.import.python</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FF8383</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>scope</key>
                 <string>meta.function-call.python</string>
                 <key>settings</key>
                 <dict>
@@ -2830,7 +2839,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ffd200</string>
+                    <string>#CD3F45</string>
                 </dict>
             </dict>
             <dict>
@@ -2839,7 +2848,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#CD3F45</string>
+                    <string>#fff</string>
                 </dict>
             </dict>
             <dict>
@@ -2866,7 +2875,9 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#5BC0EB</string>
+                    <string>#fff</string>
+                    <key>background</key>
+                    <string>#41535b</string>
                 </dict>
             </dict>
             <dict>
@@ -2889,7 +2900,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#AE08FF</string>
+                    <string>#009FFF</string>
                     <key>fontStyle</key>
                     <string></string>
                 </dict>
@@ -3107,7 +3118,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#CD3F45</string>
+                    <string>#ffd200</string>
                 </dict>
             </dict>
             <dict>
@@ -3116,9 +3127,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#AE08FF</string>
-                    <key>background</key>
-                    <string>#AE08FF30</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
 
@@ -3158,8 +3167,6 @@
             <!-- ====================================
             MagicPython - for Python 3.5+
             ====================================== -->
-
-
 
             <dict>
                 <key>scope</key>
@@ -3429,7 +3436,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#3466ED</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
 
@@ -3439,7 +3446,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#55FF00</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
@@ -3459,7 +3466,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#F3A712</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
@@ -3499,7 +3506,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#E74C06</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
@@ -3653,8 +3660,6 @@
                 </dict>
             </dict>
 
-
-
             <dict>
                 <key>scope</key>
                 <string>punctuation.comment.begin.regexp, punctuation.comment.end.regexp</string>
@@ -3691,7 +3696,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FF007F</string>
+                    <string>#f68600</string>
                 </dict>
             </dict>
 
@@ -3701,7 +3706,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FF007F</string>
+                    <string>#f68600</string>
                 </dict>
             </dict>
 
@@ -3781,17 +3786,18 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#D81159</string>
+                    <string>#f68600</string>
                 </dict>
             </dict>
 
+            <!-- : / . -->
             <dict>
                 <key>scope</key>
-                <string>punctuation.section.class.begin.python, punctuation.section.function.begin.python</string>
+                <string>punctuation.section.class.begin.python, punctuation.section.function.begin.python, punctuation.accessor.dot.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FF007F</string>
+                    <string>#f68600</string>
                 </dict>
             </dict>
 
@@ -3854,8 +3860,6 @@
                     <string>#00FFFF</string>
                 </dict>
             </dict>
-
-
 
             <dict>
                 <key>scope</key>
@@ -3923,7 +3927,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FFDA2E</string>
+                    <string>#3d556d</string>
                 </dict>
             </dict>
 
@@ -4044,6 +4048,8 @@
                 <dict>
                     <key>foreground</key>
                     <string>#1CFF7B</string>
+                    <key>background</key>
+                    <string>#0D1011</string>
                 </dict>
             </dict>
 
@@ -4093,7 +4099,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#DA627D</string>
+                    <string>#603F80</string>
                 </dict>
             </dict>
 

@@ -416,6 +416,8 @@
                 <string>meta.class.identifier, entity.name.type.class, support.class, variable.other.class</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string>bold</string>
                     <key>foreground</key>
                     <string>#CD3F45</string>
                 </dict>
@@ -3117,8 +3119,10 @@
                 <string>storage.type.class.python</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string>bold</string>
                     <key>foreground</key>
-                    <string>#ffd200</string>
+                    <string>#CD3F45</string>
                 </dict>
             </dict>
             <dict>
@@ -3137,6 +3141,8 @@
                 <string>constant.character.escape.backlash.python, constant.character.escape.double-quote.python</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string>#009FFF</string>
                     <key>foreground</key>
                     <string>#009FFF</string>
                 </dict>
@@ -3253,6 +3259,8 @@
                 <string>constant.character.format.placeholder.other.python</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string>bold</string>
                     <key>foreground</key>
                     <string>#C6FF19</string>
                 </dict>
@@ -3465,8 +3473,10 @@
                 <string>keyword.operator.comparison.python</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string>bold</string>
                     <key>foreground</key>
-                    <string>#1CFF7B</string>
+                    <string>#FFD700</string>
                 </dict>
             </dict>
 
@@ -3797,7 +3807,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#f68600</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
 
@@ -3917,7 +3927,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EA2B1F</string>
+                    <string>#FF007F</string>
                 </dict>
             </dict>
 
@@ -3927,7 +3937,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#3d556d</string>
+                    <string>#FFD700</string>
                 </dict>
             </dict>
 
@@ -4099,7 +4109,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#603F80</string>
+                    <string>#AA0000</string>
                 </dict>
             </dict>
 
@@ -4158,6 +4168,8 @@
                 <string>variable.parameter.function.language.python</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string></string>
                     <key>foreground</key>
                     <string>#D7E349</string>
                 </dict>
@@ -4178,8 +4190,10 @@
                 <string>variable.language.special.self.python, variable.parameter.function.language.special.self.python</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string>italic</string>
                     <key>foreground</key>
-                    <string>#C36F09</string>
+                    <string>#9C60CA</string>
                 </dict>
             </dict>
 

@@ -3140,9 +3140,7 @@
                 <key>scope</key>
                 <string>constant.character.escape.backlash.python, constant.character.escape.double-quote.python</string>
                 <key>settings</key>
-                <dict>
-                    <key>fontStyle</key>
-                    <string>#009FFF</string>
+                <dict>                
                     <key>foreground</key>
                     <string>#009FFF</string>
                 </dict>

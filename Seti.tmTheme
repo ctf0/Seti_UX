@@ -1400,6 +1400,8 @@
                 <string>support.class.php, entity.name.class.php, entity.name.trait.php</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string>normal</string>
                     <key>foreground</key>
                     <string>#CD3F45</string>
                 </dict>
@@ -3140,7 +3142,7 @@
                 <key>scope</key>
                 <string>constant.character.escape.backlash.python, constant.character.escape.double-quote.python</string>
                 <key>settings</key>
-                <dict>                
+                <dict>
                     <key>foreground</key>
                     <string>#009FFF</string>
                 </dict>

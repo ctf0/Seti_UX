@@ -66,8 +66,6 @@
 
             <!-- (...) -->
             <dict>
-                <key>name</key>
-                <string>Round braces</string>
                 <key>scope</key>
                 <string>meta.brace.round</string>
                 <key>settings</key>
@@ -79,8 +77,6 @@
 
             <!-- [...] -->
             <dict>
-                <key>name</key>
-                <string>Array Punctuation</string>
                 <key>scope</key>
                 <string>meta.group.braces.square punctuation.section.scope, meta.group.braces.square, meta.brace.square, punctuation.separator.array, punctuation.section.array, punctuation.definition.array, punctuation.definition.constant.range</string>
                 <key>settings</key>
@@ -101,8 +97,6 @@
 
             <!-- '...' -->
             <dict>
-                <key>name</key>
-                <string>~ String Punctuation</string>
                 <key>scope</key>
                 <string>punctuation.definition.string -meta.tag</string>
                 <key>settings</key>
@@ -171,8 +165,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Comment txt</string>
                 <key>scope</key>
                 <string>comment</string>
                 <key>settings</key>
@@ -184,8 +176,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Comment signs</string>
                 <key>scope</key>
                 <string>punctuation.definition.comment</string>
                 <key>settings</key>
@@ -197,8 +187,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>docstring</string>
                 <key>scope</key>
                 <string>string.quoted.double.block, string.docstring, string.quoted.single.block</string>
                 <key>settings</key>
@@ -246,8 +234,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Exception</string>
                 <key>scope</key>
                 <string>support.type.exception</string>
                 <key>settings</key>
@@ -268,8 +254,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Operator</string>
                 <key>scope</key>
                 <string>keyword.operator -keyword.operator.dereference</string>
                 <key>settings</key>
@@ -279,8 +263,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Comparison operator</string>
                 <key>scope</key>
                 <string>keyword.operator.comparison, keyword.operator.logical</string>
                 <key>settings</key>
@@ -375,8 +357,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Dict key</string>
                 <key>scope</key>
                 <string>meta.structure.dictionary meta.structure.dictionary.key, constant.other.object.key string</string>
                 <key>settings</key>
@@ -388,8 +368,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Dict Value</string>
                 <key>scope</key>
                 <string>meta.structure.dictionary.value</string>
                 <key>settings</key>
@@ -399,8 +377,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Item-access arguments</string>
                 <key>scope</key>
                 <string>meta.item-access.arguments</string>
                 <key>settings</key>
@@ -410,14 +386,10 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Class</string>
                 <key>scope</key>
                 <string>meta.class.identifier, entity.name.type.class, variable.other.class</string>
                 <key>settings</key>
                 <dict>
-                    <key>fontStyle</key>
-                    <string>bold</string>
                     <key>foreground</key>
                     <string>#CD3F45</string>
                 </dict>
@@ -432,8 +404,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Inherited class</string>
                 <key>scope</key>
                 <string>entity.other.inherited-class</string>
                 <key>settings</key>
@@ -445,8 +415,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Method</string>
                 <key>scope</key>
                 <string>meta.method.identifier, meta.method-call, meta.method.declaration</string>
                 <key>settings</key>
@@ -456,8 +424,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Function definition parameters</string>
                 <key>scope</key>
                 <string>variable.parameter.function</string>
                 <key>settings</key>
@@ -467,10 +433,8 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Support function</string>
                 <key>scope</key>
-                <string>support.function, support.class</string>
+                <string>support.function</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -478,8 +442,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Builtin function</string>
                 <key>scope</key>
                 <string>support.function.builtin</string>
                 <key>settings</key>
@@ -495,8 +457,6 @@
 
             <!-- "..." -->
             <dict>
-                <key>name</key>
-                <string>String Quotes</string>
                 <key>scope</key>
                 <string>string.quoted punctuation.definition.string.begin, string.quoted punctuation.definition.string.end, punctuation.definition.string</string>
                 <key>settings</key>
@@ -555,8 +515,6 @@
 
             <!-- < > -->
             <dict>
-                <key>name</key>
-                <string>Tag Punctuation</string>
                 <key>scope</key>
                 <string>punctuation.definition.tag</string>
                 <key>settings</key>
@@ -604,8 +562,6 @@
 
             <!-- id -->
             <dict>
-                <key>name</key>
-                <string>html id</string>
                 <key>scope</key>
                 <string>entity.other.attribute-name.id.html</string>
                 <key>settings</key>
@@ -670,8 +626,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Local name</string>
                 <key>scope</key>
                 <string>entity.other.attribute-name.localname</string>
                 <key>settings</key>
@@ -681,8 +635,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>HTML entity</string>
                 <key>scope</key>
                 <string>constant.character.entity.html, constant.character.entity.html punctuation</string>
                 <key>settings</key>
@@ -995,8 +947,6 @@
             ====================================== -->
 
             <dict>
-                <key>name</key>
-                <string>Tag</string>
                 <key>scope</key>
                 <string>meta.tag.xml entity.name.tag.localname.xml</string>
                 <key>settings</key>
@@ -1008,8 +958,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>string</string>
                 <key>scope</key>
                 <string>text.xml</string>
                 <key>settings</key>
@@ -1019,8 +967,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>tag empty</string>
                 <key>scope</key>
                 <string>text.xml meta.tag.no-content.xml entity.name.tag.localname.xml</string>
                 <key>settings</key>
@@ -1032,8 +978,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>doctype dtd</string>
                 <key>scope</key>
                 <string>meta.tag.sgml.doctype, entity.name.tag.doctype</string>
                 <key>settings</key>
@@ -1045,8 +989,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>doctype</string>
                 <key>scope</key>
                 <string>meta.tag.sgml.doctype.xml keyword.doctype.xml</string>
                 <key>settings</key>
@@ -1058,8 +1000,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>version + encoding</string>
                 <key>scope</key>
                 <string>meta.tag.preprocessor.xml entity.other.attribute-name.xml</string>
                 <key>settings</key>
@@ -1069,8 +1009,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>inside ""</string>
                 <key>scope</key>
                 <string>meta.tag.preprocessor.xml string.quoted.double.xml, meta.tag.xml string.quoted.double.xml, meta.tag.preprocessor.xml string.quoted.double.xml punctuation.definition.string.begin.xml, meta.tag.preprocessor.xml string.quoted.double.xml punctuation.definition.string.end.xml, meta.tag.xml string.quoted.double.xml punctuation.definition.string.begin.xml, meta.tag.xml string.quoted.double.xml punctuation.definition.string.end.xml</string>
                 <key>settings</key>
@@ -1085,8 +1023,6 @@
             ====================================== -->
 
             <dict>
-                <key>name</key>
-                <string>PHP: PHPdocs</string>
                 <key>scope</key>
                 <string>keyword.other.phpdoc.php</string>
                 <key>settings</key>
@@ -1098,8 +1034,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>PHP: Constants Core Predefined</string>
                 <key>scope</key>
                 <string>support.constant.core.php</string>
                 <key>settings</key>
@@ -1111,8 +1045,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>PHP: Constants Standard Predefined</string>
                 <key>scope</key>
                 <string>support.constant.std.php</string>
                 <key>settings</key>
@@ -1124,8 +1056,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>PHP: Keywords Storage</string>
                 <key>scope</key>
                 <string>keyword.storage.php</string>
                 <key>settings</key>
@@ -1135,8 +1065,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>PHP: Strings Double-Quoted</string>
                 <key>scope</key>
                 <string>string.quoted.double.php</string>
                 <key>settings</key>
@@ -1146,8 +1074,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>PHP: Strings Single-Quoted</string>
                 <key>scope</key>
                 <string>string.quoted.single.php</string>
                 <key>settings</key>
@@ -1157,8 +1083,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>PHP: Variables Globals</string>
                 <key>scope</key>
                 <string>variable.other.global.php</string>
                 <key>settings</key>
@@ -1170,8 +1094,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>PHP: Variables Safer Globals</string>
                 <key>scope</key>
                 <string>variable.other.global.safer.php</string>
                 <key>settings</key>
@@ -1264,8 +1186,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>function name 2</string>
                 <key>scope</key>
                 <string>support.function.string.php</string>
                 <key>settings</key>
@@ -1276,8 +1196,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>all functions</string>
                 <key>scope</key>
                 <string>source.php support.function</string>
                 <key>settings</key>
@@ -1287,8 +1205,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>function name()</string>
                 <key>scope</key>
                 <string>meta.function.php entity.name.function.php</string>
                 <key>settings</key>
@@ -1298,8 +1214,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>storage.modifier</string>
                 <key>scope</key>
                 <string>storage.modifier.php</string>
                 <key>settings</key>
@@ -1351,8 +1265,6 @@
 
             <!-- :: / -> -->
             <dict>
-                <key>name</key>
-                <string>Operator</string>
                 <key>scope</key>
                 <string>keyword.operator.class.php</string>
                 <key>settings</key>
@@ -1417,8 +1329,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>support.function</string>
                 <key>scope</key>
                 <string>support.function.var.php, support.function.basic_functions.php</string>
                 <key>settings</key>
@@ -1463,8 +1373,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>var name</string>
                 <key>scope</key>
                 <string>variable.other.php, variable.parameter.php</string>
                 <key>settings</key>
@@ -1950,8 +1858,6 @@
             ====================================== -->
             <!-- (...) -->
             <dict>
-                <key>name</key>
-                <string>brace round</string>
                 <key>scope</key>
                 <string>attributes.tag.jade constant.name.attribute.tag.jade</string>
                 <key>settings</key>
@@ -1963,8 +1869,6 @@
 
             <!-- = -->
             <dict>
-                <key>name</key>
-                <string>brace round</string>
                 <key>scope</key>
                 <string>punctuation.separator.key-value.jade</string>
                 <key>settings</key>
@@ -1976,8 +1880,6 @@
 
             <!-- "..." -->
             <dict>
-                <key>name</key>
-                <string>string quoted</string>
                 <key>scope</key>
                 <string>string.quoted.jade</string>
                 <key>settings</key>
@@ -2000,8 +1902,6 @@
 
             <!-- string -->
             <dict>
-                <key>name</key>
-                <string>string</string>
                 <key>scope</key>
                 <string>text.jade, text.block.jade</string>
                 <key>settings</key>
@@ -2013,8 +1913,6 @@
 
             <!-- | - . -->
             <dict>
-                <key>name</key>
-                <string>pipe/.</string>
                 <key>scope</key>
                 <string>text.block.dot.tag.jade, text.block.pipe.jade </string>
                 <key>settings</key>
@@ -2037,8 +1935,6 @@
 
             <!-- html comment -->
             <dict>
-                <key>name</key>
-                <string>comment</string>
                 <key>scope</key>
                 <string>string.comment.buffered.block.jade</string>
                 <key>settings</key>
@@ -2052,8 +1948,6 @@
 
             <!-- comment -->
             <dict>
-                <key>name</key>
-                <string>comment</string>
                 <key>scope</key>
                 <string>comment.unbuffered.block.jade</string>
                 <key>settings</key>
@@ -2085,8 +1979,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Tag</string>
                 <key>scope</key>
                 <string>complete_tag.jade entity.name.tag.jade, text.block.dot.tag.jade entity.name.tag.jade </string>
                 <key>settings</key>
@@ -2098,8 +1990,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>script tag</string>
                 <key>scope</key>
                 <string>entity.name.tag.script.jade</string>
                 <key>settings</key>
@@ -2113,8 +2003,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>attr</string>
                 <key>scope</key>
                 <string>entity.other.attribute-name.tag.jade</string>
                 <key>settings</key>
@@ -2124,8 +2012,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>invalid</string>
                 <key>scope</key>
                 <string>invalid.illegal.html_entity.text.jade</string>
                 <key>settings</key>
@@ -2143,8 +2029,6 @@
 
             <!-- (...) -->
             <dict>
-                <key>name</key>
-                <string>css/less brace round</string>
                 <key>scope</key>
                 <string>punctuation.section.function, meta.brace.curly.function, meta.function-call punctuation.section.scope.ruby, meta.function-call punctuation.separator.object</string>
                 <key>settings</key>
@@ -2154,8 +2038,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>@media</string>
                 <key>scope</key>
                 <string>source.css meta.at-rule.media.css support.type.property-name.media.css</string>
                 <key>settings</key>
@@ -2174,8 +2056,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: additional-constants</string>
                 <key>scope</key>
                 <string>meta.property-value support.constant.named-color.css, meta.property-value constant</string>
                 <key>settings</key>
@@ -2217,8 +2097,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: @import</string>
                 <key>scope</key>
                 <string>meta.at-rule.css keyword.control.at-rule.css</string>
                 <key>settings</key>
@@ -2228,8 +2106,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: @at-rule</string>
                 <key>scope</key>
                 <string>punctuation.definition.keyword.css</string>
                 <key>settings</key>
@@ -2239,8 +2115,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: attribute-match</string>
                 <key>scope</key>
                 <string>source.css meta.attribute-selector keyword.operator.comparison</string>
                 <key>settings</key>
@@ -2252,8 +2126,6 @@
 
             <!-- class -->
             <dict>
-                <key>name</key>
-                <string>CSS: .class</string>
                 <key>scope</key>
                 <string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.css punctuation</string>
                 <key>settings</key>
@@ -2265,8 +2137,6 @@
 
             <!-- id -->
             <dict>
-                <key>name</key>
-                <string>CSS: #id</string>
                 <key>scope</key>
                 <string>entity.other.attribute-name.id.css, entity.other.attribute-name.id.css punctuation</string>
                 <key>settings</key>
@@ -2276,8 +2146,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: constructor argument</string>
                 <key>scope</key>
                 <string>meta.constructor.argument</string>
                 <key>settings</key>
@@ -2287,8 +2155,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: pseudo-element</string>
                 <key>scope</key>
                 <string>entity.other.attribute-name.pseudo-element</string>
                 <key>settings</key>
@@ -2300,8 +2166,6 @@
 
             <!-- :after -->
             <dict>
-                <key>name</key>
-                <string>CSS pseudo-elements</string>
                 <key>scope</key>
                 <string>entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css</string>
                 <key>settings</key>
@@ -2311,8 +2175,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: pseudo-class</string>
                 <key>scope</key>
                 <string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class</string>
                 <key>settings</key>
@@ -2324,8 +2186,6 @@
 
             <!-- : css/less -->
             <dict>
-                <key>name</key>
-                <string>property-name:</string>
                 <key>scope</key>
                 <string>meta.property-value.css punctuation.separator.key-value.css, punctuation.separator.key-value.css</string>
                 <key>settings</key>
@@ -2335,8 +2195,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: property-value</string>
                 <key>scope</key>
                 <string>meta.value.css support.type.property-name.css</string>
                 <key>settings</key>
@@ -2357,8 +2215,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: selector</string>
                 <key>scope</key>
                 <string>meta.selector.css</string>
                 <key>settings</key>
@@ -2370,8 +2226,6 @@
 
             <!-- ([...]) -->
             <dict>
-                <key>name</key>
-                <string>CSS: selector([])</string>
                 <key>scope</key>
                 <string>meta.selector.css meta.selector.css</string>
                 <key>settings</key>
@@ -2383,8 +2237,6 @@
 
             <!-- [...] -->
             <dict>
-                <key>name</key>
-                <string>CSS: attribute-name</string>
                 <key>scope</key>
                 <string>entity.other.attribute-name.css, entity.other.attribute-name.attribute.css</string>
                 <key>settings</key>
@@ -2396,8 +2248,6 @@
 
             <!-- () -->
             <dict>
-                <key>name</key>
-                <string>CSS: selector()</string>
                 <key>scope</key>
                 <string>meta.selector.css punctuation.section.function.css</string>
                 <key>settings</key>
@@ -2419,8 +2269,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>CSS: tag-name</string>
                 <key>scope</key>
                 <string>entity.name.tag.css</string>
                 <key>settings</key>
@@ -2432,8 +2280,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: tag wildcard</string>
                 <key>scope</key>
                 <string>entity.name.tag.wildcard, entity.other.attribute-name.universal</string>
                 <key>settings</key>
@@ -2443,8 +2289,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: units</string>
                 <key>scope</key>
                 <string>keyword.other.unit</string>
                 <key>settings</key>
@@ -2456,8 +2300,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>font-face url</string>
                 <key>scope</key>
                 <string>source meta meta meta support.function.misc.css</string>
                 <key>settings</key>
@@ -2469,8 +2311,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>url()</string>
                 <key>scope</key>
                 <string>meta meta support.function.misc.css</string>
                 <key>settings</key>
@@ -2480,8 +2320,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>CSS: Flag</string>
                 <key>scope</key>
                 <string>keyword.other.important</string>
                 <key>settings</key>
@@ -2494,8 +2332,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>Quotes</string>
                 <key>scope</key>
                 <string>punctuation.definition.string.begin.css, punctuation.definition.string.end.css, string.quoted.single.css, string.quoted.single.css comment markup.raw, string.quoted.double.css comment markup.raw, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.begin.css, source.css.less meta.property-value.css string.quoted.double.css punctuation.definition.string.end.css, meta.selector.css meta.attribute-selector.css string.quoted.double.attribute-value.css, meta.attribute-selector.css string.quoted.double.attribute-value.css</string>
                 <key>settings</key>
@@ -2520,8 +2356,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>LESS mixin</string>
                 <key>scope</key>
                 <string>entity.other.less.mixin</string>
                 <key>settings</key>
@@ -2537,8 +2371,6 @@
 
             <!-- (.,.,.) -->
             <dict>
-                <key>name</key>
-                <string>LESS (...)</string>
                 <key>scope</key>
                 <string>meta.property-value.css parameter.less</string>
                 <key>settings</key>
@@ -2637,8 +2469,6 @@
             ====================================== -->
 
             <dict>
-                <key>name</key>
-                <string>coffee instance var</string>
                 <key>scope</key>
                 <string>variable.other.readwrite.instance.coffee</string>
                 <key>settings</key>
@@ -2648,8 +2478,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>coffee brace</string>
                 <key>scope</key>
                 <string>meta.brace.round.coffee,meta.brace.square.coffee</string>
                 <key>settings</key>
@@ -2659,8 +2487,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>coffee embeded</string>
                 <key>scope</key>
                 <string>punctuation.section.embedded.coffee</string>
                 <key>settings</key>
@@ -2670,8 +2496,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Coffee vars</string>
                 <key>scope</key>
                 <string>variable.assignment.coffee variable.assignment.coffee</string>
                 <key>settings</key>
@@ -2681,8 +2505,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Coffee dots</string>
                 <key>scope</key>
                 <string>meta.delimiter.method.period.coffee</string>
                 <key>settings</key>
@@ -2692,8 +2514,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Coffee curleys</string>
                 <key>scope</key>
                 <string>meta.brace.curly.coffee</string>
                 <key>settings</key>
@@ -3002,8 +2822,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>keyword.control</string>
                 <key>scope</key>
                 <string>keyword.control.flow.python</string>
                 <key>settings</key>
@@ -3013,8 +2831,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>placeholder</string>
                 <key>scope</key>
                 <string>string.quoted.single.block.python constant.other.placeholder.python, string.quoted.single.single-line.python constant.other.placeholder.python</string>
                 <key>settings</key>
@@ -3026,8 +2842,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>support.type</string>
                 <key>scope</key>
                 <string>meta.function.decorator.python entity.name.function.decorator.python support.type.python</string>
                 <key>settings</key>
@@ -3037,8 +2851,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>entity</string>
                 <key>scope</key>
                 <string>meta.function.decorator.python entity.name.function.decorator.python</string>
                 <key>settings</key>
@@ -3048,8 +2860,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>entity other</string>
                 <key>scope</key>
                 <string>meta.class.python meta.class.inheritance.python entity.other.inherited-class.python support.type.python</string>
                 <key>settings</key>
@@ -3063,8 +2873,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>entity type</string>
                 <key>scope</key>
                 <string>meta.class.python entity.name.type.class.python</string>
                 <key>settings</key>
@@ -3074,8 +2882,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>entity type</string>
                 <key>scope</key>
                 <string>meta.structure.dictionary.python meta.structure.dictionary.key.python string.quoted.double.single-line.python</string>
                 <key>settings</key>
@@ -4169,8 +3975,6 @@
             ====================================== -->
 
             <dict>
-                <key>name</key>
-                <string>Other Variable plist</string>
                 <key>scope</key>
                 <string>text.plist</string>
                 <key>settings</key>
@@ -4180,8 +3984,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>xml plist</string>
                 <key>scope</key>
                 <string>text.plist meta.tag.preprocessor.xml entity.name.tag.xml </string>
                 <key>settings</key>
@@ -4191,8 +3993,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Other Variable plist</string>
                 <key>scope</key>
                 <string>variable.other.plist</string>
                 <key>settings</key>
@@ -4202,8 +4002,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Storage type plist</string>
                 <key>scope</key>
                 <string>storage.type.plist</string>
                 <key>settings</key>
@@ -4213,8 +4011,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>"string" plist</string>
                 <key>scope</key>
                 <string>constant.string.plist</string>
                 <key>settings</key>
@@ -4231,8 +4027,6 @@
             ====================================== -->
 
             <dict>
-                <key>name</key>
-                <string>main</string>
                 <key>scope</key>
                 <string>source.diff</string>
                 <key>settings</key>
@@ -4244,8 +4038,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>diff.header from</string>
                 <key>scope</key>
                 <string>meta.diff.header.from-file, meta.diff.header.from-file punctuation.definition.from-file.diff</string>
                 <key>settings</key>
@@ -4255,8 +4047,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>diff.header to</string>
                 <key>scope</key>
                 <string>meta.diff.header.to-file, meta.diff.header.to-file punctuation.definition.to-file.diff</string>
                 <key>settings</key>
@@ -4266,8 +4056,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>diff.deleted</string>
                 <key>scope</key>
                 <string>markup.deleted.diff, markup.deleted.diff punctuation.definition.inserted.diff</string>
                 <key>settings</key>
@@ -4277,8 +4065,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>diff.inserted</string>
                 <key>scope</key>
                 <string>markup.inserted.diff, punctuation.definition.inserted.diff</string>
                 <key>settings</key>
@@ -4288,8 +4074,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>range</string>
                 <key>scope</key>
                 <string>meta.diff.range.unified, meta.diff.range.unified meta.toc-list.line-number.diff, meta.diff.range.unified punctuation.definition.range.diff</string>
                 <key>settings</key>
@@ -4308,8 +4092,6 @@
             ====================================== -->
             <!-- SublimeText C++-syntax are a bit inconsistent, correct that -->
             <dict>
-                <key>name</key>
-                <string>C++ open bracket fix</string>
                 <key>scope</key>
                 <string>punctuation.definition.parameters.c,meta.function-call.c</string>
                 <key>settings</key>
@@ -4514,8 +4296,6 @@
             </dict>
             <!-- class -->
             <dict>
-                <key>name</key>
-                <string>Class</string>
                 <key>scope</key>
                 <string>support.class.ruby</string>
                 <key>settings</key>
@@ -4526,8 +4306,6 @@
             </dict>
             <!-- class / def / end-->
             <dict>
-                <key>name</key>
-                <string>Class</string>
                 <key>scope</key>
                 <string>keyword.control.class.ruby, keyword.control.def.ruby, keyword.control.ruby</string>
                 <key>settings</key>
@@ -4538,8 +4316,6 @@
             </dict>
             <!-- '' / ""-->
             <dict>
-                <key>name</key>
-                <string>Class</string>
                 <key>scope</key>
                 <string>string.quoted.single.ruby, string.quoted.double.ruby</string>
                 <key>settings</key>
@@ -4657,8 +4433,6 @@
             Find In Files
             ====================================== -->
             <dict>
-                <key>name</key>
-                <string>Find In Files: Text</string>
                 <key>scope</key>
                 <string>text.find-in-files</string>
                 <key>settings</key>
@@ -4668,8 +4442,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Total Count</string>
                 <key>scope</key>
                 <string>header.find-in-files variable.total_files_count.find-in-files</string>
                 <key>settings</key>
@@ -4679,8 +4451,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Query Name</string>
                 <key>scope</key>
                 <string>header.find-in-files string.query.find-in-files</string>
                 <key>settings</key>
@@ -4690,8 +4460,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Find In Files: Text - Match</string>
                 <key>scope</key>
                 <string>match.find-in-files</string>
                 <key>settings</key>
@@ -4701,8 +4469,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Find In Files: filename</string>
                 <key>scope</key>
                 <string>entity.name.filename.find-in-files</string>
                 <key>settings</key>
@@ -4714,8 +4480,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Find In Files: Line Number - Match</string>
                 <key>scope</key>
                 <string>constant.numeric.line-number.match.find-in-files</string>
                 <key>settings</key>
@@ -4727,8 +4491,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Find In Files: Line Number</string>
                 <key>scope</key>
                 <string>constant.numeric.line-number.find-in-files</string>
                 <key>settings</key>
@@ -4738,8 +4500,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>footer matched_count</string>
                 <key>scope</key>
                 <string>footer.find-in-files variable.matched_count.find-in-files</string>
                 <key>settings</key>
@@ -4749,8 +4509,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>Footer matched_files_count</string>
                 <key>scope</key>
                 <string>footer.find-in-files variable.matched_files_count.find-in-files</string>
                 <key>settings</key>
@@ -4765,8 +4523,6 @@
             ====================================== -->
 
             <dict>
-                <key>name</key>
-                <string>GitGutter deleted</string>
                 <key>scope</key>
                 <string>markup.deleted.git_gutter</string>
                 <key>settings</key>
@@ -4776,8 +4532,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>GitGutter inserted</string>
                 <key>scope</key>
                 <string>markup.inserted.git_gutter</string>
                 <key>settings</key>
@@ -4787,8 +4541,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>GitGutter changed</string>
                 <key>scope</key>
                 <string>markup.changed.git_gutter</string>
                 <key>settings</key>
@@ -4798,8 +4550,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>GitGutter ignored</string>
                 <key>scope</key>
                 <string>markup.ignored.git_gutter</string>
                 <key>settings</key>
@@ -4809,8 +4559,6 @@
                 </dict>
             </dict>
             <dict>
-                <key>name</key>
-                <string>GitGutter untracked</string>
                 <key>scope</key>
                 <string>markup.untracked.git_gutter</string>
                 <key>settings</key>
@@ -4824,8 +4572,6 @@
             SublimeLinter
             ====================================== -->
             <dict>
-                <key>name</key>
-                <string>SublimeLinter Annotations</string>
                 <key>scope</key>
                 <string>sublimelinter.annotations</string>
                 <key>settings</key>
@@ -4866,8 +4612,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>SublimeLinter Warning</string>
                 <key>scope</key>
                 <string>sublimelinter.mark.warning</string>
                 <key>settings</key>
@@ -4878,8 +4622,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>SublimeLinter Error</string>
                 <key>scope</key>
                 <string>sublimelinter.mark.error</string>
                 <key>settings</key>
@@ -4893,8 +4635,6 @@
             Bracket HL
             ====================================== -->
             <dict>
-                <key>name</key>
-                <string>BH - Default</string>
                 <key>scope</key>
                 <string>brackethighlighter.default</string>
                 <key>settings</key>
@@ -4905,8 +4645,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>Bracket Tag</string>
                 <key>scope</key>
                 <string>brackethighlighter.tag</string>
                 <key>settings</key>
@@ -4928,8 +4666,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>Bracket Quote</string>
                 <key>scope</key>
                 <string>brackethighlighter.quote</string>
                 <key>settings</key>
@@ -4940,8 +4676,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>Bracket Unmatched</string>
                 <key>scope</key>
                 <string>brackethighlighter.unmatched</string>
                 <key>settings</key>
@@ -4954,8 +4688,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>Bracket c_define</string>
                 <key>scope</key>
                 <string>brackethighlighter.c_define</string>
                 <key>settings</key>
@@ -4966,8 +4698,6 @@
             </dict>
 
             <dict>
-                <key>name</key>
-                <string>WordHighlight</string>
                 <key>scope</key>
                 <string>wordhighlight</string>
                 <key>settings</key>

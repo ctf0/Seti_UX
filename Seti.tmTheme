@@ -413,9 +413,11 @@
                 <key>name</key>
                 <string>Class</string>
                 <key>scope</key>
-                <string>meta.class.identifier, entity.name.type.class, support.class, variable.other.class</string>
+                <string>meta.class.identifier, entity.name.type.class, variable.other.class</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string>bold</string>
                     <key>foreground</key>
                     <string>#CD3F45</string>
                 </dict>
@@ -468,7 +470,7 @@
                 <key>name</key>
                 <string>Support function</string>
                 <key>scope</key>
-                <string>support.function</string>
+                <string>support.function, support.class</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -873,7 +875,7 @@
 
             <dict>
                 <key>scope</key>
-                <string>support.module.node.js, variable.other.readwrite.js, variable.other.object.js</string>
+                <string>support.module.node.js, variable.other.readwrite.js</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1184,17 +1186,7 @@
             <!-- throw -->
             <dict>
                 <key>scope</key>
-                <string>keyword.control.exception.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#CD3F45</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>scope</key>
-                <string>support.class.exception</string>
+                <string>keyword.control.exception.php, support.class.exception</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1299,17 +1291,6 @@
                 <string>function name()</string>
                 <key>scope</key>
                 <string>meta.function.php entity.name.function.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#009FFF</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>name</key>
-                <string>namespace folder</string>
-                <key>scope</key>
-                <string>support.other.namespace.php</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -2821,7 +2802,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#FF8383</string>
+                    <string>#0F43FF</string>
                 </dict>
             </dict>
             <dict>
@@ -3139,6 +3120,8 @@
                 <string>constant.character.escape.backlash.python, constant.character.escape.double-quote.python</string>
                 <key>settings</key>
                 <dict>
+                    <key>fontStyle</key>
+                    <string></string>
                     <key>foreground</key>
                     <string>#009FFF</string>
                 </dict>
@@ -3436,16 +3419,6 @@
 
             <dict>
                 <key>scope</key>
-                <string>keyword.control.import.python</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#009FFF</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>scope</key>
                 <string>keyword.operator.arithmetic.python</string>
                 <key>settings</key>
                 <dict>
@@ -3469,8 +3442,6 @@
                 <string>keyword.operator.comparison.python</string>
                 <key>settings</key>
                 <dict>
-                    <key>fontStyle</key>
-                    <string>bold</string>
                     <key>foreground</key>
                     <string>#FFD700</string>
                 </dict>
@@ -3903,7 +3874,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#370A1F</string>
+                    <string>#FF5500</string>
                 </dict>
             </dict>
 

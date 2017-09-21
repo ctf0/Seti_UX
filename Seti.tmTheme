@@ -246,6 +246,17 @@
             </dict>
             <dict>
                 <key>scope</key>
+                <string>support.class.exception</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#CD3F45</string>
+                    <key>background</key>
+                    <string>#303e4d25</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>scope</key>
                 <string>keyword</string>
                 <key>settings</key>
                 <dict>
@@ -1094,6 +1105,18 @@
                 </dict>
             </dict>
             <dict>
+
+                <key>scope</key>
+                <string>support.class.builtin.php</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#fda100</string>
+                    <key>background</key>
+                    <string>#CD3F4530</string>
+                </dict>
+            </dict>
+            <dict>
                 <key>scope</key>
                 <string>variable.other.global.safer.php</string>
                 <key>settings</key>
@@ -1108,13 +1131,13 @@
             <!-- throw -->
             <dict>
                 <key>scope</key>
-                <string>keyword.control.exception.php, support.class.exception</string>
+                <string>keyword.control.exception.php, support.class.exception.php</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#CD3F45</string>
                     <key>background</key>
-                    <string>#303e4d25</string>
+                    <string>#0D1011</string>
                 </dict>
             </dict>
 

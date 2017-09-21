@@ -407,15 +407,6 @@
             </dict>
             <dict>
                 <key>scope</key>
-                <string>support.class.builtin.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>background</key>
-                    <string>#0D1011</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>scope</key>
                 <string>entity.other.inherited-class</string>
                 <key>settings</key>
                 <dict>
@@ -1102,6 +1093,17 @@
                     <string>italic</string>
                     <key>foreground</key>
                     <string>#FF4028</string>
+                </dict>
+            </dict>
+            <dict>
+                <key>scope</key>
+                <string>support.class.builtin.php</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#fda100</string>
+                    <key>background</key>
+                    <string>#CD3F4530</string>
                 </dict>
             </dict>
             <dict>

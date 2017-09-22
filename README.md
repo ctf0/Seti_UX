@@ -11,7 +11,6 @@ Seti Improved Scheme/Syntax-HL for ST.
 * [Terminal](https://github.com/ginfuru/iTerm-Seti_UX) thanks to [@ginfuru](https://github.com/ginfuru)
 * [HyperTerminal](https://github.com/ginfuru/iTerm-Seti_UX) thanks to [@ginfuru](https://github.com/ginfuru)
 
-
 ## Previews
 
 **HTML**
@@ -25,3 +24,8 @@ Seti Improved Scheme/Syntax-HL for ST.
 **JS**
 
 ![Seti Screenshot](./ss/js.jpg)
+
+## Notes
+
+- for markdown use https://packagecontrol.io/packages/MarkdownEditing
+- for css use https://packagecontrol.io/packages/CSS3

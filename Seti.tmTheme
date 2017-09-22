@@ -19,15 +19,15 @@
                     <key>foreground</key>
                     <string>#D8F6FF</string>
                     <key>caret</key>
-                    <string>#fed02e</string>
+                    <string>#ffd200</string>
                     <key>invisibles</key>
-                    <string>#F3FFB51A</string>
+                    <string>#ffd20050</string>
                     <key>lineHighlight</key>
                     <string>#7292a130</string>
                     <key>findHighlight</key>
                     <string>#4FA5C7</string>
                     <key>findHighlightForeground</key>
-                    <string>#000000</string>
+                    <string>#0D1011</string>
                     <key>gutter</key>
                     <string>#0D1011</string>
                     <key>gutterForeground</key>
@@ -91,7 +91,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#ffffff</string>
                 </dict>
             </dict>
 
@@ -148,7 +148,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#E889B5</string>
+                    <string>#ffffff</string>
                     <key>background</key>
                     <string>#722C40</string>
                 </dict>
@@ -367,6 +367,7 @@
                     <string>#009FFF30</string>
                 </dict>
             </dict>
+
             <dict>
                 <key>scope</key>
                 <string>meta.structure.dictionary meta.structure.dictionary.key, constant.other.object.key string</string>
@@ -393,7 +394,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#CD3F45</string>
                 </dict>
             </dict>
             <dict>
@@ -502,7 +503,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
             <dict>
@@ -868,7 +869,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#aa00aa</string>
                 </dict>
             </dict>
 
@@ -1041,9 +1042,9 @@
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
-                    <string> italic</string>
+                    <string>italic</string>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
             <dict>
@@ -1052,9 +1053,9 @@
                 <key>settings</key>
                 <dict>
                     <key>fontStyle</key>
-                    <string> italic</string>
+                    <string>italic</string>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#cd3f45</string>
                 </dict>
             </dict>
             <dict>
@@ -1072,7 +1073,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
             <dict>
@@ -1081,7 +1082,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
             <dict>
@@ -1092,7 +1093,7 @@
                     <key>fontStyle</key>
                     <string>italic</string>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#1CFF7B</string>
                 </dict>
             </dict>
             <dict>
@@ -1112,7 +1113,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#1CFF7B</string>
                     <key>fontStyle</key>
                     <string>italic</string>
                 </dict>
@@ -1161,19 +1162,6 @@
                 <dict>
                     <key>foreground</key>
                     <string>#CD3F45</string>
-                </dict>
-            </dict>
-
-            <!-- Include'...' / "..." -->
-            <dict>
-                <key>scope</key>
-                <string>meta.include.php string.quoted.single.php meta.string-contents.quoted.single.php, meta.include.php string.quoted.single.php punctuation.definition.string.begin.php, meta.include.php string.quoted.single.php punctuation.definition.string.end.php, meta.include.php string.quoted.double.php meta.string-contents.quoted.double.php, meta.include.php string.quoted.double.php punctuation.definition.string.begin.php, meta.include.php string.quoted.double.php punctuation.definition.string.end.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#9FD0D8</string>
-                    <key>background</key>
-                    <string>#94DDFF30</string>
                 </dict>
             </dict>
 
@@ -1338,7 +1326,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#aa00aa</string>
                 </dict>
             </dict>
             <dict>
@@ -1445,10 +1433,10 @@
                 </dict>
             </dict>
 
-            <!-- use -->
+            <!-- use / namespace -->
             <dict>
                 <key>scope</key>
-                <string>keyword.other.use.php</string>
+                <string>keyword.other.use.php, keyword.other.namespace.php</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1718,7 +1706,7 @@
             <!-- vue attrs -->
             <dict>
                 <key>scope</key>
-                <string>support.function constant.other.inline-data.html</string>
+                <string>support.function constant.other.inline-data.html, meta.tag.inline.table.html</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -2453,7 +2441,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#ffd200</string>
                 </dict>
             </dict>
 

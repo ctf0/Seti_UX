@@ -474,7 +474,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ffffff</string>
+                    <string>#ffd200</string>
                 </dict>
             </dict>
             <dict>
@@ -1267,7 +1267,7 @@
             <!-- :: / -> -->
             <dict>
                 <key>scope</key>
-                <string>keyword.operator.class.php</string>
+                <string>keyword.operator.class.php, punctuation.accessor.double-colon.php, punctuation.accessor.arrow.php</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -2623,7 +2623,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#0F43FF</string>
+                    <string>#009FFF</string>
                 </dict>
             </dict>
             <dict>
@@ -3036,7 +3036,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#83EBAE</string>
+                    <string>#ffd200</string>
                 </dict>
             </dict>
 
@@ -3574,7 +3574,7 @@
                 </dict>
             </dict>
 
-            <!-- : / . -->
+            <!-- : -->
             <dict>
                 <key>scope</key>
                 <string>punctuation.section.class.begin.python, punctuation.section.function.begin.python, punctuation.accessor.dot.python</string>
@@ -3582,6 +3582,16 @@
                 <dict>
                     <key>foreground</key>
                     <string>#1CFF7B</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>punctuation.accessor.dot.python</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#f68600</string>
                 </dict>
             </dict>
 
@@ -3621,7 +3631,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#f68600</string>
                 </dict>
             </dict>
 
@@ -3651,7 +3661,7 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#EEEEEE00</string>
+                    <string>#f68600</string>
                 </dict>
             </dict>
 

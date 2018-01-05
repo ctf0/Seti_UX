@@ -1133,15 +1133,7 @@
             </dict>
 
             <!-- new -->
-            <dict>
-                <key>scope</key>
-                <string>keyword.other.new.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#ffffff</string>
-                </dict>
-            </dict>
+
             <dict>
                 <key>scope</key>
                 <string>constant.other.class.php</string>
@@ -2775,17 +2767,6 @@
             <!-- "string" -->
             <dict>
                 <key>scope</key>
-                <string>meta meta meta meta string.quoted.double.single-line.python, meta meta string.quoted.double.single-line.python</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#009FFF</string>
-                    <key>fontStyle</key>
-                    <string>normal</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>scope</key>
                 <string>meta.class.python meta.class.inheritance.python entity.other.inherited-class.python</string>
                 <key>settings</key>
                 <dict>
@@ -2795,11 +2776,13 @@
             </dict>
             <dict>
                 <key>scope</key>
-                <string>meta meta meta meta string.quoted.double.single-line.python, meta meta meta meta string punctuation.definition.string.begin.python, meta meta meta meta string punctuation.definition.string.end.python</string>
+                <string>meta meta meta meta string.quoted.double.single-line.python, , meta meta string.quoted.double.single-line.python, meta meta meta meta string punctuation.definition.string.begin.python, meta meta meta meta string punctuation.definition.string.end.python</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
                     <string>#009FFF</string>
+                    <key>fontStyle</key>
+                    <string>normal</string>
                 </dict>
             </dict>
             <dict>
@@ -2909,15 +2892,6 @@
                     <string>bold</string>
                     <key>foreground</key>
                     <string>#CD3F45</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>scope</key>
-                <string>meta.function-call.python</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#009FFF</string>
                 </dict>
             </dict>
 
@@ -3582,16 +3556,6 @@
                 <dict>
                     <key>foreground</key>
                     <string>#1CFF7B</string>
-                </dict>
-            </dict>
-
-            <dict>
-                <key>scope</key>
-                <string>punctuation.accessor.dot.python</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#f68600</string>
                 </dict>
             </dict>
 

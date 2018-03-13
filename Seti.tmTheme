@@ -1128,16 +1128,6 @@
                 </dict>
             </dict>
 
-            <!-- new -->
-            <dict>
-                <key>scope</key>
-                <string>keyword.other.new.php</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#ffffff</string>
-                </dict>
-            </dict>
             <dict>
                 <key>scope</key>
                 <string>constant.other.class.php</string>

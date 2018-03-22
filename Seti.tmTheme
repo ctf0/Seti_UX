@@ -2805,8 +2805,6 @@
                 <dict>
                     <key>foreground</key>
                     <string>#ffffff</string>
-                    <key>background</key>
-                    <string>#94DDFF10</string>
                 </dict>
             </dict>
             <dict>
@@ -2820,11 +2818,11 @@
             </dict>
             <dict>
                 <key>scope</key>
-                <string>meta.diff.header.to-file, meta.diff.header.to-file punctuation.definition.to-file.diff</string>
+                <string>meta.diff.header.to-file, meta.diff.header.to-file punctuation.definition.to-file.diff, markup.inserted.diff, punctuation.definition.inserted.diff</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#efefef</string>
+                    <string>#48FFC2</string>
                 </dict>
             </dict>
             <dict>
@@ -2834,15 +2832,6 @@
                 <dict>
                     <key>foreground</key>
                     <string>#CD3F45</string>
-                </dict>
-            </dict>
-            <dict>
-                <key>scope</key>
-                <string>markup.inserted.diff, punctuation.definition.inserted.diff</string>
-                <key>settings</key>
-                <dict>
-                    <key>foreground</key>
-                    <string>#efefef</string>
                 </dict>
             </dict>
             <dict>

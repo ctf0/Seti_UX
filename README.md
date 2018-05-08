@@ -25,7 +25,3 @@ Seti Improved Scheme/Syntax-HL for ST.
 **JS**
 
 ![Seti Screenshot](./ss/js.jpg)
-
-## Notes
-
-- for markdown use https://packagecontrol.io/packages/MarkdownEditing

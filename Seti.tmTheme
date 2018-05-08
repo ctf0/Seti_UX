@@ -11,6 +11,7 @@
             <!-- ====================================
             General
             ====================================== -->
+
             <dict>
                 <key>settings</key>
                 <dict>
@@ -523,8 +524,8 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#ffffff</string>
-                    <!-- <string>#f68600</string> -->
+                    <!-- <string>#ffffff</string> -->
+                    <string>#f68600</string>
                 </dict>
             </dict>
 
@@ -904,6 +905,7 @@
             <!-- ====================================
             Vue
             ====================================== -->
+
             <!-- Main string -->
             <dict>
                 <key>scope</key>
@@ -934,6 +936,189 @@
                 <dict>
                     <key>foreground</key>
                     <string>#ffd200</string>
+                </dict>
+            </dict>
+
+            <!-- ====================================
+            Markdown
+            ====================================== -->
+
+            <!-- ``` -->
+            <dict>
+                <key>scope</key>
+                <string>punctuation.definition.raw.code-fence</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#41535b</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+
+            <!-- ```lang -->
+            <dict>
+                <key>scope</key>
+                <string>meta.code-fence</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#48FFC2</string>
+                    <key>background</key>
+                    <string>#41535b15</string>
+                </dict>
+            </dict>
+
+            <!-- ``` code ```-->
+            <dict>
+                <key>scope</key>
+                <string>markup.raw.code-fence</string>
+                <key>settings</key>
+                <dict>
+                    <key>background</key>
+                    <string>#41535b15</string>
+                </dict>
+            </dict>
+
+            <!-- ` code `-->
+            <dict>
+                <key>scope</key>
+                <string>punctuation.definition.raw.begin.markdown, punctuation.definition.raw.end.markdown, markup.raw.inline.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#009FFF</string>
+                </dict>
+            </dict>
+
+            <!-- - / # -->
+            <dict>
+                <key>scope</key>
+                <string>punctuation.definition.list_item.markdown, punctuation.definition.heading.begin.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#41535b</string>
+                </dict>
+            </dict>
+
+            <!-- [] / () -->
+            <dict>
+                <key>scope</key>
+                <string>punctuation.definition.link.begin.markdown, punctuation.definition.link.end.markdown, punctuation.definition.metadata, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#f68600</string>
+                </dict>
+            </dict>
+
+            <!-- : -->
+            <dict>
+                <key>scope</key>
+                <string>punctuation.separator.key-value.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#ffffff</string>
+                </dict>
+            </dict>
+
+            <!-- [...] -->
+            <dict>
+                <key>scope</key>
+                <string>meta.link.inline.description.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#a83b40</string>
+                    <key>background</key>
+                    <string>#a83b4010</string>
+                </dict>
+            </dict>
+
+            <!-- (...) / ref link -->
+            <dict>
+                <key>scope</key>
+                <string>meta.link.inline.markdown, meta.image.inline.markdown, markup.underline.link.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#41535b</string>
+                </dict>
+            </dict>
+
+            <!-- italic -->
+            <dict>
+                <key>scope</key>
+                <string>markup.italic.markdown, punctuation.definition.italic</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#009FFF</string>
+                    <key>fontStyle</key>
+                    <string>italic</string>
+                </dict>
+            </dict>
+
+            <!-- bold -->
+            <dict>
+                <key>scope</key>
+                <string>markup.bold.markdown, punctuation.definition.bold</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#009FFF</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
+
+            <!-- bold italic -->
+            <dict>
+                <key>scope</key>
+                <string>markup.bold.markdown markup.italic.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#009FFF</string>
+                    <key>fontStyle</key>
+                    <string>bold italic</string>
+                </dict>
+            </dict>
+
+            <!-- heading -->
+            <dict>
+                <key>scope</key>
+                <string>meta.block-level.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#ffd200</string>
+                </dict>
+            </dict>
+
+            <!-- ref -->
+            <dict>
+                <key>scope</key>
+                <string>constant.other.reference.link.markdown, entity.name.reference.link.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#ffffff</string>
+                </dict>
+            </dict>
+
+            <!-- ref desc -->
+            <dict>
+                <key>scope</key>
+                <string>meta.link.reference.description.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#a83b40</string>
+                    <key>background</key>
+                    <string>#a83b4010</string>
                 </dict>
             </dict>
 
@@ -1843,6 +2028,7 @@
             <!--  ====================================
             Jade
             ====================================== -->
+
             <!-- (...) -->
             <dict>
                 <key>scope</key>
@@ -2851,6 +3037,7 @@
             <!-- ====================================
             C/C++
             ====================================== -->
+
             <!-- SublimeText C++-syntax are a bit inconsistent, correct that -->
             <dict>
                 <key>scope</key>
@@ -2865,6 +3052,7 @@
             <!-- ====================================
             GenericConfig
             ====================================== -->
+
             <dict>
                 <key>scope</key>
                 <string>meta.param.genconfig, keyword.operator.genconfig</string>
@@ -2910,6 +3098,7 @@
             <!-- ====================================
             MakeFile
             ====================================== -->
+
             <!-- $(var) -->
             <dict>
                 <key>scope</key>
@@ -2994,6 +3183,7 @@
             <!-- ====================================
             Ruby
             ====================================== -->
+
             <!-- $(var) -->
             <dict>
                 <key>scope</key>
@@ -3136,6 +3326,7 @@
             <!-- ====================================
             YAML
             ====================================== -->
+
             <dict>
                 <key>scope</key>
                 <string>comment.line.number-sign.yaml</string>
@@ -3193,6 +3384,7 @@
             <!-- ====================================
             Find In Files
             ====================================== -->
+
             <dict>
                 <key>scope</key>
                 <string>text.find-in-files</string>
@@ -3332,6 +3524,7 @@
             <!-- ====================================
             SublimeLinter
             ====================================== -->
+
             <dict>
                 <key>scope</key>
                 <string>sublimelinter.annotations</string>
@@ -3395,6 +3588,7 @@
             <!-- ====================================
             Bracket HL
             ====================================== -->
+
             <dict>
                 <key>scope</key>
                 <string>brackethighlighter.default</string>

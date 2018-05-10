@@ -524,8 +524,8 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <!-- <string>#ffffff</string> -->
-                    <string>#f68600</string>
+                    <string>#ffffff</string>
+                    <!-- <string>#f68600</string> -->
                 </dict>
             </dict>
 
@@ -1037,14 +1037,14 @@
                 </dict>
             </dict>
 
-            <!-- (...) / ref link -->
+            <!-- (...) / link -->
             <dict>
                 <key>scope</key>
-                <string>meta.link.inline.markdown, meta.image.inline.markdown, markup.underline.link.markdown</string>
+                <string>meta.link.inline.markdown, markup.underline.link.markdown-gfm, markup.underline.link.markdown</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#41535b</string>
+                    <string>#66828E</string>
                 </dict>
             </dict>
 
@@ -1090,7 +1090,7 @@
             <!-- heading -->
             <dict>
                 <key>scope</key>
-                <string>meta.block-level.markdown</string>
+                <string>entity.name.section.markdown</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>

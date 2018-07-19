@@ -32,11 +32,11 @@
                     <key>gutter</key>
                     <string>#0D1011</string>
                     <key>gutterForeground</key>
-                    <string>#7292a180</string>
+                    <string>#7292a199</string>
                     <key>selection</key>
-                    <string>#7292a130</string>
+                    <string>#7292a150</string>
                     <key>selectionForeground</key>
-                    <string>#ffffff90</string>
+                    <string></string>
                     <key>inactiveSelection</key>
                     <string>#2F627750</string>
                     <key>bracketContentsOptions</key>
@@ -483,8 +483,8 @@
                 <string>string constant</string>
                 <key>settings</key>
                 <dict>
-                    <key>fontStyle</key>
-                    <string>italic</string>
+                    <!-- <key>fontStyle</key>
+                    <string>italic</string> -->
                     <key>foreground</key>
                     <string>#ffd200</string>
                 </dict>
@@ -956,6 +956,31 @@
                 </dict>
             </dict>
 
+            <!-- > -->
+            <dict>
+                <key>scope</key>
+                <string>punctuation.definition.blockquote.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#41535b</string>
+                    <key>background</key>
+                    <string>#41535b</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>markup.quote.markdown</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#FFFFFF</string>
+                    <key>background</key>
+                    <string>#41535b30</string>
+                </dict>
+            </dict>
+
             <!-- ```lang -->
             <dict>
                 <key>scope</key>
@@ -987,7 +1012,11 @@
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
-                    <string>#009FFF</string>
+                    <string>#48FFC2</string>
+                    <key>background</key>
+                    <string>#48FFC210</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
                 </dict>
             </dict>
 
@@ -1027,7 +1056,7 @@
             <!-- [...] -->
             <dict>
                 <key>scope</key>
-                <string>meta.link.inline.description.markdown</string>
+                <string>meta.link.inline.description.markdown, meta.image.inline.description.markdown</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>
@@ -1321,7 +1350,8 @@
                     <key>fontStyle</key>
                     <string>italic</string>
                     <key>foreground</key>
-                    <string>#303e4d</string>
+                    <string>#ffffff</string>
+                    <!-- <string>#303e4d</string> -->
                 </dict>
             </dict>
 
@@ -3514,6 +3544,50 @@
             <dict>
                 <key>scope</key>
                 <string>markup.untracked.git_gutter</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#7292a1</string>
+                </dict>
+            </dict>
+
+            <!-- ====================================
+            Graphql
+            ====================================== -->
+            <dict>
+                <key>scope</key>
+                <string>source.graphql meta.type</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#009FFF</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>source.graphql string.quoted.double.graphql</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#009FFF</string>
+                </dict>
+            </dict>
+
+            <!-- : / . -->
+            <dict>
+                <key>scope</key>
+                <string>string.property.graphql</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#41535b</string>
+                </dict>
+            </dict>
+
+            <dict>
+                <key>scope</key>
+                <string>variable.parameter.arguments.graphql</string>
                 <key>settings</key>
                 <dict>
                     <key>foreground</key>

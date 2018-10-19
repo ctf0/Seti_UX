@@ -1,6 +1,8 @@
-# Seti_UX
-
-[![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UX.svg)](https://packagecontrol.io/packages/Seti_UX/)
+<h1 align="center" style="border: none">
+    Seti_UX
+    <br>
+    <a href="https://packagecontrol.io/packages/Seti_UX/"><img src="https://img.shields.io/packagecontrol/dt/Seti_UX.svg" alt="Packagecontrol total downloads" /></a>
+</h1>
 
 Seti Improved Scheme/Syntax-HL for ST.
 

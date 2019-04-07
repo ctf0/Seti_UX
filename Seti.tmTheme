@@ -21,6 +21,8 @@
                     <string>#ffffff</string>
                     <key>caret</key>
                     <string>#ffd200</string>
+                    <key>block_caret</key>
+                    <string>#ffd200</string>
                     <key>invisibles</key>
                     <string>#ffd20050</string>
                     <key>lineHighlight</key>

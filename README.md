@@ -12,6 +12,7 @@ Seti Improved Scheme/Syntax-HL for ST.
 * [iTerm](https://github.com/ginfuru/iTerm-Seti_UX) thanks to [@ginfuru](https://github.com/ginfuru)
 * [Terminal](https://github.com/ginfuru/iTerm-Seti_UX) thanks to [@ginfuru](https://github.com/ginfuru)
 * [HyperTerminal](https://github.com/ginfuru/iTerm-Seti_UX) thanks to [@ginfuru](https://github.com/ginfuru)
+* [VSCode](https://github.com/ctf0/Seti_UX-vscode)
 
 ## Previews
 
